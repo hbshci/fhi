@@ -21,11 +21,17 @@
 // Brand colors
 // -------------------------
 
-@brand-primary:         #A41034;
-@brand-success:         #5cb85c;
-@brand-warning:         #f0ad4e;
-@brand-danger:          #d9534f;
-@brand-info:            #5bc0de;
+// @brand-primary:         #A41034;
+// @brand-success:         #5cb85c;
+// @brand-warning:         #f0ad4e;
+// @brand-danger:          #d9534f;
+// @brand-info:            #5bc0de;
+// Brand Colors
+@brand-primary: #a30f3d;
+@brand-success: #48c4b7;
+@brand-warning: #ed6a47;
+@brand-danger: #a41034;
+@brand-info: #afe6f1;
 
 // Scaffolding
 // -------------------------
@@ -39,7 +45,7 @@
 // Links
 // -------------------------
 
-@link-color:            #43759E; // @brand-primary;
+@link-color:            @brand-primary; //#43759E; // @brand-primary;
 @link-hover-color:      darken(@link-color, 15%);
 
 
@@ -304,7 +310,7 @@
 //
 // Reset inverted navbar basics
 @navbar-inverse-color:                      #b9c8e0;
-@navbar-inverse-bg:                         #1d365d;
+@navbar-inverse-bg:                         @brand-primary;
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
