@@ -7,3 +7,15 @@ title: Health Acceleration Challenge Overview
 > Innovations must have credible, demonstrated evidence of their value proposition (such as cost savings, outcomes improvement, patient satisfaction etc.) and be at the cusp of scaling with a compelling dissemination plan.
 
 > Apply today at [[weblink needed]](http://www.example.com) or find out more through our Frequently Asked Questions.
+
+**Challenge Webinar**
+
+We will hold an informational webinar on Wednesday September 17, 2014 at 12pm EST for you to ask your questions.
+
+Please register for the webinar here [[link and form needed]](http://www.example.com).
+
+[Calendar download with conference details?]
+
+[To be replaced with recorded webinar when completed]
+
+[put button here]

@@ -1,16 +1,21 @@
+
+
 [![5 Imperatives](http://projects.iq.harvard.edu/files/styles/os_files_small/public/forum-on-healthcare-innovation/files/5_imperatives_2.png?itok=0vZadz0l)](http://www.hbs.edu/healthcare/pdf/Forum-on-Healthcare-Innovation-5-Imperatives.pdf)
 
 In health care the term "innovation" traditionally refers to the development of new therapies, drugs, or devices. As efforts to reform the American health care system gain momentum, it is clear that innovation must be explored in a broader context. If one idea can be said to reflect the spirit of the whole, it is that there is no one "magic bullet" that can heroically resolve our health care challenges. Instead, the most intriguing ideas share common themes of collaboration, integration, and distributed knowledge. The Forum can be best summarized through **5 key imperatives**.
 
-### 1. Making value the central objective
+
+## Five Imperatives
+
+**Making value the central objective**
 
 In isolation, efforts to either reduce costs or improve outcomes are insufficient; we need to do both through care coordination and shared information. Read more
 
-### 2. Promoting novel approaches to process improvement
+### Promoting novel approaches to process improvement
 
 Instead of largely focusing on product innovation, we also must create an environment that encourages process improvement and acknowledges that "failure" represents an important component of experimentation and learning. 
 
-### 3. Making consumerism really work
+### Making consumerism really work
 
 Today, consumerism remains a strong idea with weak means of execution. We will achieve greater success when providers organize efforts around patient needs and when patients become more active agents in managing their own health. 
 
