@@ -1,0 +1,63 @@
+# =============================================
+# PUBLISHED
+# =============================================
+# This file is only needed to ensure that the
+# sections build in a specific order.
+
+
+# The base path for features docs. Makes this easier
+# to update without having to change each path.
+base: content/usage
+
+published:
+  command-line-usage:
+    title: Command Line Usage
+    files: <%= usage.base %>/command-line-usage.md
+
+  using-less-in-the-browser:
+    title: Using Less in the Browser
+    files: <%= usage.base %>/using-less-in-the-browser.md
+
+  browser-support:
+    title: Browser Support
+    files: <%= usage.base %>/browser-support.md
+
+  online-less-compilers:
+    title: Online Less Compilers
+    files: <%= usage.base %>/online-less-compilers.md
+
+  guis-for-less:
+    title: GUIs for Less
+    files: <%= usage.base %>/guis-for-less.md
+
+  editors-and-plugins:
+    title: Editors and Plugins
+    files: <%= usage.base %>/editors-and-plugins.md
+
+  third-party-compilers:
+    title: Third Party Compilers
+    files: <%= usage.base %>/third-party-compilers.md
+
+  frameworks-using-less:
+    title: Frameworks Using Less
+    files: <%= usage.base %>/frameworks-using-less.md
+
+  developing-less:
+    title: Developing Less
+    files: <%= usage.base %>/developing-less.md
+
+
+# =============================================
+# NOT PUBLISHED / PLANNED / WIP
+# =============================================
+
+unpublished:
+  sourcemaps:
+    published:                false
+    title: Sourcemaps
+    files: <%= usage.base %>/sourcemaps.md
+
+  plugins:
+    published:                false
+    title: Plugins
+    files: <%= usage.base %>/plugins.md

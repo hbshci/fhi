@@ -1,0 +1,31 @@
+---
+title: Health Acceleration Challenge
+lead: challenge of the Less language
+slug: challenge
+---
+
+{{#each challenge.published}}
+  <!-- {{title}} -->
+  <div class="docs-section">
+    <div class="page-header">
+      <h1 id="{{@key}}-feature">{{title}}</h1>
+    </div>
+
+    {{#each (expand files)}}
+    <div class="section-content">
+      {{> popover-source-link . }}
+
+      <!-- {{basename .}} -->
+      {{success '>> Inlining:' (basename .)}} {{! log a success message! }}
+
+
+{{#markdown}}
+{{inline .}}
+{{/markdown}}
+
+      <br>
+    </div>
+    {{/each}}
+
+  </div>
+{{/each}}

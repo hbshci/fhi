@@ -1,0 +1,81 @@
+# =============================================
+# PUBLISHED
+# =============================================
+# This file is only needed to ensure that the
+# sections build in a specific order.
+
+
+# The base path for challenge docs. Makes this easier
+# to update without having to change each path.
+base: content/challenge
+
+# Published documenation
+published:
+  challenge-overview:
+    title: Overview
+    lead:  Simple overview of the basic challenge
+    files: content/challenge-overview.md
+
+  variables:
+    title: Variables
+    files: <%= challenge.base %>/variables.md
+
+  extend:
+    title: Extend
+    files: <%= challenge.base %>/extend.md
+
+  mixins:
+    title: Mixins
+    files: <%= challenge.base %>/mixins.md
+
+  mixins-parametric:
+    title: Parametric Mixins
+    files: <%= challenge.base %>/mixins-parametric.md
+
+  mixins-as-functions:
+    title: Mixins as Functions
+    files: <%= challenge.base %>/mixins-as-functions.md
+
+  detached-rulesets:
+    title: Passing Rulesets to Mixins
+    files: <%= challenge.base %>/detached-rulesets.md
+
+  import-directives:
+    title: Import Directives
+    files: <%= challenge.base %>/import-directives.md
+
+  mixin-guards:
+    title: Mixin Guards
+    files: <%= challenge.base %>/mixin-guards.md
+
+  css-guards:
+    title: CSS Guards
+    files: <%= challenge.base %>/css-guards.md
+
+  loops:
+    title: Loops
+    files: <%= challenge.base %>/loops.md
+
+  merge:
+    title: Merge
+    files: <%= challenge.base %>/merge.md
+
+  parent-selectors:
+    title: Parent Selectors
+    files: <%= challenge.base %>/parent-selectors.md
+
+
+# =============================================
+# NOT PUBLISHED / PLANNED / WIP
+# =============================================
+
+unpublished:
+  scope:
+    published: false
+    title: Scope
+    files: <%= challenge.base %>/scope.md
+
+  strict-math:
+    published: false
+    title: Strict Math
+    files: <%= challenge.base %>/strict-math.md
