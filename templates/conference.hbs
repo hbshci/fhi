@@ -3,7 +3,12 @@ title: Conference
 slug: conference
 lead: Function reference
 ---
-
+   
+{{!-- example of how to include a single person 
+<div class="list-group less-team">
+   {{partial 'person' people.fhi12.Hamermesh }}
+ </div>
+ --}}
 
 {{!-- 2015 Conference
 ================================================== --}}
@@ -12,6 +17,7 @@ lead: Function reference
     <h1 id="upcoming-conference">2015 Conference</h1>
   </div>
   {{md 'upcoming-conference'}}
+  
 </div>
 
 {{!-- Last Conference
@@ -21,6 +27,72 @@ lead: Function reference
     <h1 id="last-conference">Last Conference</h1>
   </div>
   {{md 'last-conference'}}
+  
+  <h2 id="last-conference-keynote-speakers">Keynote Speakers</h2>
+  <div class="list-group less-team">
+   {{partial 'person' people.fhi12.Berwick }}
+   {{partial 'person' people.fhi12.Garber }}
+  </div>
+
+  <h2 id="last-conference-video-sessions">Session Videos</h2>
+
+   {{partial 'panel' panels.fhi12.panel1}}
+   <div class="list-group less-team">
+
+	   {{partial 'person' people.fhi12.Herzlinger }}
+	   {{partial 'person' people.fhi12.Wolfsen }}
+	   {{partial 'person' people.fhi12.Sperling }}
+	   {{partial 'person' people.fhi12.Reisman }}
+
+   </div>
+
+   {{partial 'panel' panels.fhi12.panel2}}
+   <div class="list-group less-team">
+
+	   {{partial 'person' people.fhi12.Chin }}
+	   {{partial 'person' people.fhi12.Viehbacher }}
+	   {{partial 'person' people.fhi12.Mussallem }}
+	   {{partial 'person' people.fhi12.Bingham }}
+
+   </div>
+
+   {{partial 'panel' panels.fhi12.panel3}}
+   <div class="list-group less-team">
+
+	   {{partial 'person' people.fhi12.McNeil }}
+	   {{partial 'person' people.fhi12.Giusti }}
+	   {{partial 'person' people.fhi12.Lander }}
+	   {{partial 'person' people.fhi12.McGuire }}
+
+   </div>
+
+   {{partial 'panel' panels.fhi12.panel4}}
+   <div class="list-group less-team">
+
+	   {{partial 'person' people.fhi12.Christensen }}
+	   {{partial 'person' people.fhi12.Brown }}
+	   {{partial 'person' people.fhi12.Sussman }}
+
+   </div>
+
+   {{partial 'panel' panels.fhi12.panel5}}
+   <div class="list-group less-team">
+
+	   {{partial 'person' people.fhi12.Porter }}
+	   {{partial 'person' people.fhi12.Cosgrove }}
+	   {{partial 'person' people.fhi12.Gottlieb }}
+	   {{partial 'person' people.fhi12.Schlichting }}
+
+   </div>
 
 
+</div>
+
+{{!-- Five Imperatives
+================================================== --}}
+<div class="docs-section">
+  <div class="page-header">
+    <h1 id="five-imperatives">Five Imperatives</h1>
+  </div>
+  {{md 'five-imperatives'}}
 </div>
