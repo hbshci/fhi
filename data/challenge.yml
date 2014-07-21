@@ -16,53 +16,14 @@ published:
     lead:  Simple overview of the basic challenge
     files: content/challenge-overview.md
 
-  variables:
-    title: Variables
-    files: <%= challenge.base %>/variables.md
+  process:
+    title: Process
+    files: <%= challenge.base %>/process.md
 
-  extend:
-    title: Extend
-    files: <%= challenge.base %>/extend.md
+  faqs:
+    title: FAQs
+    files: <%= challenge.base %>/faqs.md
 
-  mixins:
-    title: Mixins
-    files: <%= challenge.base %>/mixins.md
-
-  mixins-parametric:
-    title: Parametric Mixins
-    files: <%= challenge.base %>/mixins-parametric.md
-
-  mixins-as-functions:
-    title: Mixins as Functions
-    files: <%= challenge.base %>/mixins-as-functions.md
-
-  detached-rulesets:
-    title: Passing Rulesets to Mixins
-    files: <%= challenge.base %>/detached-rulesets.md
-
-  import-directives:
-    title: Import Directives
-    files: <%= challenge.base %>/import-directives.md
-
-  mixin-guards:
-    title: Mixin Guards
-    files: <%= challenge.base %>/mixin-guards.md
-
-  css-guards:
-    title: CSS Guards
-    files: <%= challenge.base %>/css-guards.md
-
-  loops:
-    title: Loops
-    files: <%= challenge.base %>/loops.md
-
-  merge:
-    title: Merge
-    files: <%= challenge.base %>/merge.md
-
-  parent-selectors:
-    title: Parent Selectors
-    files: <%= challenge.base %>/parent-selectors.md
 
 
 # =============================================
@@ -74,8 +35,3 @@ unpublished:
     published: false
     title: Scope
     files: <%= challenge.base %>/scope.md
-
-  strict-math:
-    published: false
-    title: Strict Math
-    files: <%= challenge.base %>/strict-math.md

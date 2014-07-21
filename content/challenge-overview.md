@@ -2,281 +2,55 @@
 title: Health Acceleration Challenge Overview
 ---
 
-> As an extension to CSS, Less is not only backwards compatible with CSS, but the extra features it adds use existing CSS syntax. This makes learning Less a breeze, and if in doubt, lets you fall back to vanilla CSS.
+> The Health Acceleration Challenge is a [promo copy here]... 
 
 
-### Variables
+## Who should apply?
 
-These are pretty self-explanatory:
+We are seeking health care innovations that have demonstrated value and the potential to scale rapidly to create broader impact. We are specifically interested in innovations that improve the value of the US health care delivery system by lowering cost, improving quality or improving access.
 
-```less
-@nice-blue: #5B83AD;
-@light-blue: @nice-blue + #111;
+Innovations must have credible, demonstrated evidence of their value proposition (such as cost savings, outcomes improvement, patient satisfaction etc.) and be at the cusp of scaling with a compelling dissemination plan.
 
-#header {
-  color: @light-blue;
-}
-```
+Apply today at [[weblink needed]](http://www.example.com) or find out more through our Frequently Asked Questions
 
-Outputs:
+## How you benefit
 
-```css
-#header {
-  color: #6c94be;
-}
-```
+### Access to Senior Health Care Leaders
 
-Note that variables are actually "constants" in that they can only be defined once.
+Our Challenge finalists will gain access to 150 senior health care leaders at our invitation-only conference in April 2015. Challenge finalists will pitch their ideas and discuss their scale up plans in a discussion led by senior Harvard faculty. There will also be ample opportunity for one-on-one discussions with health care leaders and Harvard faculty at dinner and networking events. Our keynote speakers for this year's conference include *[insert names with link to bio]*.
 
+Here is who attended our Conference last time:
 
-### Mixins
+[Graph: Conference Attendees by Sector: Providers, Payors, Industry, Investors, Academia, Other)
 
-Mixins are a way of including ("mixing in") a bunch of properties from one rule-set into another rule-set. So say we have the following class:
+[Graph: Conference Attendees by Type: CEO, CMO, CIO, CFO, ...KK- need to check attendee list]
 
-```css
-.bordered {
-  border-top: dotted 1px black;
-  border-bottom: solid 2px black;
-}
-```
+Further Information on Conference [link needed](http://www.example.com)
 
-And we want to use these properties inside other rule-sets. Well, we just have to drop in the name of the class where we want the properties, like so:
 
-```less
-#menu a {
-  color: #111;
-  .bordered;
-}
-
-.post a {
-  color: red;
-  .bordered;
-}
-```
-
-The properties of the `.bordered` class will now appear in both `#menu a` and `.post a`. (Note that you can also use `#ids` as mixins.)
-
-**Learn more**
-
-* [More about mixins](#mixins-feature)
-* [Parametric Mixins](#mixins-parametric-feature)
-
-
-### Nested rules
-
-Less gives you the ability to use nesting instead of, or in combination with cascading. Let's say we have the following CSS:
-
-```css
-#header {
-  color: black;
-}
-#header .navigation {
-  font-size: 12px;
-}
-#header .logo {
-  width: 300px;
-}
-```
-
-In Less, we can also write it this way:
-
-```less
-#header {
-  color: black;
-  .navigation {
-    font-size: 12px;
-  }
-  .logo {
-    width: 300px;
-  }
-}
-```
-
-The resulting code is more concise, and mimics the structure of your HTML.
 
-You can also bundle pseudo-selectors with your mixins using this method. Here's the classic clearfix hack, rewritten as a mixin (`&` represents the current selector parent):
+### Case Written About Your Organization by Senior Harvard Faculty
 
-```less
-.clearfix {
-  display: block;
-  zoom: 1;
+As a finalist you will be paired with renowned health care faculty who will write a Harvard Business School case study about your organization to be discussed at the conference and potentially taught in class rooms around the world. Faculty writers include:
 
-  &:after {
-    content: " ";
-    display: block;
-    font-size: 0;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-  }
-}
-```
-
-**See also**
-
-* [Parent Selectors](#parent-selectors-feature)
-
-### Media query bubbling and nested media queries 
-
-Media queries can be nested in the same way as selectors. Selector are copied into the body of the media query:
-
-```less
-.screencolor{
-  @media screen {
-    color: green;
-    @media (min-width:768px) {
-    color: red;
-    }
-    }
-  @media tv {
-    color: black;
-  }
-}
-
-```
-outputs:
-
-```css
-@media screen {
-  .screencolor {
-    color: green;
-  }
-}
-@media screen and (min-width: 768px) {
-  .screencolor {
-    color: red;
-  }
-}
-@media tv {
-  .screencolor {
-    color: black;
-  }
-}
-```
-
-### Operations
-
-Any number, color or variable can be operated on. Here are a couple of examples:
-
-```less
-@base: 5%;
-@filler: @base * 2;
-@other: @base + @filler;
-
-color: #888 / 4;
-background-color: @base-color + #111;
-height: 100% / 2 + @filler;
-```
-
-The output is pretty much what you expect—Less understands the difference between colors and units. If a unit is used in an operation, like in:
-
-```less
-@var: 1px + 5;
-```
-
-Less will use that unit for the final output—`6px` in this case.
-
-### Functions
+{% for person in people if person.role_2015 == 'Fac Co-Chair' %}
 
-Less provides a variety of functions which transform colors, manipulate strings and do maths. They are documented fully in the function reference.
-
-Using them is pretty straightforward. The following example uses percentage to convert 0.5 to 50%, increases the saturation of a base color by 5% and then sets the background color to one that is lightened by 25% and spun by 8 degrees:
-
-```less
-@base: #f04615;
-@width: 0.5;
-
-.class {
-  width: percentage(@width); // returns `50%`
-  color: saturate(@base, 5%);
-  background-color: spin(lighten(@base, 25%), 8);
-}
-```
-
-
-### Namespaces & Accessors
-
-(Not to be confused with [CSS `@namespace`](http://www.w3.org/TR/css3-namespace/) or [namespace selectors](http://www.w3.org/TR/css3-selectors/#typenmsp)).
-
-Sometimes, you may want to group your mixins, for organizational purposes, or just to offer some encapsulation. You can do this pretty intuitively in Less, say you want to bundle some mixins and variables under `#bundle`, for later reuse or distributing:
-
-```less
-#bundle {
-  .button {
-    display: block;
-    border: 1px solid black;
-    background-color: grey;
-    &:hover {
-      background-color: white
-    }
-  }
-  .tab { ... }
-  .citation { ... }
-}
-```
-
-Now if we want to mixin the `.button` class in our `#header a`, we can do:
-
-```less
-#header a {
-  color: orange;
-  #bundle > .button;
-}
-```
-
-Note that variables declared within a namespace will be scoped to that namespace only and will not be available outside of the scope via the same syntax that you would use to reference a mixin (`#Namespace > .mixin-name`). So, for example, you can't do the following: (`#Namespace > @this-will-not-work`).
-
-### Scope
-
-Scope in Less is very similar to that of programming languages. Variables and mixins are first looked for locally, and if they aren't found, the compiler will look in the parent scope, and so on.
-
-```less
-@var: red;
-
-#page {
-  @var: white;
-  #header {
-    color: @var; // white
-  }
-}
-```
-
-Variables and mixins do not have to be declared before being used so the following Less code is identical to the previous example:
-
-```less
-@var: red;
-
-#page {
-  #header {
-    color: @var; // white
-  }
-  @var: white;
-}
-```
-
-**See also**
-
-* [Lazy Loading](#variables-feature-lazy-loading)
-
-
-### Comments
-
-Both block-style and inline comments may be used:
-
-```less
-/* One hell of a block
-style comment! */
-@var: red;
-
-// Get in line!
-@var: white;
-```
-
-### Importing
-
-Importing works pretty much as expected. You can import a `.less` file, and all the variables in it will be available. The extension is optionally specified for `.less` files.
-
-```css
-@import "library"; // library.less
-@import "typo.css";
-```
+<div class="people">  
+{% include 'person-small.html' %}
+</div>
+
+{% endfor %}
+
+### Access to Harvard Alumni Network
+
+In addition to the press and marketing for the Health Acceleration Challenge and our Conference, the ideas of our finalists will be widely distributed to Harvard Business School and Harvard Medical School alumni (over [150,000] worldwide) driving name recognition allowing you to scale quickly.
+
+### $150,000 in Funding for Finalists + More For Winner
+
+Our finalists will split $150,000 depending on their funding needs as determined by our judges. Funding for finalists will be awarded in 2015 and an additional $50,000 will be awarded a year later to the organization that has had the most success scaling up.
+
+### Community Feedback &amp; Chance to Win Conference Tickets
+
+Applicants receive invaluable feedback on their innovation and its scale up plan from a community of health care executives and entrepreneurs through our Health Acceleration Challenge platform. We hope our process will facilitate you finding new investors, customers and collaborators, even if you are not selected as a winner in our Challenge.
+
+Sharing insightful comments on other people's ideas on the Health Acceleration Challenge platform **could earn you free tickets to our invite-only Conference** even if you are not a Challenge finalist. 
