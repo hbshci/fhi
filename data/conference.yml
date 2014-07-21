@@ -1,0 +1,22 @@
+# =============================================
+# PUBLISHED
+# =============================================
+# This file is only needed to ensure that the
+# sections build in a specific order.
+
+
+# The base path for features docs. Makes this easier
+# to update without having to change each path.
+base: content/conference
+
+published:
+  misc-conference:
+    title: Last conference
+    files: <%= conference.base %>/last-conference.md
+
+
+# =============================================
+# NOT PUBLISHED / PLANNED / WIP
+# =============================================
+
+unpublished:

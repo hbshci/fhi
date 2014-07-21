@@ -1,5 +1,9 @@
 ---
 title: Health Acceleration Challenge Overview
+people:
+  fhi12:
+    Hamermesh:
+      name: Richard G. Hamermesh
 ---
 
 > The Health Acceleration Challenge is a [promo copy here]... 
@@ -33,13 +37,12 @@ Further Information on Conference [link needed](http://www.example.com)
 
 As a finalist you will be paired with renowned health care faculty who will write a Harvard Business School case study about your organization to be discussed at the conference and potentially taught in class rooms around the world. Faculty writers include:
 
-{% for person in people if person.role_2015 == 'Fac Co-Chair' %}
-
-<div class="people">  
-{% include 'person-small.html' %}
+<div class="list-group-item">
+  <a target="_blank" class="team-member" href="{{{  people.fhi12.Hamermesh.urls.bio }}}">
+    <img src="{{ people.fhi12.Hamermesh.urls.pic_small }}" alt="{{{ people.fhi12.Hamermesh.name }}}">
+    <strong>{{ people.fhi12.Hamermesh.name }}</strong><br> {{{ people.fhi12.Hamermesh.titles }}} 
+  </a>
 </div>
-
-{% endfor %}
 
 ### Access to Harvard Alumni Network
 
