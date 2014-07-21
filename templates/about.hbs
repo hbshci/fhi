@@ -23,28 +23,8 @@ lead: "Learn about the history of Less, meet the core team, and check out the ev
 
     {{! Generated from data/people.yml }}
     {{#each people.fhi12 }}
-    {{!--
-        <div class="col-md-4">
-          <div class="thumbnail" style="padding: 0">
-            <div style="padding:4px">
-              <img src="{{{ urls.pic_small }}}" alt="@{{{ name }}}">
-            </div>
-            <div class="caption clearfix">
-                <a class="team-member" href="{{{  urls.bio }}}">
-                <strong>{{{ name }}}</strong>
-                <p>{{{titles}}}</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      ---}}
-    <div class="list-group-item">
-      <a target="_blank" class="team-member" href="{{{  urls.bio }}}">
-        <img src="{{{ urls.pic_small }}}" alt="@{{{ name }}}">
-        <strong>{{{ name }}}</strong><br> {{{ titles }}} 
-      </a>
-    </div>
+    
+     {{> person . }}
     {{/each}}
 
   </div>

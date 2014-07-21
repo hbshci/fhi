@@ -28,7 +28,7 @@ module.exports = function(grunt) {
     // GitHub's API (to be passed as context into the templates)
     repos: {
       namespaced: {
-        options: {username: 'less'},
+        options: {username: 'codekiln'},
         files: {
           '<%= site.data %>/less.json': ['repos?page=1&per_page=100']
         }

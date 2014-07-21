@@ -10,9 +10,16 @@
 base: content/conference
 
 published:
-  misc-conference:
+
+  upcoming-conference:
+    title: 2015 Conference
+    files: <%= conference.base %>/upcoming-conference.md
+
+  last-conference:
     title: Last conference
     files: <%= conference.base %>/last-conference.md
+
+
 
 
 # =============================================

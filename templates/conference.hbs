@@ -4,40 +4,23 @@ slug: conference
 lead: Function reference
 ---
 
-{{!-- conference
-================================================== --}}
 
+{{!-- 2015 Conference
+================================================== --}}
 <div class="docs-section">
   <div class="page-header">
-    <h1 id="conference-overview">Conference</h1>
+    <h1 id="upcoming-conference">2015 Conference</h1>
   </div>
-  <p class="lead">Forum on Health Care Innovation Conference</p>
+  {{md 'upcoming-conference'}}
 </div>
 
-
-
-{{#each conference.published}}
-  <!-- {{title}} -->
-  <div class="docs-section">
-    <div class="page-header">
-      <h1 id="{{@key}}">{{title}}</h1>
-    </div>
-
-    {{#each (expand files)}}
-    <div class="section-content">
-      {{> popover-source-link . }}
-
-      <!-- {{filename .}} -->
-      {{success '>> Inlining:' (filename .)}} {{! log a success message! }}
-
-
-{{#markdown}}
-{{inline .}}
-{{/markdown}}
-
-      <br>
-    </div>
-    {{/each}}
-
+{{!-- Last Conference
+================================================== --}}
+<div class="docs-section">
+  <div class="page-header">
+    <h1 id="last-conference">Last Conference</h1>
   </div>
-{{/each}}
+  {{md 'last-conference'}}
+
+
+</div>
