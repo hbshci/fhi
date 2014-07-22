@@ -3,7 +3,7 @@
 # =============================================
 
 # Dest config
-root:             _fhi.github.io
+root:             _gh_pages
 dest:             <%= site.root %>
 
 # =============================================
@@ -83,8 +83,7 @@ brand:             lesscss.org
 title:             Forum on Health Care Innovation
 lead:              Seeking ready to scale innovations in health care
 description: >
-  Less extends CSS with dynamic behavior such as variables, mixins, operations and functions.
-  Less runs on both the server-side (with Node.js and Rhino) or client-side (modern browsers only).
+  TODO: Forum on Health Care Innovation description
 
 # URLs
 homepage:          http://lesscss.org
