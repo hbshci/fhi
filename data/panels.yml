@@ -1,3 +1,8 @@
+# =============================================
+# PANELS
+# =============================================
+# This file contains the information about the panels in the conference. 
+
 fhi12:
   panel1:
     title: "Panel 1 - Reducing Employee Healthcare Costs: Beyond Cost Shifting"

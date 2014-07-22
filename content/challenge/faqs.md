@@ -28,7 +28,7 @@ Finalists of our Health Acceleration Challenge will meet senior health care lead
 
 ### How do teams apply?
 
-Please submit your application at [weblink]. Applications close on September 29 2014 at 12pm EST.
+Please submit your application at [weblink]. Applications close on **{{challenge.application.due.time}}** at **{{challenge.application.due.date}}**.
 
 ### How is this different from other Challenges?
 
