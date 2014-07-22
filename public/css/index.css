@@ -6111,6 +6111,13 @@ hr {
 .banner strong {
   color: #555;
 }
+.banner {
+  padding: 15px 20px;
+  color: #777;
+  background-color: #222222;
+  border-top: 2px solid #8c0d34;
+  border-bottom: 2px solid #dddddd;
+}
 .callout {
   margin: 20px 0;
   padding: 20px;
@@ -6616,6 +6623,9 @@ table th[class*="col-"] {
   text-shadow: none;
   background-color: #fff;
   border-color: #fff;
+}
+.btn {
+  margin: 5px;
 }
 .anchor,
 .anchor:empty {
