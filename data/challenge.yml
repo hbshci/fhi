@@ -5,9 +5,9 @@
 # is used throughout the site.
 
 application:
-	due:
-    	date:		"September 29, 2104"
-    	month-day:	"September 29"
-    	time:		"11:59pm EST"
+    due:
+        date:        "September 29, 2104"
+        month-day:    "September 29"
+        time:        "11:59pm EST"
 prize:
-	amount:			"$150,000"
+    amount:            "$150,000"
