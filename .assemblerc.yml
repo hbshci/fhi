@@ -104,9 +104,10 @@ cdn:
 # Most of these are not enabled. You will need
 # to setup accounts with the services you want
 # to use and add the templates.
+# http://www.alexa.com/
 
 analytics:
-  alexa:           lpTeh1awA400OE
+  alexa:           uniqueCodeHere
   google:          false
   google_site_id:  false
 

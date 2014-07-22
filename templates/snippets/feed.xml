@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <link type="application/atom+xml" href="http://lesscss.org/feed/" rel="self"/>
+  <link type="application/atom+xml" href="http://forumonhealthcareinnovation.org/feed/" rel="self"/>
   <link href="{{site.homepage}}/atom.xml" rel="self"/>
   <link href="{{site.homepage}}/"/>
   <title>{{site.title}}</title>
