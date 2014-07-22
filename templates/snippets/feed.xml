@@ -7,10 +7,10 @@
   <updated>{{datetime}}</updated>
   <id>{{site.homepage}}</id>
   <author>
-    <name>{{less.author.name}}</name>
-    <email>{{less.author.email}}</email>
+    <name>{{site.author.name}}</name>
+    <email>{{site.author.email}}</email>
   </author>
-  <rights>Copyright (c) 2009-{{now '%Y'}}, {{less.author.name}}. All rights reserved.</rights>
+  <rights>{{site.author.name}}</rights>
 
   {{#feed src="templates/*.hbs"}}
   <entry>

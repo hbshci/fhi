@@ -1,10 +1,6 @@
 /*
- * lesscss.org <https://github.com/less/less-docs>
- *
- * Copyright (c) 2014, Alexis Sellier, LESS Core Team, contributors.
- * Licensed under the MIT license.
+ * http://forumonhealthcareinnovation.org <https://github.com/codekiln/fhi>
  */
-
 'use strict';
 
 module.exports = function(grunt) {
@@ -15,24 +11,12 @@ module.exports = function(grunt) {
     // Project metadata
     pkg: grunt.file.readJSON('package.json'),
     site: grunt.file.readYAML('.assemblerc.yml'),
-    _less: grunt.file.readJSON('data/less.json'),
 
     jshint: {
       options: {
         jshintrc: '.jshintrc'
       },
       all: ['Gruntfile.js', '<%= site.helpers %>/*.js']
-    },
-
-    // Pull down a JSON list of repos from the Less org, using
-    // GitHub's API (to be passed as context into the templates)
-    repos: {
-      namespaced: {
-        options: {username: 'codekiln'},
-        files: {
-          '<%= site.data %>/less.json': ['repos?page=1&per_page=100']
-        }
-      }
     },
 
     // Build HTML from templates and data
@@ -45,7 +29,6 @@ module.exports = function(grunt) {
         // Metadata
         pkg: '<%= pkg %>',     // extend the context with `pkg`
         site: '<%= site %>',   // extend the context with `site`
-        less: '<%= _less %>',  // extend the context with `less`
         data: ['<%= site.data %>/*.{json,yml}', 'content/**/*.json'],
 
         // Templates
@@ -190,7 +173,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-repos');
   grunt.loadNpmTasks('grunt-sync-pkg');
 
-  grunt.registerTask('update', ['repos', 'default']);
+  grunt.registerTask('update', ['default']);
   grunt.registerTask('design', [
     'clean',
     'copy',

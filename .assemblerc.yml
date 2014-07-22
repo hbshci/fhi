@@ -72,26 +72,26 @@ plugins:
 # SITE METADATA
 # =============================================
 
-
-# Less.js metadata
-current_version:   <%= less.version %>
-origin:            <%= less.master %>
-branch:            master
-
 # Site metadata
-brand:             lesscss.org
+current_version:   <%= pkg.version %>
+origin:            <%= pkg.homepage %>
+branch:            master
+brand:             forumonhealthcareinnovation.org
 title:             Forum on Health Care Innovation
 lead:              Seeking ready to scale innovations in health care
 description: >
   TODO: Forum on Health Care Innovation description
+author:
+  name:            P. Myer Nore
+  email:           ptr.nore@gmail.com
 
 # URLs
-homepage:          http://lesscss.org
+homepage:          http://forumonhealthcareinnovation.org
 repo:              <%= pkg.homepage %>
 issues:            <%= pkg.bugs.url %>?&state=open
 download:
   source:          <%= pkg.homepage %>/archive/master.zip
-  latest:          https://raw.github.com/less/less.js/master/dist/less-<%= less.version %>.min.js
+  latest:          <%= pkg.homepage %>/archive/master.zip
 
 cdn:
   cloudflare:      //cdnjs.cloudflare.com/ajax/libs/less.js/
@@ -122,7 +122,7 @@ analytics:
 
 # Comments
 disqus:
-  enabled:        true
+  enabled:        false
   shortname:      <%= pkg.name %>
 
 # Social

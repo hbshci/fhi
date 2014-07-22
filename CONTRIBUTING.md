@@ -1,8 +1,8 @@
-## Contributing to the Documentation
+## Contributing to the Web Site
 
 **Formatting Standards**
 
-For consistency across all examples in the docs and to ensure that our code examples are readable, please follow these guidelines when contributing:
+For consistency, please follow these guidelines when contributing:
 
 * Four spaces for indentation, and always use proper indentation
 * Multiple-line formatting (one property and value per line)
