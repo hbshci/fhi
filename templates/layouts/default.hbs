@@ -12,14 +12,26 @@
     {{!-- Content --}}
     <div class="container docs-container">
       <div class="row">
-        <div class="col-md-3">
-          <div class="sidebar hidden-print" role="complementary">
-            {{> sidenav }}
+        {{#isnt slug 'index'}}
+          <div class="col-md-3">
+            <div class="sidebar hidden-print" role="complementary">
+              {{> sidenav }}
+            </div>
           </div>
-        </div>
+        {{/isnt}}
         <div class="col-md-9" role="main">
           {{> body }}
         </div>
+        {{#is slug 'index'}}
+          <div class="col-md-3">
+            <div class="sidebar hidden-print" role="complementary">
+              
+              {{> sidebar-apply-now }}
+              {{> sidebar-subscribe }}
+              
+            </div>
+          </div>
+        {{/is}}
       </div>
     </div>
 
