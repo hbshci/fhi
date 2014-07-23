@@ -4,7 +4,7 @@ title: Process
 
 ### Apply
 
-*   {{challenge.application.due.time}} {{challenge.application.due.date}}** - Applications Close
+*   {{challenge.application.due.time}} {{challenge.application.due.date}} - Applications Close
 *   Early November, 2014 - Finalists Interviews
 *   Early December, 2014 - Finalists Announced
 *   April 15/16, 2015 - Finalists Presentations At Forum Conference, Boston
