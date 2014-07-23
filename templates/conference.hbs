@@ -5,7 +5,7 @@ lead: Function reference
 ---
    
 {{!-- example of how to include a single person 
-<div class="list-group less-team">
+<div class="list-group team">
    {{partial 'person' people.fhi12.Hamermesh }}
  </div>
  --}}
@@ -27,17 +27,10 @@ lead: Function reference
     <h1 id="last-conference">Last Conference</h1>
   </div>
   {{md 'last-conference'}}
-    <div class="row">
-      <div class="col-md-6">
-      <img src="{{assets}}/img/conference-attendees-by-sector.png" alt="Conference Attendees by Sector" class="img-responsive pull-right">
-      </div>
-      <div class="col-md-6">
-      <img src="{{assets}}/img/conference-attendees-by-title.png" alt="Conference Attendees by Title" class="img-responsive pull-right">
-      </div>
-    </div>
+  {{> conference-attendees-images}}
   
   <h2 id="last-conference-keynote-speakers">Keynote Speakers</h2>
-  <div class="list-group less-team">
+  <div class="list-group team">
    {{partial 'person' people.fhi12.Berwick }}
    {{partial 'person' people.fhi12.Garber }}
   </div>
@@ -45,7 +38,7 @@ lead: Function reference
   <h2 id="last-conference-video-sessions">Session Videos</h2>
 
    {{partial 'panel' panels.fhi12.panel1}}
-   <div class="list-group less-team">
+   <div class="list-group team">
 
 	   {{partial 'person' people.fhi12.Herzlinger }}
 	   {{partial 'person' people.fhi12.Wolfsen }}
@@ -55,7 +48,7 @@ lead: Function reference
    </div>
 
    {{partial 'panel' panels.fhi12.panel2}}
-   <div class="list-group less-team">
+   <div class="list-group team">
 
 	   {{partial 'person' people.fhi12.Chin }}
 	   {{partial 'person' people.fhi12.Viehbacher }}
@@ -65,7 +58,7 @@ lead: Function reference
    </div>
 
    {{partial 'panel' panels.fhi12.panel3}}
-   <div class="list-group less-team">
+   <div class="list-group team">
 
 	   {{partial 'person' people.fhi12.McNeil }}
 	   {{partial 'person' people.fhi12.Giusti }}
@@ -75,7 +68,7 @@ lead: Function reference
    </div>
 
    {{partial 'panel' panels.fhi12.panel4}}
-   <div class="list-group less-team">
+   <div class="list-group team">
 
 	   {{partial 'person' people.fhi12.Christensen }}
 	   {{partial 'person' people.fhi12.Brown }}
@@ -84,7 +77,7 @@ lead: Function reference
    </div>
 
    {{partial 'panel' panels.fhi12.panel5}}
-   <div class="list-group less-team">
+   <div class="list-group team">
 
 	   {{partial 'person' people.fhi12.Porter }}
 	   {{partial 'person' people.fhi12.Cosgrove }}
