@@ -4,6 +4,8 @@ title: Process
 
 ### Apply
 
+{{> challenge-process-stage-buttons}}
+
 *   {{challenge.application.due.time}} {{challenge.application.due.date}} - Applications Close
 *   Early November, 2014 - Finalists Interviews
 *   Early December, 2014 - Finalists Announced
