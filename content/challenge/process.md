@@ -8,6 +8,8 @@ title: Process
 
 {{> button-apply-now}}
 
+[**TODO: add copy for apply**](https://github.com/codekiln/fhi/issues/47)
+
 *   {{challenge.application.due.time}} {{challenge.application.due.date}} - Applications Close
 *   Early November, 2014 - Finalists Interviews
 *   Early December, 2014 - Finalists Announced

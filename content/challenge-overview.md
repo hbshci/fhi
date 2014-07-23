@@ -12,10 +12,5 @@ title: Health Acceleration Challenge Overview
 
 We will hold an informational webinar on Wednesday September 17, 2014 at 12pm EST for you to ask your questions.
 
-Please register for the webinar here [[link and form needed]](http://www.example.com).
-
-[Calendar download with conference details?]
-
-[To be replaced with recorded webinar when completed]
-
-[put button here]
+Please register for the webinar here: 
+{{> webinar-buttons}}
