@@ -6,7 +6,7 @@
 
 application:
     due:
-        date:        "September 29, 2104"
+        date:        "September 29, 2014"
         month-day:    "September 29"
         time:        "11:59pm EST"
 prize:
