@@ -6627,6 +6627,9 @@ table th[class*="col-"] {
 .btn {
   margin: 5px;
 }
+.btn-group .btn {
+  margin: 0px;
+}
 .anchor,
 .anchor:empty {
   position: absolute;
@@ -7161,4 +7164,7 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+.sidebar .glyphicon {
+  margin-left: 0px;
 }
