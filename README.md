@@ -1,7 +1,7 @@
 [![Stories in Ready](https://badge.waffle.io/hbshci/fhi.png?label=ready&title=Ready)](https://waffle.io/hbshci/fhi)
 
 # Forum on Health Care Innovation Website
-This repository contains the source code for the Forum on Health Care Innovation website. To see the work in progress, please see the todos at [Waffle.io](https://waffle.io/codekiln/fhi).
+This repository contains the source code for the Forum on Health Care Innovation website. To see the work in progress, please see the todos at [Waffle.io](https://waffle.io/hbshci/fhi).
 
 ## Building the website
 To build the website: 
