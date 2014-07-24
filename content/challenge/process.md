@@ -2,13 +2,10 @@
 title: Process
 ---
 
+[**TODO: timeline from Micaela replaces this**](https://github.com/codekiln/fhi/issues/65)
 {{> challenge-process-stage-buttons}}
 
-### Apply
-
-{{> button-apply-now}}
-
-[**TODO: add copy for apply**](https://github.com/codekiln/fhi/issues/47)
+[**TODO: add copy for apply - remove following text?**](https://github.com/codekiln/fhi/issues/47)
 
 *   {{challenge.application.due.time}} {{challenge.application.due.date}} - Applications Close
 *   Early November, 2014 - Finalists Interviews

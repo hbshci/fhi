@@ -5,7 +5,7 @@
 # is used throughout the site.
 
 last:
-	attendance: 150
+  attendance: 150
 
 current:
-	attendance: 150
+  attendance: 150
