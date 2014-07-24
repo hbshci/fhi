@@ -21,3 +21,32 @@ lead: "Slogan for FHI could go here."
     </a>
 </div>
 
+{{!-- About The Forum
+================================================== --}}
+<div class="docs-section">
+  
+  {{md 'about-the-forum'}}
+</div>
+
+{{!-- Steering Committee
+================================================== --}}
+<div class="docs-section container-fluid">
+  <h2>Steering Committee</h2>
+  <div class="list-group team">
+
+    <div class="list-group team">
+
+     {{partial 'person' people.fhi12.Hamermesh }}
+     {{partial 'person' people.fhi12.Huckman }}
+     {{partial 'person' people.fhi12.McNeil }}
+     {{partial 'person' people.fhi12.Newhouse }}
+     {{#markdown}}
+     [**TODO: fix Cara's picture**](https://github.com/codekiln/fhi/issues/70)
+     {{/markdown}}
+     {{partial 'person' people.fhi12.Sterling }}
+
+
+   </div>
+
+  </div>
+</div>

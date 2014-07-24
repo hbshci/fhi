@@ -1,3 +1,3 @@
-### Attendees
+## Attendees
 
-**TODO: Write copy for here**
+[**TODO: Write copy for here**](https://github.com/hbshci/fhi/issues/42)

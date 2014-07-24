@@ -10,11 +10,12 @@
     {{> docs-header }}
 
     {{!-- Content --}}
-    <div class="container-fluid docs-container">
+    <div class="container docs-container">
       <div class="row">
         {{#isnt slug 'index'}}
           <div class="col-md-3">
             <div class="sidebar hidden-print" role="complementary">
+              
               {{> sidenav }}
             </div>
           </div>
@@ -27,6 +28,7 @@
             <div class="sidebar hidden-print" role="complementary">
               
               {{> sidebar-apply-now }}
+
               {{> sidebar-subscribe }}
               
             </div>
