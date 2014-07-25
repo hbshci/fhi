@@ -14,17 +14,7 @@
     </div>
 
     <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
-      <ul class="nav navbar-nav ">
-         <li{{#is slug 'index'}} class="active"{{/is}}>
-          <a href="{{rel '.'}}/#">About</a>
-        </li>
-         <li{{#is slug 'challenge'}} class="active"{{/is}}>
-          <a href="{{rel 'challenge'}}/">Challenge</a>
-        </li>
-        <li{{#is slug 'conference'}} class="active"{{/is}}>
-          <a href="{{rel 'conference'}}/">Conference</a>
-        </li>
-      </ul>
+      {{> nav-main-links}}
     </nav>
 
     
