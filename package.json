@@ -19,11 +19,11 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/less/less-docs/blob/master/LICENSE-MIT"
+      "url": "https://github.com/hbshci/fhi/blob/master/LICENSE-MIT"
     },
     {
       "type": "Creative Commons",
-      "url": "https://github.com/less/less-docs/blob/master/LICENSE-CC"
+      "url": "https://github.com/hbshci/fhi/blob/master/LICENSE-CC"
     }
   ],
   "main": "Gruntfile.js",
