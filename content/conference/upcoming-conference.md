@@ -1,5 +1,6 @@
-April 2015 in Boston - promo
-> ** PROMO CONTENT NEEDED **
+### Conference April 2015 in Boston
+
+The HBS-HMS Forum on Health Care Innovation conference is a periodic event to bring together thought leaders from across the industry to discuss innovation.  Participants in this invitation-only event seek to identify ways to overcome the barriers to innovation in health care and to identify opportunities to improve the value delivered to consumers.
 
 {{!--
 ### Keynote Speakers:
