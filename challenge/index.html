@@ -29,6 +29,8 @@
   })();
 </script>
 
+
+
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
   <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -58,16 +60,16 @@
 
     <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
       <ul class="nav navbar-nav ">
-         <li>
-          <a href="../#">About</a>
-        </li>
-         <li class="active">
-          <a href="./">Challenge</a>
-        </li>
-        <li>
-          <a href="../conference/">Conference</a>
-        </li>
-      </ul>
+   <li>
+    <a href="../#">About</a>
+  </li>
+   <li class="active">
+    <a href="./">Challenge</a>
+  </li>
+  <li>
+    <a href="../conference/">Conference</a>
+  </li>
+</ul>
     </nav>
 
     
@@ -122,6 +124,21 @@
           </div>
         
         <div class="col-md-9" role="main">
+          <!--
+            To create PDF of whole site, include <ul class="nav navbar-nav ">
+   <li>
+    <a href="../#">About</a>
+  </li>
+   <li class="active">
+    <a href="./">Challenge</a>
+  </li>
+  <li>
+    <a href="../conference/">Conference</a>
+  </li>
+</ul> on the next line. 
+            Right now, the javascript rendering on the mobile site prevents Acrobat from 
+            reading the linked pages in the hamburger nav. 
+          -->
           
 <div class="panel docs-content">
   
@@ -134,6 +151,7 @@
 <a href="#challenge-overview" name="challenge-overview" class="anchor glyphicon glyphicon-link"></a></h1>
   </div>
   <blockquote>
+<p>We’re looking for proven ideas that have the potential to do great things for the US health care delivery system.  It is widely known that health care innovations are much slower to disseminate than comparable solutions in other industries.  We want to help speed up the process.  What’s your innovation?</p>
 <p>We are seeking health care innovations that have demonstrated value and the potential to scale rapidly to create broader impact. We are specifically interested in innovations that improve the value of the US health care delivery system by lowering cost, improving quality or improving access.</p>
 <p>Innovations must have credible, demonstrated evidence of their value proposition (such as cost savings, outcomes improvement, patient satisfaction etc.) and be at the cusp of scaling with a compelling dissemination plan.</p>
 <p>Apply today at <a href="http://www.example.com">[weblink needed]</a> or find out more through our Frequently Asked Questions.</p>
@@ -236,11 +254,8 @@
   
   <p><a href="https://github.com/codekiln/fhi/issues/65"><strong>TODO: timeline from Micaela replaces this</strong></a></p>
 <p><div class="btn-group btn-group-justified">
-    <!--<button type="button" class="btn btn-primary">
-    <span class="glyphicon glyphicon-ok"></span> Apply Now
-</button><br>-->
-<a href="#" class="btn btn-primary col-md-6"><span class="glyphicon glyphicon-ok"></span> 
-    <strong>Apply<br><small>Due Sept 29</small></strong></a>
+    <a href="#" class="btn btn-primary col-md-6"><span class="glyphicon glyphicon-ok"></span> 
+<strong>Apply<br><small>by Sept 29</small></strong></a>
     <a href="#challenge-process-advise" class="btn btn-default disabled ">
         <strong>Advise<br>
         <small>Sept 30 - Oct 29</small><br>

@@ -29,6 +29,8 @@
   })();
 </script>
 
+
+
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
   <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -58,16 +60,16 @@
 
     <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
       <ul class="nav navbar-nav ">
-         <li class="active">
-          <a href="./#">About</a>
-        </li>
-         <li>
-          <a href="challenge/">Challenge</a>
-        </li>
-        <li>
-          <a href="conference/">Conference</a>
-        </li>
-      </ul>
+   <li class="active">
+    <a href="./#">About</a>
+  </li>
+   <li>
+    <a href="challenge/">Challenge</a>
+  </li>
+  <li>
+    <a href="conference/">Conference</a>
+  </li>
+</ul>
     </nav>
 
     
@@ -103,6 +105,21 @@
       <div class="row">
         
         <div class="col-md-9" role="main">
+          <!--
+            To create PDF of whole site, include <ul class="nav navbar-nav ">
+   <li class="active">
+    <a href="./#">About</a>
+  </li>
+   <li>
+    <a href="challenge/">Challenge</a>
+  </li>
+  <li>
+    <a href="conference/">Conference</a>
+  </li>
+</ul> on the next line. 
+            Right now, the javascript rendering on the mobile site prevents Acrobat from 
+            reading the linked pages in the hamburger nav. 
+          -->
           
 <div class="panel docs-content">
   
@@ -110,9 +127,10 @@
 
 <div class="docs-section">
   <div class="page-header">
-    <h1 class="docs-heading">Health Acceleration Challenge Launch<span class="anchor-target" id="getting-started"></span>
-<a href="#getting-started" name="getting-started" class="anchor glyphicon glyphicon-link"></a></h1>
-  </div>
+    <small class="lead">HBS and HMS proudly present</small>
+    <h1 class="docs-heading">Health Acceleration Challenge Launch<span class="anchor-target" id="health-acceleration-challenge-launch"></span>
+<a href="#health-acceleration-challenge-launch" name="health-acceleration-challenge-launch" class="anchor glyphicon glyphicon-link"></a></h1>
+</div>
   <p>Over the last half-century, some of the greatest health care innovations have taken decades to reach widespread adoption. Long time horizons for seemingly significant solutions add to the ever-increasing cost of health care, threatening both our economy and our well-being.</p>
 <p>We are looking for ideas that have demonstrated value for the US health care delivery system and are ready to be widely disseminated.</p>
 <p>CHALLENGE VIDEO HERE</p>
@@ -120,15 +138,12 @@
 </div>
 
 
-<div class="row">
-    <a href="#" class="thumbnail">
-      <img data-src="holder.js/480x235" alt="...">
-    </a>
+<div class="docs-section">
+  <iframe width="100%" height="315" src="//www.youtube.com/embed/OnBBv0Bm-yY?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
 
 <div class="docs-section">
-  
   <h1 class="docs-heading">News &amp; Press<span class="anchor-target" id="news-amp-press"></span>
 <a href="#news-amp-press" name="news-amp-press" class="anchor glyphicon glyphicon-link"></a></h1>
 <p>Press Releases &amp; News</p>
@@ -218,16 +233,13 @@ Logos (HBS, HMS, Challenge?)</p>
               
               <div id="sidebar-apply-now" class="panel panel-default">
   <div class="panel-heading">
-  <h3 class="panel-title">Participate in Challenge</h3>
+  <h3 class="panel-title">Compete in Challenge</h3>
   </div>
   <div class="panel-body panel-info">
     
 
-    <!--<button type="button" class="btn btn-primary">
-	<span class="glyphicon glyphicon-ok"></span> Apply Now
-</button><br>-->
-<a href="#" class="btn btn-primary col-md-6"><span class="glyphicon glyphicon-ok"></span> 
-	<strong>Apply<br><small>Due Sept 29</small></strong></a>
+    <a href="#" class="btn btn-primary col-md-6"><span class="glyphicon glyphicon-ok"></span> 
+<strong>Apply<br><small>by Sept 29</small></strong></a>
 
  	<button type="button" class="btn btn-default">
     	<span class="glyphicon glyphicon-chevron-right"></span> Learn More
