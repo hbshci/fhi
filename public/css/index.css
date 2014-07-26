@@ -6560,6 +6560,9 @@ table th[class*="col-"] {
     width: 263px;
   }
 }
+.sidebar .glyphicon {
+  margin-left: 0px;
+}
 .docs-nav {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
   background-color: #f8f8f8;
@@ -6629,6 +6632,13 @@ table th[class*="col-"] {
 }
 .btn-group .btn {
   margin: 0px;
+}
+.sidebar .btn {
+  width: 100%;
+  margin: 0px;
+}
+.sidebar .sidenav-link {
+  margin-top: 10px;
 }
 .anchor,
 .anchor:empty {
@@ -7164,7 +7174,4 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
-}
-.sidebar .glyphicon {
-  margin-left: 0px;
 }
