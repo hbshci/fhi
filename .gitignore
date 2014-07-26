@@ -13,3 +13,4 @@ TODO.md
 *.sublime-*
 .idea
 desktop.ini
+templates/log.hbs

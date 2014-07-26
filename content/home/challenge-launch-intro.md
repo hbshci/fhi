@@ -3,4 +3,7 @@ Over the last half-century, some of the greatest health care innovations have ta
 
 We are looking for ideas that have demonstrated value for the US health care delivery system and are ready to be widely disseminated.
 
-CHALLENGE VIDEO HERE
+<p class="h2 lead">
+	<a href="{{gsheets.links.challenge-application.url}}" target="_blank">
+		What's your innovation? <span class="glyphicon glyphicon-bullhorn"></span></a>
+</p>

@@ -1,0 +1,110 @@
+{
+    "dates": {
+        "challenge-stages-apply": {
+            "id": "challenge-stages-apply",
+            "displayName": "Apply Stage",
+            "dateFrom": "2014-08-10T04:00:00.000Z",
+            "dateTo": "2014-09-30T03:59:00.000Z",
+            "howToReference": "{{gsheets.dates.challenge-stages-apply.dateFrom}}"
+        },
+        "challenge-stages-advise": {
+            "id": "challenge-stages-advise",
+            "displayName": "Advise Stage",
+            "dateFrom": "2014-09-30T04:00:00.000Z",
+            "dateTo": "2014-10-20T03:59:51.360Z",
+            "howToReference": "{{gsheets.dates.challenge-stages-advise.dateFrom}}"
+        },
+        "challenge-stages-refine": {
+            "id": "challenge-stages-refine",
+            "displayName": "Refine Stage",
+            "dateFrom": "2014-10-20T04:00:00.000Z",
+            "dateTo": "2014-11-10T04:59:51.360Z",
+            "howToReference": "{{gsheets.dates.challenge-stages-refine.dateFrom}}"
+        },
+        "challenge-stages-announce": {
+            "id": "challenge-stages-announce",
+            "displayName": "Announce Stage",
+            "dateFrom": "2014-11-10T05:00:00.000Z",
+            "howToReference": "{{gsheets.dates.challenge-stages-announce.dateFrom}}"
+        },
+        "challenge-application-due": {
+            "id": "challenge-application-due",
+            "displayName": "Application Due",
+            "dateFrom": "2014-09-30T03:59:00.000Z",
+            "howToReference": "{{gsheets.dates.challenge-application-due.dateFrom}}"
+        },
+        "challenge-webinar-date": {
+            "id": "challenge-webinar-date",
+            "displayName": "Challenge Webinar",
+            "dateFrom": "2014-09-17T16:00:00.000Z",
+            "howToReference": "{{gsheets.dates.challenge-webinar-date.dateFrom}}"
+        }
+    },
+    "links": {
+        "challenge-main": {
+            "id": "challenge-main",
+            "name": "OpenIDEO production link",
+            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/brief.html",
+            "howToReference": "{{gsheets.links.challenge-main.url}}"
+        },
+        "challenge-application": {
+            "id": "challenge-application",
+            "name": "Health Care Acceleration Challenge Application",
+            "description": "Apply for the Health Care Acceleration Challenge.",
+            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/innovations/",
+            "howToReference": "{{gsheets.links.challenge-application.url}}"
+        },
+        "conference-2012-main": {
+            "id": "conference-2012-main",
+            "name": "2012 Forum on Health Care Innovation Conference site",
+            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/",
+            "howToReference": "{{gsheets.links.conference-2012-main.url}}"
+        },
+        "hbs-main": {
+            "id": "hbs-main",
+            "name": "Harvard Business School",
+            "url": "http://www.hbs.edu/healthcare",
+            "howToReference": "{{gsheets.links.hbs-main.url}}"
+        },
+        "hms-main": {
+            "id": "hms-main",
+            "name": "Harvard Medical School",
+            "url": "http://hms.harvard.edu/",
+            "howToReference": "{{gsheets.links.hms-main.url}}"
+        },
+        "challenge-webinar-register-link": {
+            "id": "challenge-webinar-register-link",
+            "url": "http://www.example.com",
+            "howToReference": "{{gsheets.links.challenge-webinar-register-link.url}}"
+        },
+        "conference-2012-5-imperatives": {
+            "id": "conference-2012-5-imperatives",
+            "name": "5 Imperatives",
+            "url": "http://www.hbs.edu/healthcare/pdf/Forum-on-Healthcare-Innovation-5-Imperatives.pdf",
+            "howToReference": "{{gsheets.links.conference-2012-5-imperatives.url}}"
+        }
+    },
+    "formatting": {
+        "date-brief-noyear": {
+            "id": "date-brief-noyear",
+            "fmt": "%b %d",
+            "description": "For use in buttons, etc",
+            "example": "Sept 27",
+            "howToReference": "{{gsheets.formatting.date-brief-noyear.fmt}}"
+        },
+        "date-long-withTime": {
+            "id": "date-long-withTime",
+            "fmt": "%B %d, %Y at %I:%M %p EST",
+            "description": "Full date for due dates",
+            "example": "September 29, 2014 at 11:59 PM",
+            "howToReference": "{{gsheets.formatting.date-long-withTime.fmt}}"
+        },
+        "date-long-withTime-andWeekday": {
+            "id": "date-long-withTime-andWeekday",
+            "fmt": "%B %d, %Y at %I:%M %p EST",
+            "description": "Full date for due dates and appointments",
+            "example": "Wednesday September 17, 2014 at 12 PM EST",
+            "howToReference": "{{gsheets.formatting.date-long-withTime-andWeekday.fmt}}"
+        }
+    }
+}

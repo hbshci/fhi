@@ -32,7 +32,7 @@ module.exports = function(grunt) {
         data: ['<%= site.data %>/*.{json,yml}', 'content/**/*.json'],
 
         // Templates
-        partials: '<%= site.includes %>/*.hbs',
+        partials: ['<%= site.includes %>/*.hbs','<%= site.includes %>/small/*.hbs'],
         layoutdir: '<%= site.layouts %>',
         layoutext: '<%= site.layoutext %>',
         layout: '<%= site.layout %>',
