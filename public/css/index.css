@@ -6640,6 +6640,12 @@ table th[class*="col-"] {
 .sidebar .sidenav-link {
   margin-top: 10px;
 }
+.newsitem p {
+  margin-left: 25px;
+}
+.newsitem span {
+  color: #a30f3d;
+}
 .anchor,
 .anchor:empty {
   position: absolute;
