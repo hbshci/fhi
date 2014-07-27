@@ -42,9 +42,16 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-27T15:58:20.571Z",
+            "dateFrom": "2014-07-27T17:40:39.002Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
+        },
+        "conference-date-main": {
+            "id": "conference-date-main",
+            "displayName": "Forum on Health Care Innovation Conference",
+            "dateFrom": "2015-04-15T19:00:00.000Z",
+            "dateTo": "2015-04-16T21:00:00.000Z",
+            "howToReference": "{{gsheets.dates.conference-date-main.dateFrom}}"
         }
     },
     "links": {
@@ -102,7 +109,7 @@
             "id": "date-brief-noyear",
             "fmt": "%b %d",
             "description": "For use in buttons, etc",
-            "example": "Sept 27",
+            "example": "Sep 27",
             "howToReference": "{{gsheets.formatting.date-brief-noyear.fmt}}"
         },
         "date-long-withTime": {
@@ -118,6 +125,13 @@
             "description": "Full date for due dates and appointments",
             "example": "Wednesday September 17, 2014 at 12 PM EST",
             "howToReference": "{{gsheets.formatting.date-long-withTime-andWeekday.fmt}}"
+        },
+        "date-month-withYear": {
+            "id": "date-month-withYear",
+            "fmt": "%B %Y",
+            "description": "For use in prose, for example, in FAQs",
+            "example": "April 2015",
+            "howToReference": "{{gsheets.formatting.date-month-withYear.fmt}}"
         }
     },
     "snippets": {
@@ -126,6 +140,16 @@
             "val": "press@forumonhealthcareinnovation.org",
             "description": "email for press inquiries",
             "howToReference": "{{gsheets.snippets.email-press-forum.val}}"
+        },
+        "num-hbs-hms-alumni-access-to": {
+            "id": "num-hbs-hms-alumni-access-to",
+            "val": 150000,
+            "howToReference": "{{gsheets.snippets.num-hbs-hms-alumni-access-to.val}}"
+        },
+        "challenge-prize-grand-amt": {
+            "id": "challenge-prize-grand-amt",
+            "val": 150000,
+            "howToReference": "{{gsheets.snippets.challenge-prize-grand-amt.val}}"
         }
     },
     "updates": {

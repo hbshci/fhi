@@ -1,3 +1,6 @@
+{{#markdown}}
+[**[TODO: landing - press kit - make downloads into rows with tiny thumbnails rather than columns #111]**](https://github.com/hbshci/fhi/issues/111)
+{{/markdown}}
 {{#each gsheets.downloads}}
     <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
@@ -6,7 +9,6 @@
                 {{#if description}}{{description}}{{/if}}
             </div>
             {{#if imgFilename}}
-                {{log ../../assets}}
                 <a href="{{#if pdfFilename}}{{../../../assets}}/pdf/{{ pdfFilename }}{{else}}{{foreignUrl}}{{/if}}" target="_blank" ><img src="{{../../assets}}/img/{{imgFilename}}" alt="{{title}}" ></a>
             {{/if}}
         </div>
