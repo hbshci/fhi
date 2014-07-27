@@ -1,23 +1,5 @@
----
-title: About Us
----
-# News &amp; Press
 
-Press Releases &amp; News
-
-[To be included if and when]
-
-# Press Kit
-
-Challenge Information [link to download marketing materials]
-Logos (HBS, HMS, Challenge?)
-
-For Press inquiries, please contact [press@forumonhealthcareinnovation.org l address]
-
-Social Media
-
-
-# About the Forum
+## About the Forum
 
 The Forum on Health Care Innovation is a collaboration between [Harvard Business School]({{gsheets.links.hbs-main.url}}) (HBS) and [Harvard Medical School]({{gsheets.links.hms-main.url}}) (HMS). Its purpose is to unite leading executives, policymakers, and academics in a cross-disciplinary exploration of innovative actions to improve quality, reduce costs, and, ultimately, increase value in the health care industry.
 

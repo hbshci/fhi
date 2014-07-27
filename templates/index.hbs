@@ -4,55 +4,77 @@ slug: index
 top-heading: Health Acceleration Challenge Launch
 top-lead: HBS and HMS proudly present
 ---
-
-
-
-{{!-- Health Acceleration Challenge Launch
-================================================== --}}
+{{!-- MAIN CONTENT --}}
 <div class="docs-section">
-  {{> heading-lead}}
-  {{md 'challenge-launch-intro'}}
 
-</div>
+  {{!-- Health Acceleration Challenge Launch
+  ================================================== --}}
 
-{{!-- Health Acceleration Challenge Video 
-================================================== --}}
-<div class="docs-section">
-  <div class="row">
-    <div class="col-sm-6 col-md-8">
-      {{> video}}
+    {{> heading-lead}}
+    {{md 'challenge-launch-intro'}}
+
+
+
+  {{!-- Health Acceleration Challenge Video 
+  ================================================== --}}
+    <div class="row">
+      <div class="col-sm-6 col-md-8">
+        {{> video}}
+      </div>
+      
     </div>
+
+</div>{{!-- /MAIN CONTENT --}}
+
+{{!-- SECONDARY CONTENT: News, etc --}}
+<div class="docs-section">
+
+  {{!-- News and Press
+  ================================================== --}}
+  {{#if gsheets.updates}}
+    <h2 id="news-and-press">News and Press</h2>
+    <ul class="list-unstyled">
+      {{#each gsheets.updates}}
+        <!-- {{gsheets.updates.press-2013-07-15.headline}} -->
+        {{> 'newsitem' .}}
+      {{/each}}
+    </ul>
+  {{/if}}
+
+  {{!-- Downloads and Press Kit
+  ================================================== --}}
+  {{md 'downloads-and-press-kit'}}
+  <div class="row">
     <div class="col-sm-6 col-md-4">
       {{partial 'download-HAC-flier-partial'}}
     </div>
   </div>
-</div>
 
-{{!-- About The Forum
-================================================== --}}
+</div>{{!-- end of SECONDARY CONTENT: News, etc --}}
+
+{{!-- TERTIARY CONTENT: About the Forum --}}
 <div class="docs-section">
-  {{md 'about-the-forum'}}
-</div>
 
-{{!-- Steering Committee
-================================================== --}}
-<div class="docs-section container-fluid">
-  <h2>Steering Committee</h2>
-  <div class="list-group team">
-
-    <div class="list-group team">
-
-     {{partial 'person' people.fhi12.Hamermesh }}
-     {{partial 'person' people.fhi12.Huckman }}
-     {{partial 'person' people.fhi12.McNeil }}
-     {{partial 'person' people.fhi12.Newhouse }}
-     {{#markdown}}
-     [**TODO: fix Cara's picture**](https://github.com/codekiln/fhi/issues/70)
-     {{/markdown}}
-     {{partial 'person' people.fhi12.Sterling }}
-
-
-   </div>
-
+  {{!-- About The Forum
+  ================================================== --}}
+  <div class="docs-section">
+    {{md 'about-the-forum'}}
   </div>
-</div>
+
+  {{!-- Steering Committee
+  ================================================== --}}
+  <h2 id="steering-committee">Steering Committee</h2>
+  <div class="list-group team">
+    <div class="list-group team">
+       {{partial 'person' people.fhi12.Hamermesh }}
+       {{partial 'person' people.fhi12.Huckman }}
+       {{partial 'person' people.fhi12.McNeil }}
+       {{partial 'person' people.fhi12.Newhouse }}
+       {{#markdown}}
+       [**TODO: fix Cara's picture**](https://github.com/codekiln/fhi/issues/70)
+       {{/markdown}}
+       {{partial 'person' people.fhi12.Sterling }}
+    </div>
+  </div>
+  
+</div>{{!-- end of TERTIARY CONTENT: About the Forum --}}

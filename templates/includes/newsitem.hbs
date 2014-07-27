@@ -1,0 +1,18 @@
+<!-- News Item for {{message}} -->
+<div class="row newsitem">
+	<div class="span4 collapse-group">
+		<li>
+			{{#if message}}
+				<a alt="View Details" data-toggle="collapse" data-target="#{{id}}">
+			{{/if}}<span class="h5 glyphicon glyphicon-plus"></span>{{#if message}}</a>{{/if}}
+			<a target="_blank" class="h4" href="{{url}}">{{headline}}
+				{{#if source}}
+					 ({{source}})
+				{{/if}}
+			</a>
+			{{#if message}}
+				<p class="collapse newsitem" id="{{id}}">{{message}}</li>
+			{{/if}}
+		</li>
+	</div>
+</div>

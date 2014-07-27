@@ -38,6 +38,13 @@
             "displayName": "Challenge Webinar",
             "dateFrom": "2014-09-17T16:00:00.000Z",
             "howToReference": "{{gsheets.dates.challenge-webinar-date.dateFrom}}"
+        },
+        "data-refresh": {
+            "id": "data-refresh",
+            "displayName": "Data Refresh Date",
+            "dateFrom": "2014-07-27T13:34:44.105Z",
+            "description": "The date of the last export from gsheets to the Forum Website.",
+            "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
         }
     },
     "links": {
@@ -105,6 +112,35 @@
             "description": "Full date for due dates and appointments",
             "example": "Wednesday September 17, 2014 at 12 PM EST",
             "howToReference": "{{gsheets.formatting.date-long-withTime-andWeekday.fmt}}"
+        }
+    },
+    "snippets": {
+        "email-press-forum": {
+            "id": "email-press-forum",
+            "val": "press@forumonhealthcareinnovation.org",
+            "description": "email for press inquiries",
+            "howToReference": "{{gsheets.snippets.email-press-forum.val}}"
+        }
+    },
+    "updates": {
+        "press-2014-07-27": {
+            "id": "press-2014-07-27",
+            "category": "press",
+            "date": "2014-07-27T04:00:00.000Z",
+            "headline": "Top Ten Healthcare Quotes For 2013",
+            "url": "http://www.forbes.com/sites/danmunro/2013/12/22/top-ten-healthcare-quotes-for-2013/",
+            "source": "Forbes",
+            "message": "Quotes from Andrew J. Sussman, MD and Christopher A. Viehbacher made it to Forbes' top quotes of 2013. ",
+            "howToReference": "{{gsheets.updates.press-2014-07-27.headline}}"
+        },
+        "press-2013-07-15": {
+            "id": "press-2013-07-15",
+            "category": "press",
+            "date": "2013-07-15T04:00:00.000Z",
+            "headline": "5 Imperatives For Improving Health Care",
+            "url": "http://www.forbes.com/sites/hbsworkingknowledge/2013/07/15/5-imperatives-for-improving-health-care/",
+            "source": "Forbes",
+            "howToReference": "{{gsheets.updates.press-2013-07-15.headline}}"
         }
     }
 }
