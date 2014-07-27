@@ -2,15 +2,15 @@
 title: Process
 ---
 
-[**TODO: timeline from Micaela replaces this**](https://github.com/codekiln/fhi/issues/65)
+[**TODO: challenge - process - make timeline into multiple, scalable graphics #65**](https://github.com/codekiln/fhi/issues/65)
 {{> challenge-process-stage-buttons}}
 
-[**TODO: add copy for apply - remove following text?**](https://github.com/codekiln/fhi/issues/47)
+[**TODO: challenge - process - apply - intro copy #47**](https://github.com/codekiln/fhi/issues/47)
 
 *   {{challenge.application.due.time}} {{challenge.application.due.date}} - Applications Close
 *   Early November, 2014 - Finalists Interviews
 *   Early December, 2014 - Finalists Announced
-*   April 15/16, 2015 - Finalists Presentations At Forum Conference, Boston
+*   {{gsheets.dates.conference-date-main.rangeString}} - Finalists Presentations At Forum Conference, Boston
 
 ### Advise
 
@@ -28,7 +28,7 @@ A shortlist of round 1 applicants will be taken into round 2 and announced on th
 
 We will then announce the 3 to 5 finalists in early December.
 
-Apply now on [[weblink]](www.example.com). Application deadline is **{{challenge.application.due.date}}** at **{{challenge.application.due.time}}**.
+[[Apply now]]({{gsheets.links.challenge-application.url}}). Application deadline is **{{challenge.application.due.date}}** at **{{challenge.application.due.time}}**.
 
 ### Rules
 
@@ -38,8 +38,7 @@ All applicants to the HBS-HMS Health Acceleration Challenge must:
 
 * Be willing to provide additional material and references should they be requested by the Challenge team.
 
-* Be available to be contacted by email or telephone at any point in the evaluation process and be available for a Skype or phone interview with a member
-of the evaluation committee during the time period of XX – XX.
+* Be available to be contacted by email or telephone at any point in the evaluation process and be available for a Skype or phone interview with a member of the evaluation committee during the time period of {{gsheets.dates.challenge-applicant-must-be-available-interview.rangeString}}.
 
 * Submit the application in English.
 
@@ -48,8 +47,8 @@ a finalist and awarded funding
 
 * Be willing to share all application information with the public. _Do not disclose any information that you do not want to share or that you consider confidential._
 
-* Be available and responsive to questions between XX-XX so that an HBS case study can be written about the innovation.
+* Be available and responsive to questions between {{gsheets.dates.challenge-applicant-must-be-available-questions.rangeString}} so that an HBS case study can be written about the innovation.
 
 * Have the ability to implement the scale up plan proposed by the applicant, including any rights to an underlying product.
 
-* Travel to Boston for April 15-16, 2015 in order to present at the Forum on Health Care Innovation conference.
+* Travel to Boston for {{gsheets.dates.conference-date-main.rangeString}} in order to present at the Forum on Health Care Innovation conference.

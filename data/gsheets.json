@@ -42,16 +42,28 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-27T17:40:39.002Z",
+            "dateFrom": "2014-07-27T17:59:28.529Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
         },
         "conference-date-main": {
             "id": "conference-date-main",
-            "displayName": "Forum on Health Care Innovation Conference",
             "dateFrom": "2015-04-15T19:00:00.000Z",
             "dateTo": "2015-04-16T21:00:00.000Z",
+            "rangeString": "April 15-16, 2015",
             "howToReference": "{{gsheets.dates.conference-date-main.dateFrom}}"
+        },
+        "challenge-applicant-must-be-available-interview": {
+            "id": "challenge-applicant-must-be-available-interview",
+            "rangeString": "XX – XX",
+            "description": "from challenge process: Be available to be contacted by email or telephone at any point in the evaluation process and be available for a Skype or phone interview with a member of the evaluation committee during the time period of XX – XX.",
+            "howToReference": "{{gsheets.dates.challenge-applicant-must-be-available-interview.dateFrom}}"
+        },
+        "challenge-applicant-must-be-available-questions": {
+            "id": "challenge-applicant-must-be-available-questions",
+            "rangeString": "XX – XX",
+            "description": "from challenge process: * Be available and responsive to questions between XX - XX so that an HBS case study can be written about the innovation.",
+            "howToReference": "{{gsheets.dates.challenge-applicant-must-be-available-questions.dateFrom}}"
         }
     },
     "links": {

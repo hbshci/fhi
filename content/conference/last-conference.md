@@ -1,3 +1,3 @@
 ## Attendees
 
-[**TODO: Write copy for here**](https://github.com/hbshci/fhi/issues/42)
+[**[TODO: conference - last conf - attendees - copy #42]**](https://github.com/hbshci/fhi/issues/42)
