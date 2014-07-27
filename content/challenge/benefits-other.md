@@ -1,10 +1,10 @@
 ### Connections
 
-In addition to the press and marketing for the Health Acceleration Challenge and our Conference, the ideas of our finalists will be widely distributed to Harvard Business School and Harvard Medical School alumni (over [150,000] worldwide) driving name recognition allowing you to scale quickly.
+In addition to the press and marketing for the Health Acceleration Challenge and our Conference, the ideas of our finalists will be widely distributed to Harvard Business School and Harvard Medical School alumni (over {{addCommas gsheets.snippets.num-hbs-hms-alumni-access-to.val}} worldwide) driving name recognition allowing you to scale quickly.
 
 ### Financial Award 
 
-Our finalists will split $150,000 depending on their funding needs as determined by our judges. Funding for finalists will be awarded in 2015 and an additional $50,000 will be awarded a year later to the organization that has had the most success scaling up.
+Our finalists will split ${{addCommas gsheets.snippets.challenge-prize-grand-amt.val}} depending on their funding needs as determined by our judges. Funding for finalists will be awarded in 2015 and an additional ${{addCommas gsheets.snippets.challenge-prize-one-year-later.val}} will be awarded a year later to the organization that has had the most success scaling up.
 
 ### Community Feedback
 

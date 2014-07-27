@@ -1,20 +1,7 @@
 
-<div class="btn-group btn-group-justified">
-	{{> button-apply-now}}
-	<a href="#challenge-process-advise" class="btn btn-default disabled ">
-		<strong>Advise</span><br />
-		<small>Sept 30 - Oct 29</small><br />
-	</a>
-	<a href="#challenge-process-refine" class="btn btn-default disabled ">
-		<strong>Refine</span><br />
-		<small>Oct 30 - Nov 9</small><br />
-		<small>Finalist Interviews</small></a>
-	<a href="#challenge-process-announce" class="btn btn-default disabled ">
-		<strong>Announce</span><br />
-		<small>Nov 10</small><br />
-		<small>Finalist Announcements</small></a>
-	<a href="#" class="btn btn-default disabled ">
-		<strong>Conference</span><br />
-		<small>April 15-16, 2015</small><br />
-		<small>Finalist Presentations</small></a>
+<div class="btn-group btn-group-justified hidden-xs">
+  {{> button-apply-now}}
+  {{> 'button-challenge-stage' gsheets.dates.challenge-stages-advise }}
+  {{> 'button-challenge-stage' gsheets.dates.challenge-stages-refine }}
+  {{> 'button-challenge-stage' gsheets.dates.challenge-stages-announce }}
 </div> <!-- end btn-group -->	

@@ -1,12 +1,9 @@
----
-title: Process
----
+{{#unless production}}
+[**[TODO: challenge - process - make timeline into multiple, scalable graphics #65]**](https://github.com/codekiln/fhi/issues/65)
 
-[**TODO: challenge - process - make timeline into multiple, scalable graphics #65**](https://github.com/codekiln/fhi/issues/65)
-{{> challenge-process-stage-buttons}}
 
-[**TODO: challenge - process - apply - intro copy #47**](https://github.com/codekiln/fhi/issues/47)
-
+[**[TODO: challenge - process - apply - intro copy #47]**](https://github.com/codekiln/fhi/issues/47)
+{{/unless}}
 *   {{challenge.application.due.time}} {{challenge.application.due.date}} - Applications Close
 *   Early November, 2014 - Finalists Interviews
 *   Early December, 2014 - Finalists Announced

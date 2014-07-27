@@ -2,28 +2,28 @@
     "dates": {
         "challenge-stages-apply": {
             "id": "challenge-stages-apply",
-            "displayName": "Apply Stage",
+            "displayName": "Apply",
             "dateFrom": "2014-08-10T04:00:00.000Z",
             "dateTo": "2014-09-30T03:59:00.000Z",
             "howToReference": "{{gsheets.dates.challenge-stages-apply.dateFrom}}"
         },
         "challenge-stages-advise": {
             "id": "challenge-stages-advise",
-            "displayName": "Advise Stage",
+            "displayName": "Advise",
             "dateFrom": "2014-09-30T04:00:00.000Z",
             "dateTo": "2014-10-20T03:59:51.360Z",
             "howToReference": "{{gsheets.dates.challenge-stages-advise.dateFrom}}"
         },
         "challenge-stages-refine": {
             "id": "challenge-stages-refine",
-            "displayName": "Refine Stage",
+            "displayName": "Refine",
             "dateFrom": "2014-10-20T04:00:00.000Z",
             "dateTo": "2014-11-10T04:59:51.360Z",
             "howToReference": "{{gsheets.dates.challenge-stages-refine.dateFrom}}"
         },
         "challenge-stages-announce": {
             "id": "challenge-stages-announce",
-            "displayName": "Announce Stage",
+            "displayName": "Announce",
             "dateFrom": "2014-11-10T05:00:00.000Z",
             "howToReference": "{{gsheets.dates.challenge-stages-announce.dateFrom}}"
         },
@@ -42,12 +42,13 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-27T17:59:28.529Z",
+            "dateFrom": "2014-07-27T18:50:45.599Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
         },
         "conference-date-main": {
             "id": "conference-date-main",
+            "displayName": "2015 Forum on Health Care Innovation Conference",
             "dateFrom": "2015-04-15T19:00:00.000Z",
             "dateTo": "2015-04-16T21:00:00.000Z",
             "rangeString": "April 15-16, 2015",
@@ -55,12 +56,14 @@
         },
         "challenge-applicant-must-be-available-interview": {
             "id": "challenge-applicant-must-be-available-interview",
+            "displayName": "Dates Applicant Must Be Available for Interview",
             "rangeString": "XX – XX",
             "description": "from challenge process: Be available to be contacted by email or telephone at any point in the evaluation process and be available for a Skype or phone interview with a member of the evaluation committee during the time period of XX – XX.",
             "howToReference": "{{gsheets.dates.challenge-applicant-must-be-available-interview.dateFrom}}"
         },
         "challenge-applicant-must-be-available-questions": {
             "id": "challenge-applicant-must-be-available-questions",
+            "displayName": "Dates Applicant Must Be Available for Questions",
             "rangeString": "XX – XX",
             "description": "from challenge process: * Be available and responsive to questions between XX - XX so that an HBS case study can be written about the innovation.",
             "howToReference": "{{gsheets.dates.challenge-applicant-must-be-available-questions.dateFrom}}"
@@ -100,6 +103,7 @@
         },
         "challenge-webinar-register-link": {
             "id": "challenge-webinar-register-link",
+            "name": "Register for Webinar",
             "url": "http://www.example.com",
             "howToReference": "{{gsheets.links.challenge-webinar-register-link.url}}"
         },
@@ -156,12 +160,28 @@
         "num-hbs-hms-alumni-access-to": {
             "id": "num-hbs-hms-alumni-access-to",
             "val": 150000,
-            "howToReference": "{{gsheets.snippets.num-hbs-hms-alumni-access-to.val}}"
+            "type": "number",
+            "howToReference": "{{addCommas gsheets.snippets.num-hbs-hms-alumni-access-to.val}}"
         },
         "challenge-prize-grand-amt": {
             "id": "challenge-prize-grand-amt",
             "val": 150000,
-            "howToReference": "{{gsheets.snippets.challenge-prize-grand-amt.val}}"
+            "type": "currency",
+            "howToReference": "${{addCommas gsheets.snippets.challenge-prize-grand-amt.val}}"
+        },
+        "challenge-prize-one-year-later": {
+            "id": "challenge-prize-one-year-later",
+            "val": 50000,
+            "type": "currency",
+            "description": "an additional $50,000 will be awarded a year later to the organization that has had the most success scaling up.",
+            "howToReference": "${{addCommas gsheets.snippets.challenge-prize-one-year-later.val}}"
+        },
+        "conference-num-attendees": {
+            "id": "conference-num-attendees",
+            "val": 150,
+            "type": "number",
+            "description": "Our Challenge finalists will gain access to 150 senior health care leaders at our invitation-only conference in April 2015.",
+            "howToReference": "{{addCommas gsheets.snippets.conference-num-attendees.val}}"
         }
     },
     "updates": {
