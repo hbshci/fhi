@@ -25,24 +25,32 @@
           <li class="dropdown-toggle active">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Section 1</a></li>
-              <li><a href="#">Section 2</a></li>
-              <li><a href="#">Section 3</a></li>
+              {{#each ../gsheets.nav}}
+                {{#is page 'about'}}
+                  {{#is level 2}}
+                    <li><a href="{{navId}}">{{title}}</a></li>
+                  {{/is}}
+                {{/is}}
+              {{/each}}
             </ul>
         </li>
         {{/is}}
         {{#isnt slug 'index'}}
           <li>
-            <a href="{{rel 'index'}}/#">About</a>
+            <a href="{{rel '.'}}/#">About</a>
           </li>
         {{/isnt}}
         {{#is slug 'challenge'}}
           <li class="dropdown-toggle active">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Challenge <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Section 1</a></li>
-              <li><a href="#">Section 2</a></li>
-              <li><a href="#">Section 3</a></li>
+              {{#each ../gsheets.nav}}
+                {{#is page 'challenge'}}
+                  {{#is level 2}}
+                    <li><a href="{{navId}}">{{title}}</a></li>
+                  {{/is}}
+                {{/is}}
+              {{/each}}
             </ul>
         </li>
         {{/is}}
@@ -55,9 +63,13 @@
           <li class="dropdown-toggle active">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conference <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Section 1</a></li>
-              <li><a href="#">Section 2</a></li>
-              <li><a href="#">Section 3</a></li>
+              {{#each ../gsheets.nav}}
+                {{#is page 'conference'}}
+                  {{#is level 2}}
+                    <li><a href="{{navId}}">{{title}}</a></li>
+                  {{/is}}
+                {{/is}}
+              {{/each}}
             </ul>
         </li>
         {{/is}}
