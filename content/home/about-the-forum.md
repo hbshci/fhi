@@ -10,15 +10,15 @@ The Forum has now launched the [Health Acceleration Challenge]({{gsheets.links.c
 <!-- quote from nohria -->
 > I discovered both the enormous gratitude each one of us has as individuals for healthcare and the equally enormous frustration any one of us has as a consumer of the healthcare system. The challenge of this conference is: How can we realize the great magic, and the great benefits, that healthcare can afford?
 >
-> <footer><cite title="{{people.fhi12.Nohria.name}}">{{people.fhi12.Nohria.name}}</cite>  
-> {{people.fhi12.Nohria.titles}}  
+> <footer><cite title="{{gsheets.people.Nohria.nameFinal}}">{{gsheets.people.Nohria.nameFinal}}</cite>  
+> {{gsheets.people.Nohria.titleAndCompany}}  
 > *Reflecting on his personal experiences with healthcare and his ambitions for the Forum* 
 > </footer>  
 
 <!-- quote from flier -->
 > We need approaches to the solutions that aren’t just arithmetic and additive, but are in some sense logarithmic. This will require us to reach across historic boundaries and unlock the potential of collaboration across the usual disciplines.
 >
-> <footer><cite title="{{people.fhi12.Flier.name}}">{{people.fhi12.Flier.name}}</cite>  
-> {{people.fhi12.Flier.titles}}  
+> <footer><cite title="{{gsheets.people.Flier.nameFinal}}">{{gsheets.people.Flier.nameFinal}}</cite>  
+> {{gsheets.people.Flier.titleAndCompany}}  
 > *Introducing the purpose and structure of the Forum* 
 > </footer>
