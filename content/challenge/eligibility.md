@@ -1,8 +1,6 @@
 ---
 date-last-updated: "2014-07-29 from email 11:33 PM 2014-07-28"
 ---
-### Rules
-
 All applicants to the HBS-HMS Health Acceleration Challenge must:
 
 * Submit an application in English by **{{challenge.application.due.time}}** on **{{challenge.application.due.date}}**, and agree to the OpenForum terms of service, which can be reviewed [here]( {{gsheets.links.challenge-platform-tos.url}} ).
@@ -18,13 +16,3 @@ All applicants to the HBS-HMS Health Acceleration Challenge must:
 * Be available and responsive to questions between {{gsheets.dates.challenge-applicant-must-be-available-questions.rangeString}} so that an HBS case study can be written about the innovation.
 
 * Travel to Boston at own expense for {{gsheets.dates.conference-date-main.rangeString}} in order to present at the Forum on Health Care Innovation conference.  Be willing to comply with Harvard University’s use of name and endorsement policies, as established by the Harvard Trademark Office. _Any non-compliance will result in disqualification._
-
-### Criteria
-
-Judging criteria will be based on: 
-
-* **Impact —** We will evaluate applications on their potential to improve the value of the US healthcare delivery system by lowering cost, improving quality, and/or improving access. We are looking for tested innovations that, if more broadly disseminated, would dramatically improve health care value.
-
-* **Evidence —** We ask for credible information from existing sites, pilots or customers that your innovation works. The more evidence you can provide, the stronger your application.
-
-* **Dissemination —** We want to know about your scale-up plan. What other sites, partners or customers do you intend to engage or have you already lined up? What are the barriers to adoption? What’s the timeline? Your innovation does not necessarily have to be in final form, but you need a solid dissemination plan.
