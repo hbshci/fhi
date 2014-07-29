@@ -42,7 +42,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-28T21:08:35.741Z",
+            "dateFrom": "2014-07-29T13:18:27.450Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
         },
@@ -51,20 +51,24 @@
             "displayName": "2015 Forum on Health Care Innovation Conference",
             "dateFrom": "2015-04-15T19:00:00.000Z",
             "dateTo": "2015-04-16T21:00:00.000Z",
-            "rangeString": "April 15-16, 2015",
+            "rangeString": "April 15 – 16, 2015",
             "howToReference": "{{gsheets.dates.conference-date-main.dateFrom}}"
         },
         "challenge-applicant-must-be-available-interview": {
             "id": "challenge-applicant-must-be-available-interview",
             "displayName": "Dates Applicant Must Be Available for Interview",
-            "rangeString": "XX – XX",
-            "description": "from challenge process: Be available to be contacted by email or telephone at any point in the evaluation process and be available for a Skype or phone interview with a member of the evaluation committee during the time period of XX – XX.",
+            "dateFrom": "2014-10-21T04:00:00.000Z",
+            "dateTo": "2014-11-10T05:00:00.000Z",
+            "rangeString": "October 21 – November 10, 2014",
+            "description": "from challenge rules end eligibility: Be available to be contacted by email or telephone at any point in the evaluation process and be available for a Skype or phone interview with a member of the evaluation committee during the time period of ",
             "howToReference": "{{gsheets.dates.challenge-applicant-must-be-available-interview.dateFrom}}"
         },
         "challenge-applicant-must-be-available-questions": {
             "id": "challenge-applicant-must-be-available-questions",
             "displayName": "Dates Applicant Must Be Available for Questions",
-            "rangeString": "XX – XX",
+            "dateFrom": "2014-11-17T05:00:00.000Z",
+            "dateTo": "2015-04-14T04:00:00.000Z",
+            "rangeString": "November 17, 2014 – April 14, 2015",
             "description": "from challenge process: * Be available and responsive to questions between XX - XX so that an HBS case study can be written about the innovation.",
             "howToReference": "{{gsheets.dates.challenge-applicant-must-be-available-questions.dateFrom}}"
         }
@@ -118,6 +122,12 @@
             "name": "5 Imperatives PDF Image",
             "url": "http://projects.iq.harvard.edu/files/styles/os_files_small/public/forum-on-healthcare-innovation/files/5_imperatives_2.png?itok=0vZadz0l",
             "howToReference": "{{gsheets.links.conference-2012-5-imperatives-img.url}}"
+        },
+        "challenge-platform-tos": {
+            "id": "challenge-platform-tos",
+            "name": "OpenIDEO terms of service",
+            "url": "https://openideo.com/terms",
+            "howToReference": "{{gsheets.links.challenge-platform-tos.url}}"
         }
     },
     "formatting": {
@@ -232,6 +242,62 @@
         }
     },
     "nav": {
+        "about-health-acceleration-challenge-launch": {
+            "id": "about-health-acceleration-challenge-launch",
+            "page": "about",
+            "navId": "#health-acceleration-challenge-launch",
+            "title": "Health Acceleration Challenge Launch",
+            "level": 2,
+            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch.navId}}"
+        },
+        "about-health-acceleration-challenge-launch-about-the-forum": {
+            "id": "about-health-acceleration-challenge-launch-about-the-forum",
+            "page": "about",
+            "navId": "#health-acceleration-challenge-launch-about-the-forum",
+            "title": "About the Forum",
+            "level": 2,
+            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-about-the-forum.navId}}"
+        },
+        "about-health-acceleration-challenge-launch-downloads-and-press-kit": {
+            "id": "about-health-acceleration-challenge-launch-downloads-and-press-kit",
+            "page": "about",
+            "navId": "#health-acceleration-challenge-launch-downloads-and-press-kit",
+            "title": "Downloads and Press Kit",
+            "level": 2,
+            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-downloads-and-press-kit.navId}}"
+        },
+        "about-health-acceleration-challenge-launch-news-and-press": {
+            "id": "about-health-acceleration-challenge-launch-news-and-press",
+            "page": "about",
+            "navId": "#health-acceleration-challenge-launch-news-and-press",
+            "title": "News and Press",
+            "level": 2,
+            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-news-and-press.navId}}"
+        },
+        "about-health-acceleration-challenge-launch-steering-committee": {
+            "id": "about-health-acceleration-challenge-launch-steering-committee",
+            "page": "about",
+            "navId": "#health-acceleration-challenge-launch-steering-committee",
+            "title": "Steering Committee",
+            "level": 2,
+            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-steering-committee.navId}}"
+        },
+        "challenge-challenge-benefits": {
+            "id": "challenge-challenge-benefits",
+            "page": "challenge",
+            "navId": "#challenge-benefits",
+            "title": "Benefits",
+            "level": 2,
+            "howToReference": "{{gsheets.nav.challenge-challenge-benefits.navId}}"
+        },
+        "challenge-challenge-benefits-community-feedback": {
+            "id": "challenge-challenge-benefits-community-feedback",
+            "page": "challenge",
+            "navId": "#challenge-benefits-community-feedback",
+            "title": "Community Feedback",
+            "level": 3,
+            "howToReference": "{{gsheets.nav.challenge-challenge-benefits-community-feedback.navId}}"
+        },
         "challenge-challenge-benefits-conference-presentation": {
             "id": "challenge-challenge-benefits-conference-presentation",
             "page": "challenge",
@@ -239,14 +305,6 @@
             "title": "Conference Presentation",
             "level": 3,
             "howToReference": "{{gsheets.nav.challenge-challenge-benefits-conference-presentation.navId}}"
-        },
-        "challenge-challenge-benefits-hbs-case-study": {
-            "id": "challenge-challenge-benefits-hbs-case-study",
-            "page": "challenge",
-            "navId": "#challenge-benefits-hbs-case-study",
-            "title": "HBS Case Study",
-            "level": 3,
-            "howToReference": "{{gsheets.nav.challenge-challenge-benefits-hbs-case-study.navId}}"
         },
         "challenge-challenge-benefits-connections": {
             "id": "challenge-challenge-benefits-connections",
@@ -264,13 +322,61 @@
             "level": 3,
             "howToReference": "{{gsheets.nav.challenge-challenge-benefits-financial-award.navId}}"
         },
-        "challenge-challenge-benefits-community-feedback": {
-            "id": "challenge-challenge-benefits-community-feedback",
+        "challenge-challenge-benefits-hbs-case-study": {
+            "id": "challenge-challenge-benefits-hbs-case-study",
             "page": "challenge",
-            "navId": "#challenge-benefits-community-feedback",
-            "title": "Community Feedback",
+            "navId": "#challenge-benefits-hbs-case-study",
+            "title": "HBS Case Study",
             "level": 3,
-            "howToReference": "{{gsheets.nav.challenge-challenge-benefits-community-feedback.navId}}"
+            "howToReference": "{{gsheets.nav.challenge-challenge-benefits-hbs-case-study.navId}}"
+        },
+        "challenge-challenge-eligibility": {
+            "id": "challenge-challenge-eligibility",
+            "page": "challenge",
+            "navId": "#challenge-eligibility",
+            "title": "Eligibility",
+            "level": 2,
+            "howToReference": "{{gsheets.nav.challenge-challenge-eligibility.navId}}"
+        },
+        "challenge-challenge-eligibility-criteria": {
+            "id": "challenge-challenge-eligibility-criteria",
+            "page": "challenge",
+            "navId": "#challenge-eligibility-criteria",
+            "title": "Criteria",
+            "level": 3,
+            "howToReference": "{{gsheets.nav.challenge-challenge-eligibility-criteria.navId}}"
+        },
+        "challenge-challenge-eligibility-rules": {
+            "id": "challenge-challenge-eligibility-rules",
+            "page": "challenge",
+            "navId": "#challenge-eligibility-rules",
+            "title": "Rules",
+            "level": 3,
+            "howToReference": "{{gsheets.nav.challenge-challenge-eligibility-rules.navId}}"
+        },
+        "challenge-challenge-faqs": {
+            "id": "challenge-challenge-faqs",
+            "page": "challenge",
+            "navId": "#challenge-faqs",
+            "title": "FAQs",
+            "level": 2,
+            "howToReference": "{{gsheets.nav.challenge-challenge-faqs.navId}}"
+        },
+        "challenge-challenge-overview": {
+            "id": "challenge-challenge-overview",
+            "page": "challenge",
+            "navId": "#challenge-overview",
+            "title": "Overview",
+            "level": 2,
+            "howToReference": "{{gsheets.nav.challenge-challenge-overview.navId}}"
+        },
+        "challenge-challenge-process": {
+            "id": "challenge-challenge-process",
+            "page": "challenge",
+            "navId": "#challenge-process",
+            "title": "Process",
+            "level": 2,
+            "howToReference": "{{gsheets.nav.challenge-challenge-process.navId}}"
         },
         "challenge-challenge-process-advise": {
             "id": "challenge-challenge-process-advise",
@@ -280,14 +386,6 @@
             "level": 3,
             "howToReference": "{{gsheets.nav.challenge-challenge-process-advise.navId}}"
         },
-        "challenge-challenge-process-refine": {
-            "id": "challenge-challenge-process-refine",
-            "page": "challenge",
-            "navId": "#challenge-process-refine",
-            "title": "Refine",
-            "level": 3,
-            "howToReference": "{{gsheets.nav.challenge-challenge-process-refine.navId}}"
-        },
         "challenge-challenge-process-announce": {
             "id": "challenge-challenge-process-announce",
             "page": "challenge",
@@ -296,61 +394,13 @@
             "level": 3,
             "howToReference": "{{gsheets.nav.challenge-challenge-process-announce.navId}}"
         },
-        "challenge-challenge-process-rules": {
-            "id": "challenge-challenge-process-rules",
+        "challenge-challenge-process-refine": {
+            "id": "challenge-challenge-process-refine",
             "page": "challenge",
-            "navId": "#challenge-process-rules",
-            "title": "Rules",
+            "navId": "#challenge-process-refine",
+            "title": "Refine",
             "level": 3,
-            "howToReference": "{{gsheets.nav.challenge-challenge-process-rules.navId}}"
-        },
-        "about-health-acceleration-challenge-launch": {
-            "id": "about-health-acceleration-challenge-launch",
-            "page": "about",
-            "navId": "#health-acceleration-challenge-launch",
-            "title": "Health Acceleration Challenge Launch",
-            "level": 2,
-            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch.navId}}"
-        },
-        "about-health-acceleration-challenge-launch-news-and-press": {
-            "id": "about-health-acceleration-challenge-launch-news-and-press",
-            "page": "about",
-            "navId": "#health-acceleration-challenge-launch-news-and-press",
-            "title": "News and Press",
-            "level": 2,
-            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-news-and-press.navId}}"
-        },
-        "about-health-acceleration-challenge-launch-downloads-and-press-kit": {
-            "id": "about-health-acceleration-challenge-launch-downloads-and-press-kit",
-            "page": "about",
-            "navId": "#health-acceleration-challenge-launch-downloads-and-press-kit",
-            "title": "Downloads and Press Kit",
-            "level": 2,
-            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-downloads-and-press-kit.navId}}"
-        },
-        "about-health-acceleration-challenge-launch-about-the-forum": {
-            "id": "about-health-acceleration-challenge-launch-about-the-forum",
-            "page": "about",
-            "navId": "#health-acceleration-challenge-launch-about-the-forum",
-            "title": "About the Forum",
-            "level": 2,
-            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-about-the-forum.navId}}"
-        },
-        "about-health-acceleration-challenge-launch-steering-committee": {
-            "id": "about-health-acceleration-challenge-launch-steering-committee",
-            "page": "about",
-            "navId": "#health-acceleration-challenge-launch-steering-committee",
-            "title": "Steering Committee",
-            "level": 2,
-            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-steering-committee.navId}}"
-        },
-        "conference-upcoming-conference": {
-            "id": "conference-upcoming-conference",
-            "page": "conference",
-            "navId": "#upcoming-conference",
-            "title": "Upcoming Conference",
-            "level": 2,
-            "howToReference": "{{gsheets.nav.conference-upcoming-conference.navId}}"
+            "howToReference": "{{gsheets.nav.challenge-challenge-process-refine.navId}}"
         },
         "conference-last-conference": {
             "id": "conference-last-conference",
@@ -359,30 +409,6 @@
             "title": "Last Conference",
             "level": 2,
             "howToReference": "{{gsheets.nav.conference-last-conference.navId}}"
-        },
-        "conference-thought-leadership": {
-            "id": "conference-thought-leadership",
-            "page": "conference",
-            "navId": "#thought-leadership",
-            "title": "Thought Leadership",
-            "level": 2,
-            "howToReference": "{{gsheets.nav.conference-thought-leadership.navId}}"
-        },
-        "conference-upcoming-conference-conference-april-2015-in-boston": {
-            "id": "conference-upcoming-conference-conference-april-2015-in-boston",
-            "page": "conference",
-            "navId": "#upcoming-conference-conference-april-2015-in-boston",
-            "title": "Conference April 2015 in Boston",
-            "level": 3,
-            "howToReference": "{{gsheets.nav.conference-upcoming-conference-conference-april-2015-in-boston.navId}}"
-        },
-        "conference-upcoming-conference-win-conference-tickets": {
-            "id": "conference-upcoming-conference-win-conference-tickets",
-            "page": "conference",
-            "navId": "#upcoming-conference-win-conference-tickets",
-            "title": "Win Conference Tickets",
-            "level": 3,
-            "howToReference": "{{gsheets.nav.conference-upcoming-conference-win-conference-tickets.navId}}"
         },
         "conference-last-conference-attendees": {
             "id": "conference-last-conference-attendees",
@@ -408,6 +434,14 @@
             "level": 3,
             "howToReference": "{{gsheets.nav.conference-last-conference-last-conference-video-sessions.navId}}"
         },
+        "conference-thought-leadership": {
+            "id": "conference-thought-leadership",
+            "page": "conference",
+            "navId": "#thought-leadership",
+            "title": "Thought Leadership",
+            "level": 2,
+            "howToReference": "{{gsheets.nav.conference-thought-leadership.navId}}"
+        },
         "conference-thought-leadership-five-imperatives": {
             "id": "conference-thought-leadership-five-imperatives",
             "page": "conference",
@@ -416,37 +450,29 @@
             "level": 3,
             "howToReference": "{{gsheets.nav.conference-thought-leadership-five-imperatives.navId}}"
         },
-        "challenge-challenge-overview": {
-            "id": "challenge-challenge-overview",
-            "page": "challenge",
-            "navId": "#challenge-overview",
-            "title": "Overview",
+        "conference-upcoming-conference": {
+            "id": "conference-upcoming-conference",
+            "page": "conference",
+            "navId": "#upcoming-conference",
+            "title": "Upcoming Conference",
             "level": 2,
-            "howToReference": "{{gsheets.nav.challenge-challenge-overview.navId}}"
+            "howToReference": "{{gsheets.nav.conference-upcoming-conference.navId}}"
         },
-        "challenge-challenge-benefits": {
-            "id": "challenge-challenge-benefits",
-            "page": "challenge",
-            "navId": "#challenge-benefits",
-            "title": "Benefits",
-            "level": 2,
-            "howToReference": "{{gsheets.nav.challenge-challenge-benefits.navId}}"
+        "conference-upcoming-conference-conference-april-2015-in-boston": {
+            "id": "conference-upcoming-conference-conference-april-2015-in-boston",
+            "page": "conference",
+            "navId": "#upcoming-conference-conference-april-2015-in-boston",
+            "title": "Conference April 2015 in Boston",
+            "level": 3,
+            "howToReference": "{{gsheets.nav.conference-upcoming-conference-conference-april-2015-in-boston.navId}}"
         },
-        "challenge-challenge-process": {
-            "id": "challenge-challenge-process",
-            "page": "challenge",
-            "navId": "#challenge-process",
-            "title": "Process",
-            "level": 2,
-            "howToReference": "{{gsheets.nav.challenge-challenge-process.navId}}"
-        },
-        "challenge-challenge-faqs": {
-            "id": "challenge-challenge-faqs",
-            "page": "challenge",
-            "navId": "#challenge-faqs",
-            "title": "FAQs",
-            "level": 2,
-            "howToReference": "{{gsheets.nav.challenge-challenge-faqs.navId}}"
+        "conference-upcoming-conference-win-conference-tickets": {
+            "id": "conference-upcoming-conference-win-conference-tickets",
+            "page": "conference",
+            "navId": "#upcoming-conference-win-conference-tickets",
+            "title": "Win Conference Tickets",
+            "level": 3,
+            "howToReference": "{{gsheets.nav.conference-upcoming-conference-win-conference-tickets.navId}}"
         }
     }
 }
