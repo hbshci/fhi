@@ -2,6 +2,8 @@
 title: Health Acceleration Challenge Overview
 ---
 
+#### Introduction
+
 > We’re looking for proven ideas that have the potential to do great things for the US health care delivery system.  It is widely known that health care innovations are much slower to disseminate than comparable solutions in other industries.  We want to help speed up the process.  What’s your innovation?
 
 > We are seeking health care innovations that have demonstrated value and the potential to scale rapidly to create broader impact. We are specifically interested in innovations that improve the value of the US health care delivery system by lowering cost, improving quality or improving access.
@@ -13,7 +15,7 @@ title: Health Acceleration Challenge Overview
 <!-- /apply now button -->
 
 <div class="clearfix"></div>
-#### Challenge Webinar
+#### Webinar
 
 We will hold an informational webinar on 
 {{formatDate 
@@ -22,3 +24,6 @@ We will hold an informational webinar on
 }}. Please register for the webinar here: 
 
 {{> buttons-webinar}}
+
+#### Downloads
+

@@ -45,7 +45,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-29T15:59:05.761Z",
+            "dateFrom": "2014-07-29T17:11:07.612Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
         },
@@ -316,6 +316,7 @@
     "downloads": {
         "hac-flier": {
             "id": "hac-flier",
+            "pages": "index, challenge",
             "title": "Health Care Acceleration Challenge Flier",
             "pdfFilename": "hca-challenge-2pg.pdf",
             "description": "Details about the Health Care Acceleration Challenge.",
@@ -324,6 +325,7 @@
         },
         "hac-press-release": {
             "id": "hac-press-release",
+            "pages": "index, challenge",
             "title": "Press Release",
             "foreignUrl": "http://www.hbs.edu/news/releases/Pages/healthcareforum12-20-12.aspx",
             "description": "[SAMPLE CONTENT ONLY]",
@@ -332,6 +334,7 @@
         },
         "five-imperatives": {
             "id": "five-imperatives",
+            "pages": "index",
             "title": "5 Imperatives",
             "foreignUrl": "http://www.hbs.edu/healthcare/pdf/Forum-on-Healthcare-Innovation-5-Imperatives.pdf",
             "description": "Key takeaways from the Forum's first conference on health care innovation.",
