@@ -7,11 +7,13 @@
 
     {{> button-apply-now}}<br>
 
-    <p class="sidenav-link">
- 		<a  href="{{rel "challenge"}}">Learn More</a>
- 	</p>
- 	{{> button-share-twitter}}
- 	{{> button-share-linkedin}}
+    {{#is slug "index"}}
+	    <p class="sidenav-link">
+	 		<a  href="{{rel "challenge"}}">Learn More</a>
+	 	</p>
+	 	{{> button-share-twitter}}
+	 	{{> button-share-linkedin}}
+ 	{{/is}}
   </div>
 
 </div>
