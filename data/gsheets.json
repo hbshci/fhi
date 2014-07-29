@@ -5,26 +5,29 @@
             "displayName": "Apply",
             "dateFrom": "2014-08-10T04:00:00.000Z",
             "dateTo": "2014-09-30T03:59:00.000Z",
+            "rangeString": "August 11 – September 29, 2014",
             "howToReference": "{{gsheets.dates.challenge-stages-apply.dateFrom}}"
         },
         "challenge-stages-advise": {
             "id": "challenge-stages-advise",
             "displayName": "Advise",
             "dateFrom": "2014-09-30T04:00:00.000Z",
-            "dateTo": "2014-10-20T03:59:51.360Z",
+            "dateTo": "2014-10-21T03:59:51.360Z",
+            "rangeString": "September 30 – October 20, 2014",
             "howToReference": "{{gsheets.dates.challenge-stages-advise.dateFrom}}"
         },
         "challenge-stages-refine": {
             "id": "challenge-stages-refine",
             "displayName": "Refine",
-            "dateFrom": "2014-10-20T04:00:00.000Z",
-            "dateTo": "2014-11-10T04:59:51.360Z",
+            "dateFrom": "2014-10-21T04:00:00.000Z",
+            "dateTo": "2014-11-10T05:00:00.000Z",
+            "rangeString": "October 21 – November 10, 2014",
             "howToReference": "{{gsheets.dates.challenge-stages-refine.dateFrom}}"
         },
         "challenge-stages-announce": {
             "id": "challenge-stages-announce",
             "displayName": "Announce",
-            "dateFrom": "2014-11-10T05:00:00.000Z",
+            "dateFrom": "2014-11-17T05:00:00.000Z",
             "howToReference": "{{gsheets.dates.challenge-stages-announce.dateFrom}}"
         },
         "challenge-application-due": {
@@ -42,7 +45,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-29T13:18:27.450Z",
+            "dateFrom": "2014-07-29T14:17:58.410Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
         },
@@ -158,6 +161,13 @@
             "description": "For use in prose, for example, in FAQs",
             "example": "April 2015",
             "howToReference": "{{gsheets.formatting.date-month-withYear.fmt}}"
+        },
+        "date-month-withDay": {
+            "id": "date-month-withDay",
+            "fmt": "%B %e",
+            "description": "For use in prose, for example, in rules",
+            "example": "November 17",
+            "howToReference": "{{gsheets.formatting.date-month-withDay.fmt}}"
         }
     },
     "snippets": {
