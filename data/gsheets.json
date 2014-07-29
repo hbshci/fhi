@@ -45,7 +45,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-29T14:26:01.737Z",
+            "dateFrom": "2014-07-29T15:59:05.761Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
         },
@@ -77,12 +77,6 @@
         }
     },
     "links": {
-        "challenge-main": {
-            "id": "challenge-main",
-            "name": "OpenIDEO production link",
-            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/brief.html",
-            "howToReference": "{{gsheets.links.challenge-main.url}}"
-        },
         "challenge-application": {
             "id": "challenge-application",
             "name": "Health Care Acceleration Challenge Application",
@@ -90,23 +84,23 @@
             "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/innovations/",
             "howToReference": "{{gsheets.links.challenge-application.url}}"
         },
-        "conference-2012-main": {
-            "id": "conference-2012-main",
-            "name": "2012 Forum on Health Care Innovation Conference site",
-            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/",
-            "howToReference": "{{gsheets.links.conference-2012-main.url}}"
+        "challenge-landing-page": {
+            "id": "challenge-landing-page",
+            "name": "Health Care Acceleration Challenge Landing Page",
+            "url": "http://healthaccelerationchallenge.com",
+            "howToReference": "{{gsheets.links.challenge-landing-page.url}}"
         },
-        "hbs-main": {
-            "id": "hbs-main",
-            "name": "Harvard Business School",
-            "url": "http://www.hbs.edu/healthcare",
-            "howToReference": "{{gsheets.links.hbs-main.url}}"
+        "challenge-main": {
+            "id": "challenge-main",
+            "name": "OpenIDEO production link",
+            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/brief.html",
+            "howToReference": "{{gsheets.links.challenge-main.url}}"
         },
-        "hms-main": {
-            "id": "hms-main",
-            "name": "Harvard Medical School",
-            "url": "http://hms.harvard.edu/",
-            "howToReference": "{{gsheets.links.hms-main.url}}"
+        "challenge-platform-tos": {
+            "id": "challenge-platform-tos",
+            "name": "OpenIDEO terms of service",
+            "url": "https://openideo.com/terms",
+            "howToReference": "{{gsheets.links.challenge-platform-tos.url}}"
         },
         "challenge-webinar-register-link": {
             "id": "challenge-webinar-register-link",
@@ -126,11 +120,51 @@
             "url": "http://projects.iq.harvard.edu/files/styles/os_files_small/public/forum-on-healthcare-innovation/files/5_imperatives_2.png?itok=0vZadz0l",
             "howToReference": "{{gsheets.links.conference-2012-5-imperatives-img.url}}"
         },
-        "challenge-platform-tos": {
-            "id": "challenge-platform-tos",
-            "name": "OpenIDEO terms of service",
-            "url": "https://openideo.com/terms",
-            "howToReference": "{{gsheets.links.challenge-platform-tos.url}}"
+        "conference-2012-main": {
+            "id": "conference-2012-main",
+            "name": "2012 Forum on Health Care Innovation Conference site",
+            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/",
+            "howToReference": "{{gsheets.links.conference-2012-main.url}}"
+        },
+        "conference-main": {
+            "id": "conference-main",
+            "name": "Forum on Health Care Innovation - Main",
+            "url": "http://forumonhealthcareinnovation.org",
+            "howToReference": "{{gsheets.links.conference-main.url}}"
+        },
+        "hbs-main": {
+            "id": "hbs-main",
+            "name": "Harvard Business School",
+            "url": "http://www.hbs.edu/healthcare",
+            "howToReference": "{{gsheets.links.hbs-main.url}}"
+        },
+        "hms-main": {
+            "id": "hms-main",
+            "name": "Harvard Medical School",
+            "url": "http://hms.harvard.edu/",
+            "howToReference": "{{gsheets.links.hms-main.url}}"
+        },
+        "social-twitter-fhi": {
+            "id": "social-twitter-fhi",
+            "name": "Twitter Account",
+            "howToReference": "{{gsheets.links.social-twitter-fhi.url}}"
+        },
+        "social-linkedin-fhi": {
+            "id": "social-linkedin-fhi",
+            "name": "LinkedIn Account",
+            "howToReference": "{{gsheets.links.social-linkedin-fhi.url}}"
+        },
+        "social-twitter-share": {
+            "id": "social-twitter-share",
+            "name": "Share Health Care Acceleration Challenge on Twitter",
+            "description": "https://about.twitter.com/resources/buttons",
+            "url": "https://about.twitter.com/resources/buttons"
+        },
+        "social-linkedin-share": {
+            "id": "social-linkedin-share",
+            "name": "Share Health Care Acceleration Challenge on LinkedIn",
+            "description": "https://developer.linkedin.com/plugins/share-plugin-generator",
+            "url": "https://developer.linkedin.com/plugins/share-plugin-generator"
         }
     },
     "formatting": {
@@ -171,18 +205,6 @@
         }
     },
     "snippets": {
-        "email-press-forum": {
-            "id": "email-press-forum",
-            "val": "press@forumonhealthcareinnovation.org",
-            "description": "email for press inquiries",
-            "howToReference": "{{gsheets.snippets.email-press-forum.val}}"
-        },
-        "num-hbs-hms-alumni-access-to": {
-            "id": "num-hbs-hms-alumni-access-to",
-            "val": 150000,
-            "type": "number",
-            "howToReference": "{{addCommas gsheets.snippets.num-hbs-hms-alumni-access-to.val}}"
-        },
         "challenge-prize-grand-amt": {
             "id": "challenge-prize-grand-amt",
             "val": 150000,
@@ -209,6 +231,65 @@
             "type": "number",
             "description": "Our previous conference was attended by over XXX senior health care leaders from virtually every sector of health care, who came together to talk about barriers and opportunities for health care innovation.",
             "howToReference": "{{addCommas gsheets.snippets.conference-num-attendees-prev.val}}"
+        },
+        "email-press-forum": {
+            "id": "email-press-forum",
+            "val": "press@forumonhealthcareinnovation.org",
+            "description": "email for press inquiries",
+            "howToReference": "{{gsheets.snippets.email-press-forum.val}}"
+        },
+        "num-hbs-hms-alumni-access-to": {
+            "id": "num-hbs-hms-alumni-access-to",
+            "val": 150000,
+            "type": "number",
+            "howToReference": "{{addCommas gsheets.snippets.num-hbs-hms-alumni-access-to.val}}"
+        },
+        "social-linkedin-share-mini": {
+            "id": "social-linkedin-share-mini",
+            "description": "length: 4 chars. Must always be true",
+            "howToReference": "{{gsheets.snippets.social-linkedin-share-mini.val}}"
+        },
+        "social-linkedin-share-source": {
+            "id": "social-linkedin-share-source",
+            "description": "length: 200 chars. The source of the article. Must be URL encoded. Example: Wired Magazine",
+            "howToReference": "{{gsheets.snippets.social-linkedin-share-source.val}}"
+        },
+        "social-linkedin-share-summary": {
+            "id": "social-linkedin-share-summary",
+            "description": "length: 256 chars. A brief summary of the article. Must be URL encoded. Longer titles will be truncated gracefully with ellipses.",
+            "howToReference": "{{gsheets.snippets.social-linkedin-share-summary.val}}"
+        },
+        "social-linkedin-share-title": {
+            "id": "social-linkedin-share-title",
+            "description": "length: 200 chars. The title of the article. Must be URL encoded",
+            "howToReference": "{{gsheets.snippets.social-linkedin-share-title.val}}"
+        },
+        "social-share-url": {
+            "id": "social-share-url",
+            "val": "http://forumonhealthcareinnovation.org",
+            "description": "length: 1024 chars. The permanent link to the article. Must be URL encoded",
+            "howToReference": "{{gsheets.snippets.social-share-url.val}}"
+        },
+        "social-twitter-fhi-username": {
+            "id": "social-twitter-fhi-username",
+            "val": "forumHealthInno",
+            "type": "string",
+            "description": "For use with Twitter buttons",
+            "howToReference": "{{gsheets.snippets.social-twitter-fhi-username.val}}"
+        },
+        "social-twitter-share-hashtags": {
+            "id": "social-twitter-share-hashtags",
+            "val": "healthcareinnovation",
+            "type": "string",
+            "description": "https://dev.twitter.com/docs/intents",
+            "howToReference": "{{gsheets.snippets.social-twitter-share-hashtags.val}}"
+        },
+        "social-twitter-share-tweet": {
+            "id": "social-twitter-share-tweet",
+            "val": "This is a the current Twitter promo tweet for Health Care Acceleration Challenge. It will occur alongside the apply now button.",
+            "type": "string",
+            "description": "This is a the current Twitter promo tweet for Health Care Acceleration Challenge. It will occur alongside the apply now button.",
+            "howToReference": "{{gsheets.snippets.social-twitter-share-tweet.val}}"
         }
     },
     "updates": {

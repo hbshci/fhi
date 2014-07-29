@@ -21,6 +21,7 @@
 --}}
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
+        
         {{#is slug 'index'}}
           <li class="dropdown-toggle active">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
@@ -78,7 +79,12 @@
             <a href="{{rel 'conference'}}/#">Conference</a>
           </li>
         {{/isnt}}
-        
+        <li>
+          {{> link-share-twitter}}
+        </li>
+        <li>
+          <a class="btn btn-social-icon btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+        </li>
       </ul>
       
       
