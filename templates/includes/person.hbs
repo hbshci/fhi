@@ -14,9 +14,19 @@
         </div>
       </div>
 ---}}
+{{!--
 <div class="list-group-item">
       <a target="_blank" class="team-member" href="{{{  urls.bio }}}">
         <img src="{{{ urls.pic_small }}}" alt="@{{{ name }}}">
         <strong>{{{ name }}}</strong><br> {{{ titles }}} 
+      </a>
+</div>
+--}}
+
+
+<div class="list-group-item">
+      <a target="_blank" class="team-member" href="{{  bioUrl }}">
+        <img src="{{ photoUrl }}" alt="{{ nameFinal }}">
+        <strong>{{ nameFinal }}</strong><br> {{ title }} 
       </a>
 </div>
