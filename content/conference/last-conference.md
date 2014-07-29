@@ -1,3 +1,3 @@
 ## Attendees
 
-[**[TODO: conference - last conf - attendees - copy #42]**](https://github.com/hbshci/fhi/issues/42)
+Our previous conference was attended by over {{addCommas gsheets.snippets.conference-num-attendees-prev.val}} senior health care leaders from virtually every sector of health care, who came together to talk about barriers and opportunities for health care innovation.

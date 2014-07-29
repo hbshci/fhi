@@ -45,7 +45,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-29T14:17:58.410Z",
+            "dateFrom": "2014-07-29T14:26:01.737Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
         },
@@ -202,6 +202,13 @@
             "type": "number",
             "description": "Our Challenge finalists will gain access to 150 senior health care leaders at our invitation-only conference in April 2015.",
             "howToReference": "{{addCommas gsheets.snippets.conference-num-attendees.val}}"
+        },
+        "conference-num-attendees-prev": {
+            "id": "conference-num-attendees-prev",
+            "val": 150,
+            "type": "number",
+            "description": "Our previous conference was attended by over XXX senior health care leaders from virtually every sector of health care, who came together to talk about barriers and opportunities for health care innovation.",
+            "howToReference": "{{addCommas gsheets.snippets.conference-num-attendees-prev.val}}"
         }
     },
     "updates": {
