@@ -11,4 +11,4 @@ If you are short-listed, you will be asked to provide additional information to 
 
 ### Announce
 **{{> date-range gsheets.dates.challenge-stages-announce }}**:
-Finalists will be announced on {{formatDate gsheets.dates.challenge-stages-announce.dateFrom gsheets.formatting.date-month-withDay.fmt}}.
+Finalists will be announced on {{formatDate gsheets.dates.challenge-stages-announce.dateFrom gsheets.formatting.date-month-withDay.fmt}} and will be invited to present at the Forum on Health Care Innovation conference.  Finalists will also have a case study written about their organization.
