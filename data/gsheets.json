@@ -45,7 +45,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-29T21:52:42.569Z",
+            "dateFrom": "2014-07-30T18:08:55.100Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
         },
@@ -85,9 +85,12 @@
             "nameLastAndMd": "Bertolini",
             "nameFinal": "Mark Bertolini",
             "nameFirstLastShort": "Mark Bertolini",
+            "bioLocationName": "Aetna Inc. profile, Mark Bertolini",
+            "bioUrl": "http://www.aetna.com/about-us/aetna-leadership.html",
             "title": "Chairman, Chief Executive Officer and President",
             "company": "Aetna Inc.",
-            "titleAndCompany": "Chairman, Chief Executive Officer and President, Aetna Inc."
+            "titleAndCompany": "Chairman, Chief Executive Officer and President, Aetna Inc.",
+            "howToReference": "gsheets.people.Bertolini"
         },
         "Berwick": {
             "id": "Berwick",
@@ -107,7 +110,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/donald-m-berwick-md",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/donald_berwick.jpg",
             "photoFilename": "donald_berwick.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Berwick"
         },
         "Bingham": {
             "id": "Bingham",
@@ -126,7 +130,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/alpheus-bingham",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/alpheus_bingham.jpg",
             "photoFilename": "alpheus_bingham.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Bingham"
         },
         "Brown": {
             "id": "Brown",
@@ -145,7 +150,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/tim-brown",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/tim_brown.png",
             "photoFilename": "tim_brown.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Brown"
         },
         "Chin": {
             "id": "Chin",
@@ -166,7 +172,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/william-w-chin-md",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/william_chin.png",
             "photoFilename": "william_chin.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Chin"
         },
         "Christensen": {
             "id": "Christensen",
@@ -186,7 +193,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/clayton-m-christensen",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/clayton_christensen.jpg",
             "photoFilename": "clayton_christensen.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Christensen"
         },
         "Cosgrove": {
             "id": "Cosgrove",
@@ -208,7 +216,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/delos-m-cosgrove-md",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/delos_cosgrove.jpg?itok=lPJ7sXhn",
             "photoFilename": "delos_cosgrove.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Cosgrove"
         },
         "Flier": {
             "id": "Flier",
@@ -229,7 +238,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/jeffrey-s-flier-md",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/jeffrey_flier.jpg",
             "photoFilename": "jeffrey_flier.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Flier"
         },
         "Garber": {
             "id": "Garber",
@@ -249,7 +259,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/alan-m-garber-md",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/alan_garber.jpg",
             "photoFilename": "alan_garber.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Garber"
         },
         "Gilpin_Faust": {
             "id": "Gilpin_Faust",
@@ -268,7 +279,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/drew-gilpin-faust",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/drew_faust.jpg",
             "photoFilename": "drew_gilpin_faust.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Gilpin_Faust"
         },
         "Giusti": {
             "id": "Giusti",
@@ -288,7 +300,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/kathryn-giusti",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/kathy_giusti.jpg",
             "photoFilename": "kathryn_giusti.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Giusti"
         },
         "Gottlieb": {
             "id": "Gottlieb",
@@ -309,7 +322,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/gary-l-gottlieb-md",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/gary_gottlieb.jpg",
             "photoFilename": "gary_gottlieb.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Gottlieb"
         },
         "Hamermesh": {
             "id": "Hamermesh",
@@ -329,7 +343,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/richard-g-hamermesh",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/richard_hamermesh.jpg",
             "photoFilename": "richard_hamermesh.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Hamermesh"
         },
         "Herzlinger": {
             "id": "Herzlinger",
@@ -349,7 +364,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/regina-e-herzlinger",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/regina_herzlinger.jpg",
             "photoFilename": "regina_herzlinger.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Herzlinger"
         },
         "Huckman": {
             "id": "Huckman",
@@ -369,7 +385,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/robert-s-huckman",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/robert_huckman.jpg",
             "photoFilename": "robert_huckman.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Huckman"
         },
         "Lander": {
             "id": "Lander",
@@ -388,7 +405,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/eric-s-lander",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/eric_lander.jpg",
             "photoFilename": "eric_lander.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Lander"
         },
         "McGuire": {
             "id": "McGuire",
@@ -409,7 +427,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/terrance-g-mcguire",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/terry_mcguire.jpg",
             "photoFilename": "terrance_mcguire.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.McGuire"
         },
         "McNeil": {
             "id": "McNeil",
@@ -430,7 +449,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/barbara-j-mcneil-md",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/barbara_mcneil.jpg",
             "photoFilename": "barbara_mcneil.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.McNeil"
         },
         "Mussallem": {
             "id": "Mussallem",
@@ -450,7 +470,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/michael-mussallem",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/michael_mussallem.jpg",
             "photoFilename": "michael_mussallem.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Mussallem"
         },
         "Newhouse": {
             "id": "Newhouse",
@@ -469,7 +490,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/joseph-p-newhouse",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/joseph_newhouse.jpg",
             "photoFilename": "joeseph_newhouse.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Newhouse"
         },
         "Nohria": {
             "id": "Nohria",
@@ -488,7 +510,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/nitin-nohria",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/nitin_nohria.jpg",
             "photoFilename": "nitin_nohria.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Nohria"
         },
         "Porter": {
             "id": "Porter",
@@ -508,7 +531,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/michael-e-porter",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/michael_porter.jpg",
             "photoFilename": "michael_porter.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Porter"
         },
         "Reisman": {
             "id": "Reisman",
@@ -528,7 +552,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/lonny-reisman-md",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/lonny_reisman.jpg",
             "photoFilename": "lonny_reisman.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Reisman"
         },
         "Schlichting": {
             "id": "Schlichting",
@@ -548,7 +573,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/nancy-m-schlichting",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/nancy_schlichting.jpg",
             "photoFilename": "nancy_schlichting.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Schlichting"
         },
         "Sperling": {
             "id": "Sperling",
@@ -568,20 +594,25 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/kenneth-l-sperling",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/ken_sperling.png",
             "photoFilename": "kenneth_sperling.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Sperling"
         },
         "Summers": {
             "id": "Summers",
             "role": "Keynote",
             "nameFirst": "Lawrence",
-            "namePref": "Larry",
+            "namePref": "Lawrence",
+            "otherName": "Larry",
             "nameLast": "Summers",
             "nameLastAndMd": "Summers",
-            "nameFinal": "Larry Summers",
+            "nameFinal": "Lawrence Summers",
             "nameFirstLastShort": "Lawrence Summers",
+            "bioLocationName": "Harvard Kennedy School profile, Lawrence Summers",
+            "bioUrl": "http://www.hks.harvard.edu/about/faculty-staff-directory/lawrence-summers",
             "title": "President Emeritus and Charles W. Eliot University Professor",
             "company": "Harvard University",
-            "titleAndCompany": "President Emeritus and Charles W. Eliot University Professor, Harvard University"
+            "titleAndCompany": "President Emeritus and Charles W. Eliot University Professor, Harvard University",
+            "howToReference": "gsheets.people.Summers"
         },
         "Sussman": {
             "id": "Sussman",
@@ -602,7 +633,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/andrew-j-sussman-md",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/andrew_sussman.jpg",
             "photoFilename": "andrew_sussman.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Sussman"
         },
         "Viehbacher": {
             "id": "Viehbacher",
@@ -622,7 +654,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/christopher-viehbacher",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/christopher_viehbacher.jpg",
             "photoFilename": "christopher_viehbacher.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Viehbacher"
         },
         "Wolfsen": {
             "id": "Wolfsen",
@@ -641,7 +674,8 @@
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/brad-wolfsen",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/brad_wolfsen.jpg",
             "photoFilename": "brad_wolfsen.jpg",
-            "photo75wExists": "y"
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Wolfsen"
         }
     },
     "links": {
