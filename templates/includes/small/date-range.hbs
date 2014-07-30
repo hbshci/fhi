@@ -1,1 +1,1 @@
-{{formatDate dateFrom "%b %e"}}{{#if dateTo}} – {{formatDate dateTo "%b %e"}}{{/if}}
+{{#if}}{{formatDate dateFrom "%b %e"}}{{else}}Until{{/if}}{{#if dateTo}}{{#if dateFrom}} – {{/if}}{{formatDate dateTo "%b %e"}}{{/if}}
