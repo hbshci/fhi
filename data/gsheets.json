@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-30T21:15:57.308Z",
+            "dateFrom": "2014-07-30T22:20:23.559Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
         },
@@ -860,35 +860,42 @@
             "fmt": "%b %e",
             "description": "For use in buttons, etc",
             "example": "Sep 27",
-            "howToReference": "{{gsheets.formatting.date-brief-noyear.fmt}}"
+            "howToReference": "gsheets.formatting.date-brief-noyear"
         },
         "date-long-withTime": {
             "id": "date-long-withTime",
             "fmt": "%B %d, %Y at %I:%M %p EST",
             "description": "Full date for due dates",
             "example": "September 29, 2014 at 11:59 PM",
-            "howToReference": "{{gsheets.formatting.date-long-withTime.fmt}}"
+            "howToReference": "gsheets.formatting.date-long-withTime"
         },
         "date-long-withTime-andWeekday": {
             "id": "date-long-withTime-andWeekday",
             "fmt": "%B %d, %Y at %I:%M %p EST",
             "description": "Full date for due dates and appointments",
             "example": "Wednesday September 17, 2014 at 12 PM EST",
-            "howToReference": "{{gsheets.formatting.date-long-withTime-andWeekday.fmt}}"
+            "howToReference": "gsheets.formatting.date-long-withTime-andWeekday"
         },
         "date-month-withYear": {
             "id": "date-month-withYear",
             "fmt": "%B %Y",
             "description": "For use in prose, for example, in FAQs",
             "example": "April 2015",
-            "howToReference": "{{gsheets.formatting.date-month-withYear.fmt}}"
+            "howToReference": "gsheets.formatting.date-month-withYear"
         },
         "date-month-withDay": {
             "id": "date-month-withDay",
             "fmt": "%B %e",
             "description": "For use in prose, for example, in rules",
             "example": "November 17",
-            "howToReference": "{{gsheets.formatting.date-month-withDay.fmt}}"
+            "howToReference": "gsheets.formatting.date-month-withDay"
+        },
+        "date-month-withDay-andYear": {
+            "id": "date-month-withDay-andYear",
+            "fmt": "%B %e, %Y",
+            "description": "For use in prose, for example, in rules",
+            "example": "November 17, 2014",
+            "howToReference": "gsheets.formatting.date-month-withDay-andYear"
         }
     },
     "snippets": {
