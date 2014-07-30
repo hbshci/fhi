@@ -13,10 +13,19 @@ slug: conference
 ================================================== --}}
 <div class="docs-section">
   <div class="page-header">
-    <h1 id="2015-conference">2015 Conference</h1>
+    <h1 id="2015-conference">{{gsheets.nav.conference-2015-conference.title}}</h1>
   </div>
-  {{md '2015-conference'}}
   
+  {{> h3-then-md gsheets.nav.conference-2015-conference-conference-april-2015-in-boston}}
+  {{> h3-then-md gsheets.nav.conference-2015-conference-keynote-speakers}}
+  <div class="list-group team">
+    {{partial 'person' gsheets.people.Bertolini }}
+    {{partial 'person' gsheets.people.Flier }}
+    {{partial 'person' gsheets.people.Nohria }}
+    {{partial 'person' gsheets.people.Summers }}
+  </div>
+  {{> h3-then-md gsheets.nav.conference-2015-conference-win-conference-tickets}}
+
 </div>
 
 {{!-- Previous Conference

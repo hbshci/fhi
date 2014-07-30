@@ -45,7 +45,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-30T18:08:55.100Z",
+            "dateFrom": "2014-07-30T19:02:11.924Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
         },
@@ -90,6 +90,8 @@
             "title": "Chairman, Chief Executive Officer and President",
             "company": "Aetna Inc.",
             "titleAndCompany": "Chairman, Chief Executive Officer and President, Aetna Inc.",
+            "photoUrl": "http://static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/mark_bertolini1.jpg?itok=mQqBxNle",
+            "photo75wExists": "y",
             "howToReference": "gsheets.people.Bertolini"
         },
         "Berwick": {
@@ -502,7 +504,7 @@
             "nameFinal": "Nitin Nohria",
             "nameFirstLastShort": "Nitin Nohria",
             "bioLocationName": "Harvard Business School profile, Nitin Nohria",
-            "bioUrl": "www.hbs.edu/dean/",
+            "bioUrl": "http://www.hbs.edu/dean/",
             "title": "Dean",
             "company": "Harvard Business School",
             "titleAndCompany": "Dean, Harvard Business School",
@@ -612,6 +614,8 @@
             "title": "President Emeritus and Charles W. Eliot University Professor",
             "company": "Harvard University",
             "titleAndCompany": "President Emeritus and Charles W. Eliot University Professor, Harvard University",
+            "photoUrl": "http://static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/lawrence_summers_2012.jpg?itok=IUP4zmts",
+            "photo75wExists": "y",
             "howToReference": "gsheets.people.Summers"
         },
         "Sussman": {
@@ -950,254 +954,292 @@
         "about-health-acceleration-challenge-launch": {
             "id": "about-health-acceleration-challenge-launch",
             "page": "about",
-            "navId": "#health-acceleration-challenge-launch",
+            "navId": "health-acceleration-challenge-launch",
             "title": "Health Acceleration Challenge Launch",
             "order": 1,
             "level": 2,
+            "file": "about-01-health-acceleration-challenge-launch",
             "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch.navId}}"
         },
         "about-health-acceleration-challenge-launch-news-and-press": {
             "id": "about-health-acceleration-challenge-launch-news-and-press",
             "page": "about",
-            "navId": "#health-acceleration-challenge-launch-news-and-press",
+            "navId": "health-acceleration-challenge-launch-news-and-press",
             "title": "News and Press",
             "order": 2,
             "level": 2,
+            "file": "about-02-health-acceleration-challenge-launch-news-and-press",
             "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-news-and-press.navId}}"
         },
         "about-health-acceleration-challenge-launch-downloads-and-press-kit": {
             "id": "about-health-acceleration-challenge-launch-downloads-and-press-kit",
             "page": "about",
-            "navId": "#health-acceleration-challenge-launch-downloads-and-press-kit",
+            "navId": "health-acceleration-challenge-launch-downloads-and-press-kit",
             "title": "Downloads and Press Kit",
             "order": 3,
             "level": 2,
+            "file": "about-03-health-acceleration-challenge-launch-downloads-and-press-kit",
             "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-downloads-and-press-kit.navId}}"
         },
         "about-health-acceleration-challenge-launch-about-the-forum": {
             "id": "about-health-acceleration-challenge-launch-about-the-forum",
             "page": "about",
-            "navId": "#health-acceleration-challenge-launch-about-the-forum",
+            "navId": "health-acceleration-challenge-launch-about-the-forum",
             "title": "About the Forum",
             "order": 4,
             "level": 2,
+            "file": "about-04-health-acceleration-challenge-launch-about-the-forum",
             "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-about-the-forum.navId}}"
         },
         "about-health-acceleration-challenge-launch-steering-committee": {
             "id": "about-health-acceleration-challenge-launch-steering-committee",
             "page": "about",
-            "navId": "#health-acceleration-challenge-launch-steering-committee",
+            "navId": "health-acceleration-challenge-launch-steering-committee",
             "title": "Steering Committee",
             "order": 5,
             "level": 2,
+            "file": "about-05-health-acceleration-challenge-launch-steering-committee",
             "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-steering-committee.navId}}"
         },
         "challenge-challenge-overview": {
             "id": "challenge-challenge-overview",
             "page": "challenge",
-            "navId": "#challenge-overview",
+            "navId": "challenge-overview",
             "title": "Overview",
             "order": 1,
             "level": 2,
+            "file": "challenge-01-challenge-overview",
             "howToReference": "{{gsheets.nav.challenge-challenge-overview.navId}}"
         },
         "challenge-challenge-benefits": {
             "id": "challenge-challenge-benefits",
             "page": "challenge",
-            "navId": "#challenge-benefits",
+            "navId": "challenge-benefits",
             "title": "Benefits",
             "order": 2,
             "level": 2,
+            "file": "challenge-02-challenge-benefits",
             "howToReference": "{{gsheets.nav.challenge-challenge-benefits.navId}}"
         },
         "challenge-challenge-benefits-conference-presentation": {
             "id": "challenge-challenge-benefits-conference-presentation",
             "page": "challenge",
-            "navId": "#challenge-benefits-conference-presentation",
+            "navId": "challenge-benefits-conference-presentation",
             "title": "Conference Presentation",
             "order": 3,
             "level": 3,
+            "file": "challenge-03-challenge-benefits-conference-presentation",
             "howToReference": "{{gsheets.nav.challenge-challenge-benefits-conference-presentation.navId}}"
         },
         "challenge-challenge-benefits-hbs-case-study": {
             "id": "challenge-challenge-benefits-hbs-case-study",
             "page": "challenge",
-            "navId": "#challenge-benefits-hbs-case-study",
+            "navId": "challenge-benefits-hbs-case-study",
             "title": "HBS Case Study",
             "order": 4,
             "level": 3,
+            "file": "challenge-04-challenge-benefits-hbs-case-study",
             "howToReference": "{{gsheets.nav.challenge-challenge-benefits-hbs-case-study.navId}}"
         },
         "challenge-challenge-benefits-connections": {
             "id": "challenge-challenge-benefits-connections",
             "page": "challenge",
-            "navId": "#challenge-benefits-connections",
+            "navId": "challenge-benefits-connections",
             "title": "Connections",
             "order": 5,
             "level": 3,
+            "file": "challenge-05-challenge-benefits-connections",
             "howToReference": "{{gsheets.nav.challenge-challenge-benefits-connections.navId}}"
         },
         "challenge-challenge-benefits-financial-award": {
             "id": "challenge-challenge-benefits-financial-award",
             "page": "challenge",
-            "navId": "#challenge-benefits-financial-award",
+            "navId": "challenge-benefits-financial-award",
             "title": "Financial Award",
             "order": 6,
             "level": 3,
+            "file": "challenge-06-challenge-benefits-financial-award",
             "howToReference": "{{gsheets.nav.challenge-challenge-benefits-financial-award.navId}}"
         },
         "challenge-challenge-benefits-community-feedback": {
             "id": "challenge-challenge-benefits-community-feedback",
             "page": "challenge",
-            "navId": "#challenge-benefits-community-feedback",
+            "navId": "challenge-benefits-community-feedback",
             "title": "Community Feedback",
             "order": 7,
             "level": 3,
+            "file": "challenge-07-challenge-benefits-community-feedback",
             "howToReference": "{{gsheets.nav.challenge-challenge-benefits-community-feedback.navId}}"
         },
         "challenge-challenge-process": {
             "id": "challenge-challenge-process",
             "page": "challenge",
-            "navId": "#challenge-process",
+            "navId": "challenge-process",
             "title": "Process",
             "order": 8,
             "level": 2,
+            "file": "challenge-08-challenge-process",
             "howToReference": "{{gsheets.nav.challenge-challenge-process.navId}}"
         },
         "challenge-challenge-process-apply": {
             "id": "challenge-challenge-process-apply",
             "page": "challenge",
-            "navId": "#challenge-process-apply",
+            "navId": "challenge-process-apply",
             "title": "Apply",
             "order": 9,
             "level": 3,
+            "file": "challenge-09-challenge-process-apply",
             "howToReference": "{{gsheets.nav.challenge-challenge-process-apply.navId}}"
         },
         "challenge-challenge-process-advise": {
             "id": "challenge-challenge-process-advise",
             "page": "challenge",
-            "navId": "#challenge-process-advise",
+            "navId": "challenge-process-advise",
             "title": "Advise",
             "order": 10,
             "level": 3,
+            "file": "challenge-10-challenge-process-advise",
             "howToReference": "{{gsheets.nav.challenge-challenge-process-advise.navId}}"
         },
         "challenge-challenge-process-refine": {
             "id": "challenge-challenge-process-refine",
             "page": "challenge",
-            "navId": "#challenge-process-refine",
+            "navId": "challenge-process-refine",
             "title": "Refine",
             "order": 11,
             "level": 3,
+            "file": "challenge-11-challenge-process-refine",
             "howToReference": "{{gsheets.nav.challenge-challenge-process-refine.navId}}"
         },
         "challenge-challenge-process-announce": {
             "id": "challenge-challenge-process-announce",
             "page": "challenge",
-            "navId": "#challenge-process-announce",
+            "navId": "challenge-process-announce",
             "title": "Announce",
             "order": 12,
             "level": 3,
+            "file": "challenge-12-challenge-process-announce",
             "howToReference": "{{gsheets.nav.challenge-challenge-process-announce.navId}}"
         },
         "challenge-challenge-criteria": {
             "id": "challenge-challenge-criteria",
             "page": "challenge",
-            "navId": "#challenge-criteria",
+            "navId": "challenge-criteria",
             "title": "Criteria",
             "order": 13,
             "level": 3,
+            "file": "challenge-13-challenge-criteria",
             "howToReference": "{{gsheets.nav.challenge-challenge-criteria.navId}}"
         },
         "challenge-challenge-faqs": {
             "id": "challenge-challenge-faqs",
             "page": "challenge",
-            "navId": "#challenge-faqs",
+            "navId": "challenge-faqs",
             "title": "FAQs",
             "order": 14,
             "level": 2,
+            "file": "challenge-14-challenge-faqs",
             "howToReference": "{{gsheets.nav.challenge-challenge-faqs.navId}}"
         },
         "challenge-challenge-eligibility": {
             "id": "challenge-challenge-eligibility",
             "page": "challenge",
-            "navId": "#challenge-eligibility",
+            "navId": "challenge-eligibility",
             "title": "Eligibility",
             "order": 15,
             "level": 2,
+            "file": "challenge-15-challenge-eligibility",
             "howToReference": "{{gsheets.nav.challenge-challenge-eligibility.navId}}"
         },
         "conference-2015-conference": {
             "id": "conference-2015-conference",
             "page": "conference",
-            "navId": "#2015-conference",
+            "navId": "2015-conference",
             "title": "2015 Conference",
             "order": 1,
             "level": 2,
-            "howToReference": "{{gsheets.nav.conference-2015-conference.navId}}"
+            "file": "conference-01-2015-conference",
+            "howToReference": "gsheets.nav.conference-2015-conference"
         },
         "conference-2015-conference-conference-april-2015-in-boston": {
             "id": "conference-2015-conference-conference-april-2015-in-boston",
             "page": "conference",
-            "navId": "#2015-conference-conference-april-2015-in-boston",
+            "navId": "2015-conference-conference-april-2015-in-boston",
             "title": "Conference April 2015 in Boston",
             "order": 2,
             "level": 3,
-            "howToReference": "{{gsheets.nav.conference-2015-conference-conference-april-2015-in-boston.navId}}"
+            "file": "conference-02-2015-conference-conference-april-2015-in-boston",
+            "howToReference": "gsheets.nav.conference-2015-conference-conference-april-2015-in-boston"
+        },
+        "conference-2015-conference-keynote-speakers": {
+            "id": "conference-2015-conference-keynote-speakers",
+            "page": "conference",
+            "navId": "2015-conference-keynote-speakers",
+            "title": "Keynote Speakers",
+            "order": 3,
+            "level": 3,
+            "file": "conference-03-2015-conference-keynote-speakers",
+            "howToReference": "gsheets.nav.conference-2015-conference-keynote-speakers"
         },
         "conference-2015-conference-win-conference-tickets": {
             "id": "conference-2015-conference-win-conference-tickets",
             "page": "conference",
-            "navId": "#2015-conference-win-conference-tickets",
+            "navId": "2015-conference-win-conference-tickets",
             "title": "Win Conference Tickets",
-            "order": 3,
+            "order": 4,
             "level": 3,
-            "howToReference": "{{gsheets.nav.conference-2015-conference-win-conference-tickets.navId}}"
+            "file": "conference-04-2015-conference-win-conference-tickets",
+            "howToReference": "gsheets.nav.conference-2015-conference-win-conference-tickets"
         },
         "conference-previous-conference": {
             "id": "conference-previous-conference",
             "page": "conference",
-            "navId": "#previous-conference",
+            "navId": "previous-conference",
             "title": "Previous Conference",
-            "order": 4,
+            "order": 5,
             "level": 2,
-            "howToReference": "{{gsheets.nav.conference-previous-conference.navId}}"
+            "file": "conference-05-previous-conference",
+            "howToReference": "gsheets.nav.conference-previous-conference"
         },
         "conference-previous-conference-attendees": {
             "id": "conference-previous-conference-attendees",
             "page": "conference",
-            "navId": "#previous-conference-attendees",
+            "navId": "previous-conference-attendees",
             "title": "Attendees",
-            "order": 5,
+            "order": 6,
             "level": 3,
-            "howToReference": "{{gsheets.nav.conference-previous-conference-attendees.navId}}"
+            "file": "conference-06-previous-conference-attendees",
+            "howToReference": "gsheets.nav.conference-previous-conference-attendees"
         },
         "conference-previous-conference-previous-conference-keynote-speakers": {
             "id": "conference-previous-conference-previous-conference-keynote-speakers",
             "page": "conference",
-            "navId": "#previous-conference-previous-conference-keynote-speakers",
+            "navId": "previous-conference-previous-conference-keynote-speakers",
             "title": "Keynote Speakers",
-            "order": 6,
+            "order": 7,
             "level": 3,
-            "howToReference": "{{gsheets.nav.conference-previous-conference-previous-conference-keynote-speakers.navId}}"
+            "file": "conference-07-previous-conference-previous-conference-keynote-speakers",
+            "howToReference": "gsheets.nav.conference-previous-conference-previous-conference-keynote-speakers"
         },
         "conference-previous-conference-previous-conference-video-sessions": {
             "id": "conference-previous-conference-previous-conference-video-sessions",
             "page": "conference",
-            "navId": "#previous-conference-previous-conference-video-sessions",
+            "navId": "previous-conference-previous-conference-video-sessions",
             "title": "Session Videos",
-            "order": 7,
+            "order": 8,
             "level": 3,
-            "howToReference": "{{gsheets.nav.conference-previous-conference-previous-conference-video-sessions.navId}}"
+            "file": "conference-08-previous-conference-previous-conference-video-sessions",
+            "howToReference": "gsheets.nav.conference-previous-conference-previous-conference-video-sessions"
         },
         "conference-thought-leadership": {
             "id": "conference-thought-leadership",
             "page": "conference",
-            "navId": "#thought-leadership",
+            "navId": "thought-leadership",
             "title": "Thought Leadership",
-            "order": 8,
+            "order": 9,
             "level": 2,
-            "howToReference": "{{gsheets.nav.conference-thought-leadership.navId}}"
+            "file": "conference-09-thought-leadership",
+            "howToReference": "gsheets.nav.conference-thought-leadership"
         }
     }
 }
