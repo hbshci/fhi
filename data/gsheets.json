@@ -3,7 +3,6 @@
         "challenge-stages-apply": {
             "id": "challenge-stages-apply",
             "displayName": "Apply",
-            "dateFrom": "2014-08-10T04:00:00.000Z",
             "dateTo": "2014-09-30T03:59:00.000Z",
             "rangeString": "August 11 – September 29, 2014",
             "howToReference": "{{gsheets.dates.challenge-stages-apply.dateFrom}}"
@@ -45,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-30T19:02:11.924Z",
+            "dateFrom": "2014-07-30T21:15:57.308Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
         },
@@ -74,6 +73,111 @@
             "rangeString": "November 17, 2014 – April 14, 2015",
             "description": "from challenge process: * Be available and responsive to questions between XX - XX so that an HBS case study can be written about the innovation.",
             "howToReference": "{{gsheets.dates.challenge-applicant-must-be-available-questions.dateFrom}}"
+        }
+    },
+    "links": {
+        "challenge-application": {
+            "id": "challenge-application",
+            "name": "Health Care Acceleration Challenge Application",
+            "description": "Apply for the Health Care Acceleration Challenge.",
+            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/innovations/",
+            "howToReference": "gsheets.links.challenge-application"
+        },
+        "challenge-landing-page": {
+            "id": "challenge-landing-page",
+            "name": "Health Care Acceleration Challenge Landing Page",
+            "url": "http://healthaccelerationchallenge.com",
+            "howToReference": "gsheets.links.challenge-landing-page"
+        },
+        "challenge-main": {
+            "id": "challenge-main",
+            "name": "OpenIDEO production link",
+            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/brief.html",
+            "howToReference": "gsheets.links.challenge-main"
+        },
+        "challenge-platform-tos": {
+            "id": "challenge-platform-tos",
+            "name": "OpenIDEO terms of service",
+            "url": "https://openideo.com/terms",
+            "howToReference": "gsheets.links.challenge-platform-tos"
+        },
+        "challenge-webinar-register-link": {
+            "id": "challenge-webinar-register-link",
+            "name": "Register for Webinar",
+            "url": "http://www.example.com",
+            "howToReference": "gsheets.links.challenge-webinar-register-link"
+        },
+        "conference-2012-5-imperatives": {
+            "id": "conference-2012-5-imperatives",
+            "name": "5 Imperatives",
+            "url": "http://www.hbs.edu/healthcare/pdf/Forum-on-Healthcare-Innovation-5-Imperatives.pdf",
+            "howToReference": "gsheets.links.conference-2012-5-imperatives"
+        },
+        "conference-2012-5-imperatives-img": {
+            "id": "conference-2012-5-imperatives-img",
+            "name": "5 Imperatives PDF Image",
+            "url": "http://projects.iq.harvard.edu/files/styles/os_files_small/public/forum-on-healthcare-innovation/files/5_imperatives_2.png?itok=0vZadz0l",
+            "howToReference": "gsheets.links.conference-2012-5-imperatives-img"
+        },
+        "conference-2012-main": {
+            "id": "conference-2012-main",
+            "name": "2012 Forum on Health Care Innovation Conference site",
+            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/",
+            "howToReference": "gsheets.links.conference-2012-main"
+        },
+        "conference-main": {
+            "id": "conference-main",
+            "name": "Forum on Health Care Innovation - Main",
+            "url": "http://forumonhealthcareinnovation.org",
+            "howToReference": "gsheets.links.conference-main"
+        },
+        "hbs-main": {
+            "id": "hbs-main",
+            "name": "Harvard Business School",
+            "url": "http://www.hbs.edu/healthcare",
+            "howToReference": "gsheets.links.hbs-main"
+        },
+        "hms-main": {
+            "id": "hms-main",
+            "name": "Harvard Medical School",
+            "url": "http://hms.harvard.edu/",
+            "howToReference": "gsheets.links.hms-main"
+        },
+        "social-twitter-fhi": {
+            "id": "social-twitter-fhi",
+            "name": "Twitter Account",
+            "howToReference": "gsheets.links.social-twitter-fhi"
+        },
+        "social-linkedin-fhi": {
+            "id": "social-linkedin-fhi",
+            "name": "LinkedIn Account",
+            "howToReference": "gsheets.links.social-linkedin-fhi"
+        },
+        "social-twitter-share": {
+            "id": "social-twitter-share",
+            "name": "Share Health Care Acceleration Challenge on Twitter",
+            "description": "https://about.twitter.com/resources/buttons",
+            "url": "https://about.twitter.com/resources/buttons",
+            "howToReference": "gsheets.links.social-twitter-share"
+        },
+        "social-linkedin-share": {
+            "id": "social-linkedin-share",
+            "name": "Share Health Care Acceleration Challenge on LinkedIn",
+            "description": "https://developer.linkedin.com/plugins/share-plugin-generator",
+            "url": "https://developer.linkedin.com/plugins/share-plugin-generator",
+            "howToReference": "gsheets.links.social-linkedin-share"
+        },
+        "challenge-register-participate": {
+            "id": "challenge-register-participate",
+            "name": "Register for Participating in the Health Care Acceleration Challenge",
+            "url": "http://www.example.com",
+            "howToReference": "gsheets.links.challenge-register-participate"
+        },
+        "video-landing-page": {
+            "id": "video-landing-page",
+            "name": "Landing Page Video",
+            "url": "//www.youtube.com/embed/OnBBv0Bm-yY?rel=0",
+            "howToReference": "gsheets.links.video-landing-page"
         }
     },
     "people": {
@@ -599,6 +703,20 @@
             "photo75wExists": "y",
             "howToReference": "gsheets.people.Sperling"
         },
+        "Sterling": {
+            "id": "Sterling",
+            "role": "Steering Committee",
+            "nameFirst": "Cara",
+            "nameLast": "Sterling",
+            "nameLastAndMd": "Sterling",
+            "nameFinal": "Cara Sterling",
+            "nameFirstLastShort": "Cara Sterling",
+            "title": "Director, Health Care Initiative",
+            "company": "Harvard Business School",
+            "titleAndCompany": "Director, Health Care Initiative, Harvard Business School",
+            "bioPageOurs": "http://www.hbs.edu/healthcare/initiative/",
+            "howToReference": "gsheets.people.Sterling"
+        },
         "Summers": {
             "id": "Summers",
             "role": "Keynote",
@@ -682,97 +800,58 @@
             "howToReference": "gsheets.people.Wolfsen"
         }
     },
-    "links": {
-        "challenge-application": {
-            "id": "challenge-application",
-            "name": "Health Care Acceleration Challenge Application",
-            "description": "Apply for the Health Care Acceleration Challenge.",
-            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/innovations/",
-            "howToReference": "{{gsheets.links.challenge-application.url}}"
+    "groups": {
+        "2012-panel1": {
+            "id": "2012-panel1",
+            "year": 2012,
+            "ourName": "panel1",
+            "websiteName": "Reducing Employee Healthcare Costs: Beyond Cost Shifting",
+            "description": "Moderated by Regina E. Herzlinger, Nancy R. McPherson Professor of Business Administration at HBS, this panel focused on innovative product models, increased access to quality and cost information, and incentives to encourage healthy behaviors in employees.",
+            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-1-reducing-employee-healthcare-costs-beyond-cost-shifting"
         },
-        "challenge-landing-page": {
-            "id": "challenge-landing-page",
-            "name": "Health Care Acceleration Challenge Landing Page",
-            "url": "http://healthaccelerationchallenge.com",
-            "howToReference": "{{gsheets.links.challenge-landing-page.url}}"
+        "2012-keynote1": {
+            "id": "2012-keynote1",
+            "year": 2012,
+            "ourName": "keynote1",
+            "websiteName": "Day 1 Keynote"
         },
-        "challenge-main": {
-            "id": "challenge-main",
-            "name": "OpenIDEO production link",
-            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/brief.html",
-            "howToReference": "{{gsheets.links.challenge-main.url}}"
+        "2012-panel2": {
+            "id": "2012-panel2",
+            "year": 2012,
+            "ourName": "panel2",
+            "websiteName": "Developing More Meaningful Drugs, Devices, and Diagnostics",
+            "description": "Led by William W. Chin, MD, Bertarelli Professor of Translational Medical Science and Professor of Medicine at HMS, this panel focused on new approaches to research and innovative business models, and how life science companies can be more patient centric.",
+            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-2-developing-more-meaningful-drugs-devices-and-diagnostics"
         },
-        "challenge-platform-tos": {
-            "id": "challenge-platform-tos",
-            "name": "OpenIDEO terms of service",
-            "url": "https://openideo.com/terms",
-            "howToReference": "{{gsheets.links.challenge-platform-tos.url}}"
+        "2012-panel3": {
+            "id": "2012-panel3",
+            "year": 2012,
+            "ourName": "panel3",
+            "websiteName": "Translating Academic Research into Clinical and Commercial Use",
+            "description": "Headed by Barbara J. McNeil, MD, Ridley Watts Professor of Health Care Policy at HMS, this panel explored novel financing mechanisms as well as opportunities for academia, foundations, and companies to share critical information.",
+            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-3-translating-academic-research-clinical-and-commercial-use"
         },
-        "challenge-webinar-register-link": {
-            "id": "challenge-webinar-register-link",
-            "name": "Register for Webinar",
-            "url": "http://www.example.com",
-            "howToReference": "{{gsheets.links.challenge-webinar-register-link.url}}"
+        "2012-keynote2": {
+            "id": "2012-keynote2",
+            "year": 2012,
+            "ourName": "keynote2",
+            "websiteName": "Day 2 Keynote"
         },
-        "conference-2012-5-imperatives": {
-            "id": "conference-2012-5-imperatives",
-            "name": "5 Imperatives",
-            "url": "http://www.hbs.edu/healthcare/pdf/Forum-on-Healthcare-Innovation-5-Imperatives.pdf",
-            "howToReference": "{{gsheets.links.conference-2012-5-imperatives.url}}"
+        "2012-panel4": {
+            "id": "2012-panel4",
+            "year": 2012,
+            "ourName": "panel4",
+            "websiteName": "Improving the Patient Experience",
+            "description": "Moderated by Clayton M. Christensen, Kim B. Clark Professor of Business Administration at HBS, this panel discussed approaches to making care delivery more patient friendly by providing services where and when people want them, organized in clear and efficient ways.",
+            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-4-improving-patient-experience"
         },
-        "conference-2012-5-imperatives-img": {
-            "id": "conference-2012-5-imperatives-img",
-            "name": "5 Imperatives PDF Image",
-            "url": "http://projects.iq.harvard.edu/files/styles/os_files_small/public/forum-on-healthcare-innovation/files/5_imperatives_2.png?itok=0vZadz0l",
-            "howToReference": "{{gsheets.links.conference-2012-5-imperatives-img.url}}"
-        },
-        "conference-2012-main": {
-            "id": "conference-2012-main",
-            "name": "2012 Forum on Health Care Innovation Conference site",
-            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/",
-            "howToReference": "{{gsheets.links.conference-2012-main.url}}"
-        },
-        "conference-main": {
-            "id": "conference-main",
-            "name": "Forum on Health Care Innovation - Main",
-            "url": "http://forumonhealthcareinnovation.org",
-            "howToReference": "{{gsheets.links.conference-main.url}}"
-        },
-        "hbs-main": {
-            "id": "hbs-main",
-            "name": "Harvard Business School",
-            "url": "http://www.hbs.edu/healthcare",
-            "howToReference": "{{gsheets.links.hbs-main.url}}"
-        },
-        "hms-main": {
-            "id": "hms-main",
-            "name": "Harvard Medical School",
-            "url": "http://hms.harvard.edu/",
-            "howToReference": "{{gsheets.links.hms-main.url}}"
-        },
-        "social-twitter-fhi": {
-            "id": "social-twitter-fhi",
-            "name": "Twitter Account",
-            "howToReference": "{{gsheets.links.social-twitter-fhi.url}}"
-        },
-        "social-linkedin-fhi": {
-            "id": "social-linkedin-fhi",
-            "name": "LinkedIn Account",
-            "howToReference": "{{gsheets.links.social-linkedin-fhi.url}}"
-        },
-        "social-twitter-share": {
-            "id": "social-twitter-share",
-            "name": "Share Health Care Acceleration Challenge on Twitter",
-            "description": "https://about.twitter.com/resources/buttons",
-            "url": "https://about.twitter.com/resources/buttons",
-            "howToReference": "{{gsheets.links.social-twitter-share.url}}"
-        },
-        "social-linkedin-share": {
-            "id": "social-linkedin-share",
-            "name": "Share Health Care Acceleration Challenge on LinkedIn",
-            "description": "https://developer.linkedin.com/plugins/share-plugin-generator",
-            "url": "https://developer.linkedin.com/plugins/share-plugin-generator",
-            "howToReference": "{{gsheets.links.social-linkedin-share.url}}"
+        "2012-panel5": {
+            "id": "2012-panel5",
+            "year": 2012,
+            "ourName": "panel5",
+            "websiteName": "Improving the Value of Care Delivery",
+            "description": "Led by Michael E. Porter, Bishop William Lawrence University Professor at Harvard University, this panel discussed the critical role that high-quality, established healthcare providers can play in coordinating care for individuals as well as managing care for defined populations.",
+            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-5-improving-value-care-delivery"
         }
     },
     "formatting": {
