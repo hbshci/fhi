@@ -1,0 +1,1 @@
+For additional information about the Health Acceleration Challenge, download these items.
