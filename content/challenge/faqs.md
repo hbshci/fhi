@@ -1,6 +1,3 @@
----
-title: Frequently Asked Questions
----
 
 1. #### What is the Forum on Health Care Innovation?
 
@@ -8,15 +5,15 @@ title: Frequently Asked Questions
 
 1. #### What is the Health Acceleration Challenge?
 
-    Our Challenge aims to identify and promote innovations that have credible, demonstrated evidence to generate significant value for the US health care delivery system. In particular, we are looking for proven ideas that have yet to be widely disseminated and could benefit from access to Harvard's faculty and alumni and the senior health care leaders attending the Forum on Health Care Innovation conference in {{formatDate gsheets.dates.conference-date-main.dateFrom gsheets.formatting.date-month-withYear.fmt}}.
+    Our Challenge aims to identify and promote innovations that have credible, demonstrated evidence to generate significant value for the US health care delivery system. In particular, we are looking for proven ideas that, if more broadly disseminated, could move the needle on cost, quality or access.
 
 1. #### What do you mean by "demonstrated value" and "potential to scale rapidly"?
 
-    We want to see credible evidence from existing sites, pilots or customers that your innovation works. The more evidence you can provide, the stronger your application. Your innovation does not necessarily have to be in final product form for commercialization, but you need to provide a credible dissemination plan of how you will overcome barriers to adoption across the US.
+    We want to see credible evidence from existing sites, pilots or customers that your innovation works. The more evidence you can provide, the stronger your application. Your innovation does not necessarily have to be in final product form for commercialization, but you need to provide a solid dissemination plan of how you will overcome barriers to adoption across the US.
 
 1. #### What are examples of "credible evidence"?
 
-    It could be many things such as quantitative data from existing pilots showing improved patient outcomes over baseline, customer satisfaction data, or cost savings documentation.
+    You determine what your best evidence is. It could be quantitative data from existing pilots showing improved patient outcomes, customer satisfaction data, cost savings documentation, or anything else that demonstrates success.
 
 1. #### Are participants supposed to solve a specific problem?
 
@@ -24,27 +21,23 @@ title: Frequently Asked Questions
 
 1. #### What are the benefits of participating?
 
-    Finalists of our Health Acceleration Challenge will meet senior health care leaders and Harvard faculty at our invitation-only conference in {{formatDate gsheets.dates.conference-date-main.dateFrom gsheets.formatting.date-month-withYear.fmt}}. If you are a finalist, your innovation will be discussed during a case discussion led by senior Harvard faculty and you will have the opportunity to meet with potential customers, investors and partners at the conference dinner. Finalists will also benefit from announcements to over {{addCommas gsheets.snippets.num-hbs-hms-alumni-access-to.val}} HBS and HMS alumni, and up to ${{addCommas gsheets.snippets.challenge-prize-grand-amt.val}}.
+    If you are a finalist, your innovation will be discussed at our invitation-only conference in {{formatDate gsheets.dates.conference-date-main.dateFrom gsheets.formatting.date-month-withYear.fmt}} during a case discussion led by senior Harvard faculty. You will have the opportunity to meet with potential customers, investors and partners at the conference dinner. Finalists will also benefit from feedback from our community of health care leaders and entrepreneurs, announcements to over {{addCommas gsheets.snippets.num-hbs-hms-alumni-access-to.val}} HBS and HMS alumni, and up to ${{addCommas gsheets.snippets.challenge-prize-grand-amt.val}}.
 
 1. #### How do teams apply?
 
-    Please submit your application [this link]({{gsheets.links.challenge-application.url}}). Applications close on **{{challenge.application.due.date}}** at **{{challenge.application.due.time}}**.
+    Please submit your application [here]({{gsheets.links.challenge-application.url}}). Applications close on {{> date-challenge-due}}.
 
 1. #### How is this different from other Challenges?
 
-    We believe innovations need to spread faster. We are focused on speeding up the adoption of innovations that have already demonstrated value and could benefit from wider dissemination through the powerful combination of the participants in the Forum on Health Care Innovation and the Harvard faculty and alumni network.
+    We believe innovations need to spread faster. We are focused on speeding up the adoption of innovations that have already demonstrated value and could benefit from wider dissemination through the powerful combination of the participants in the Forum on Health Care Innovation and the Harvard faculty and alumni network. We are not a business plan competition. 
 
-1. #### What are examples of ideas you are looking for?
+1. #### Who should apply to the Health Acceleration Challenge?
 
-    Ideas and programs (such as checklists, standard processes, or best practices) tried and tested in one health system and from which other health systems could benefit
-
-    * Improved methods of involving patients leading to more efficient care or better outcomes
-    * Innovative organizational forms or process technologies that increase quality, reduce cost, or increase patient convenience
-    * Innovative methods for overcoming barriers to diffusion
+    We welcome applications from all types of people—individuals and teams, clinicians and administrators, technologists and scientists, and those in the health care industry or outside of it—anyone with a proven health care innovation.   All types of organizations are invited to apply as well—established or early stage, for profit or not for profit, from within the US or outside.  
 
 1. #### Do I have to be a for-profit entity?
 
-    No. For-profit and non-profit ideas are welcomed for consideration.
+    No. For-profit and non-profit ideas are bothwelcomed for consideration.
 
 1. #### Do I have to be based in the US or Boston?
 
@@ -54,21 +47,21 @@ title: Frequently Asked Questions
 
     Pharmaceutical, biotech, medical device, and diagnostic technologies may not be the best fit for this challenge unless they have demonstrated impact on improving care delivery processes beyond typical product interventions.
 
-1. #### What level of maturity are you looking for?
+1. #### How far along does my innovation have to be?
 
-    The application is open to any organization or solution ranging from nearly developed to fully developed to the early stages of deployment. However, you need credible demonstrated evidence that your solution can significantly impact the US health care delivery system.
+    The application is open to any organization or solution ranging from nearly developed to fully developed to the early stages of deployment. However, you need credible demonstrated evidence that your solution can significantly impact the US health care delivery system.  This means your solution needs to be implemented in at least one setting.
 
 1. #### What criteria will the Judging Committee use?
 
-    Our judging panel will evaluate applications based on impact and value creation potential, dissemination plan, credible evidence of idea, and other participants' comments.
+    Our judging panel will evaluate applications based on [criteria](#{{gsheets.nav.challenge-challenge-criteria.navId}}) including impact and value creation potential, credible evidence of idea, dissemination plan, and other participants' comments.
 
 1. #### I am not a Harvard alumnus, can I still apply?
 
-    Absolutely! Anyone can participate in our Challenge.
+    Absolutely! Anyone can participate in the Health Acceleration Challenge.
 
 1. #### I want to participate but don't have an innovation. How much time and effort does it take to be a part of a challenge?
 
-    Participants can contribute on a variety of levels, ranging from applauding ideas to contributing complex concepts. Being a part of our Challenge requires anywhere from a few minutes to many hours. It's totally up to you!
+    Participants can contribute on a variety of levels, ranging from applauding ideas to contributing complex concepts. Being a part of our Challenge requires anywhere from a few minutes to many hours. It's totally up to you! Sharing insightful comments on other people's ideas on the Health Acceleration Challenge platform **could earn you free tickets to our invite-only Conference** even if you are not a Challenge applicant.
 
 1. #### What happens to my intellectual property on the Health Acceleration Challenge platform?
 

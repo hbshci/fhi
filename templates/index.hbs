@@ -29,7 +29,7 @@ top-lead: HBS and HMS proudly present
   {{!-- News and Press
   ================================================== --}}
   {{#if gsheets.updates}}
-    <h2 id="news-and-press">News and Press</h2>
+    <h2 id="news-and-press">News</h2>
     <ul class="list-unstyled">
       {{#each gsheets.updates}}
         <!-- {{gsheets.updates.press-2013-07-15.headline}} -->
@@ -40,7 +40,7 @@ top-lead: HBS and HMS proudly present
 
   {{!-- Downloads and Press Kit
   ================================================== --}}
-  {{#markdown}}## Downloads and Press Kit{{/markdown}}
+  {{#markdown}}## Downloads{{/markdown}}
   {{md 'downloads-and-press-kit'}}
   <div class="row">
     {{partial 'downloads-partial'}}

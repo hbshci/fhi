@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-30T22:20:23.559Z",
+            "dateFrom": "2014-07-31T15:51:29.341Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
         },
@@ -1011,18 +1011,16 @@
         "hac-flier": {
             "id": "hac-flier",
             "pages": "index, challenge",
-            "title": "Health Care Acceleration Challenge Flier",
-            "pdfFilename": "hca-challenge-2pg.pdf",
-            "description": "Details about the Health Care Acceleration Challenge.",
-            "imgFilename": "hca-challenge-2pg.png",
+            "title": "Barriers to Health Care Innovation",
+            "imgFilename": "hbs-hms-press-release-1.png",
             "howToReference": "{{gsheets.downloads.hac-flier.title}}"
         },
         "hac-press-release": {
             "id": "hac-press-release",
             "pages": "index, challenge",
-            "title": "Press Release",
+            "title": "Press Kit",
             "foreignUrl": "http://www.hbs.edu/news/releases/Pages/healthcareforum12-20-12.aspx",
-            "description": "[SAMPLE CONTENT ONLY]",
+            "description": "Challenge information and logos.",
             "imgFilename": "hbs-hms-press-release-1.png",
             "howToReference": "{{gsheets.downloads.hac-press-release.title}}"
         },
@@ -1031,7 +1029,7 @@
             "pages": "index",
             "title": "5 Imperatives",
             "foreignUrl": "http://www.hbs.edu/healthcare/pdf/Forum-on-Healthcare-Innovation-5-Imperatives.pdf",
-            "description": "Key takeaways from the Forum's first conference on health care innovation.",
+            "description": "Key insights from the Forum's first conference on health care innovation.",
             "imgFilename": "5_imperatives_pdf_sq.png",
             "howToReference": "{{gsheets.downloads.five-imperatives.title}}"
         }

@@ -4,7 +4,7 @@ A key output of the previous conference was a report entitled "5 Imperatives" wh
 
 1. #### Making value the central objective
 
-	In isolation, efforts to either reduce costs or improve outcomes are insufficient; we need to do both through care coordination and shared information. Read more
+	In isolation, efforts to either reduce costs or improve outcomes are insufficient; we need to do both through care coordination and shared information.
 
 1. #### Promoting novel approaches to process improvement
 
