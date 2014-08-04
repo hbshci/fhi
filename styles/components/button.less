@@ -32,8 +32,20 @@
 }
 
 .btn {
-  margin:5px;
+    margin:5px;
+    font-family: @font-family-condensed;
+    text-transform: uppercase;
+    font-weight:bold;
+    letter-spacing: 0;
+    text-rendering: auto;
+
+
 }
+.btn:hover {
+  background-color: @orange;
+  border-color: darken(@orange, 5%)
+}
+
 .btn-group .btn {
   margin:0px;
 }
@@ -46,8 +58,8 @@
   }
 
   .sidenav-link {
-  margin-top:10px;
-}
+    margin-top:10px;
+  }
 }
 
 /* offset for font awesome padding on social icons */
