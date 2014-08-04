@@ -5,7 +5,7 @@
             "displayName": "Apply",
             "dateTo": "2014-09-30T03:59:00.000Z",
             "rangeString": "August 11 – September 29, 2014",
-            "howToReference": "{{gsheets.dates.challenge-stages-apply.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-stages-apply"
         },
         "challenge-stages-advise": {
             "id": "challenge-stages-advise",
@@ -13,7 +13,7 @@
             "dateFrom": "2014-09-30T04:00:00.000Z",
             "dateTo": "2014-10-21T03:59:51.360Z",
             "rangeString": "September 30 – October 20, 2014",
-            "howToReference": "{{gsheets.dates.challenge-stages-advise.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-stages-advise"
         },
         "challenge-stages-refine": {
             "id": "challenge-stages-refine",
@@ -21,32 +21,32 @@
             "dateFrom": "2014-10-21T04:00:00.000Z",
             "dateTo": "2014-11-10T05:00:00.000Z",
             "rangeString": "October 21 – November 10, 2014",
-            "howToReference": "{{gsheets.dates.challenge-stages-refine.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-stages-refine"
         },
         "challenge-stages-announce": {
             "id": "challenge-stages-announce",
             "displayName": "Announce",
             "dateFrom": "2014-11-17T05:00:00.000Z",
-            "howToReference": "{{gsheets.dates.challenge-stages-announce.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-stages-announce"
         },
         "challenge-application-due": {
             "id": "challenge-application-due",
             "displayName": "Application Due",
             "dateFrom": "2014-09-30T03:59:00.000Z",
-            "howToReference": "{{gsheets.dates.challenge-application-due.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-application-due"
         },
         "challenge-webinar-date": {
             "id": "challenge-webinar-date",
             "displayName": "Challenge Webinar",
             "dateFrom": "2014-09-17T16:00:00.000Z",
-            "howToReference": "{{gsheets.dates.challenge-webinar-date.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-webinar-date"
         },
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-31T15:51:29.341Z",
+            "dateFrom": "2014-08-04T20:57:10.734Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
-            "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
+            "howToReference": "gsheets.dates.data-refresh"
         },
         "conference-date-main": {
             "id": "conference-date-main",
@@ -54,7 +54,7 @@
             "dateFrom": "2015-04-15T19:00:00.000Z",
             "dateTo": "2015-04-16T21:00:00.000Z",
             "rangeString": "April 15 – 16, 2015",
-            "howToReference": "{{gsheets.dates.conference-date-main.dateFrom}}"
+            "howToReference": "gsheets.dates.conference-date-main"
         },
         "challenge-applicant-must-be-available-interview": {
             "id": "challenge-applicant-must-be-available-interview",
@@ -63,7 +63,7 @@
             "dateTo": "2014-11-10T05:00:00.000Z",
             "rangeString": "October 21 – November 10, 2014",
             "description": "from challenge rules end eligibility: Be available to be contacted by email or telephone at any point in the evaluation process and be available for a Skype or phone interview with a member of the evaluation committee during the time period of ",
-            "howToReference": "{{gsheets.dates.challenge-applicant-must-be-available-interview.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-applicant-must-be-available-interview"
         },
         "challenge-applicant-must-be-available-questions": {
             "id": "challenge-applicant-must-be-available-questions",
@@ -72,7 +72,7 @@
             "dateTo": "2015-04-14T04:00:00.000Z",
             "rangeString": "November 17, 2014 – April 14, 2015",
             "description": "from challenge process: * Be available and responsive to questions between XX - XX so that an HBS case study can be written about the innovation.",
-            "howToReference": "{{gsheets.dates.challenge-applicant-must-be-available-questions.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-applicant-must-be-available-questions"
         }
     },
     "links": {
@@ -98,7 +98,7 @@
         "challenge-platform-tos": {
             "id": "challenge-platform-tos",
             "name": "OpenIDEO terms of service",
-            "url": "https://openideo.com/terms",
+            "url": "http://openforum.hbs.org/terms",
             "howToReference": "gsheets.links.challenge-platform-tos"
         },
         "challenge-webinar-register-link": {
@@ -176,8 +176,14 @@
         "video-landing-page": {
             "id": "video-landing-page",
             "name": "Landing Page Video",
-            "url": "//www.youtube.com/embed/OnBBv0Bm-yY?rel=0",
+            "url": "//www.youtube.com/embed/IhnNr2A2IS8?rel=0",
             "howToReference": "gsheets.links.video-landing-page"
+        },
+        "challenge-platform-comments": {
+            "id": "challenge-platform-comments",
+            "name": "OpenIDEO Participant Comments",
+            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/brief.html",
+            "howToReference": "gsheets.links.challenge-platform-comments"
         }
     },
     "people": {
@@ -185,15 +191,16 @@
             "id": "Bertolini",
             "role": "Keynote",
             "nameFirst": "Mark",
+            "nameMiWPeriod": "T.",
             "nameLast": "Bertolini",
             "nameLastAndMd": "Bertolini",
-            "nameFinal": "Mark Bertolini",
+            "nameFinal": "Mark T. Bertolini",
             "nameFirstLastShort": "Mark Bertolini",
-            "bioLocationName": "Aetna Inc. profile, Mark Bertolini",
+            "bioLocationName": "Aetna Inc. profile, Mark T. Bertolini",
             "bioUrl": "http://www.aetna.com/about-us/aetna-leadership.html",
-            "title": "Chairman, Chief Executive Officer and President",
+            "title": "Chairman, Chief Executive Officer, and President",
             "company": "Aetna Inc.",
-            "titleAndCompany": "Chairman, Chief Executive Officer and President, Aetna Inc.",
+            "titleAndCompany": "Chairman, Chief Executive Officer, and President, Aetna Inc.",
             "photoUrl": "http://static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/mark_bertolini1.jpg?itok=mQqBxNle",
             "photo75wExists": "y",
             "howToReference": "gsheets.people.Bertolini"
@@ -582,12 +589,12 @@
         "Newhouse": {
             "id": "Newhouse",
             "role": "Fac Co-Chair, Steering Committee",
-            "nameFirst": "Joeseph",
+            "nameFirst": "Joseph",
             "nameMiWPeriod": "P.",
             "nameLast": "Newhouse",
             "nameLastAndMd": "Newhouse",
-            "nameFinal": "Joeseph P. Newhouse",
-            "nameFirstLastShort": "Joeseph Newhouse",
+            "nameFinal": "Joseph P. Newhouse",
+            "nameFirstLastShort": "Joseph Newhouse",
             "bioLocationName": "Harvard University profile, Joeseph P. Newhouse",
             "bioUrl": "http://www.hcp.med.harvard.edu/people/hcp_core_faculty/joseph_newhouse",
             "title": "John D. MacArthur Professor of Health Policy and Management",
@@ -595,7 +602,7 @@
             "titleAndCompany": "John D. MacArthur Professor of Health Policy and Management, Harvard University",
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/joseph-p-newhouse",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/joseph_newhouse.jpg",
-            "photoFilename": "joeseph_newhouse.jpg",
+            "photoFilename": "joseph_newhouse.jpg",
             "photo75wExists": "y",
             "howToReference": "gsheets.people.Newhouse"
         },
@@ -723,9 +730,10 @@
             "nameFirst": "Lawrence",
             "namePref": "Lawrence",
             "otherName": "Larry",
+            "nameMiWPeriod": "H.",
             "nameLast": "Summers",
             "nameLastAndMd": "Summers",
-            "nameFinal": "Lawrence Summers",
+            "nameFinal": "Lawrence H. Summers",
             "nameFirstLastShort": "Lawrence Summers",
             "bioLocationName": "Harvard Kennedy School profile, Lawrence Summers",
             "bioUrl": "http://www.hks.harvard.edu/about/faculty-staff-directory/lawrence-summers",
@@ -864,16 +872,16 @@
         },
         "date-long-withTime": {
             "id": "date-long-withTime",
-            "fmt": "%B %d, %Y at %I:%M %p EST",
+            "fmt": "%B %d, %Y at %I:%M %p ET",
             "description": "Full date for due dates",
-            "example": "September 29, 2014 at 11:59 PM",
+            "example": "September 29, 2014 at 11:59 PM ET",
             "howToReference": "gsheets.formatting.date-long-withTime"
         },
         "date-long-withTime-andWeekday": {
             "id": "date-long-withTime-andWeekday",
-            "fmt": "%B %d, %Y at %I:%M %p EST",
+            "fmt": "%B %d, %Y at %I:%M %p ET",
             "description": "Full date for due dates and appointments",
-            "example": "Wednesday September 17, 2014 at 12 PM EST",
+            "example": "Wednesday September 17, 2014 at 12 PM ET",
             "howToReference": "gsheets.formatting.date-long-withTime-andWeekday"
         },
         "date-month-withYear": {
@@ -901,7 +909,7 @@
     "snippets": {
         "challenge-prize-grand-amt": {
             "id": "challenge-prize-grand-amt",
-            "val": 150000,
+            "val": 200000,
             "type": "currency",
             "howToReference": "${{addCommas gsheets.snippets.challenge-prize-grand-amt.val}}"
         },
@@ -984,18 +992,31 @@
             "type": "string",
             "description": "This is a the current Twitter promo tweet for Health Care Acceleration Challenge. It will occur alongside the apply now button.",
             "howToReference": "{{gsheets.snippets.social-twitter-share-tweet.val}}"
+        },
+        "timezone-suffix": {
+            "id": "timezone-suffix",
+            "val": "ET",
+            "description": "Suffix for timezone",
+            "howToReference": "{{gsheets.snippets.timezone-suffix.val}}"
+        },
+        "challenge-application-word-length": {
+            "id": "challenge-application-word-length",
+            "val": 1000,
+            "type": "number",
+            "description": "You will be asked to describe your solution, articulate how it improves health care value, quantify the potential impact it could have if disseminated broadly, and outline your dissemination plan in a ~1000 word application.",
+            "howToReference": "{{addCommas gsheets.snippets.challenge-application-word-length.val}}"
         }
     },
     "updates": {
-        "press-2014-07-27-top-ten-healthc": {
-            "id": "press-2014-07-27-top-ten-healthc",
+        "press-2014-07-27-top-ten-health-": {
+            "id": "press-2014-07-27-top-ten-health-",
             "category": "press",
             "date": "2014-07-27T04:00:00.000Z",
-            "headline": "Top Ten Healthcare Quotes For 2013",
+            "headline": "Top Ten Health Care Quotes For 2013",
             "url": "http://www.forbes.com/sites/danmunro/2013/12/22/top-ten-healthcare-quotes-for-2013/",
             "source": "Forbes",
             "message": "Quotes from Andrew J. Sussman, MD and Christopher A. Viehbacher made it to Forbes' top quotes of 2013. ",
-            "howToReference": "{{gsheets.updates.press-2014-07-27-top-ten-healthc.headline}}"
+            "howToReference": "{{gsheets.updates.press-2014-07-27-top-ten-health-.headline}}"
         },
         "press-2013-07-15-5-imperatives-f": {
             "id": "press-2013-07-15-5-imperatives-f",
@@ -1008,16 +1029,18 @@
         }
     },
     "downloads": {
-        "hac-flier": {
-            "id": "hac-flier",
+        "hac-flyer": {
+            "id": "hac-flyer",
             "pages": "index, challenge",
-            "title": "Barriers to Health Care Innovation",
-            "imgFilename": "hbs-hms-press-release-1.png",
-            "howToReference": "{{gsheets.downloads.hac-flier.title}}"
+            "title": "Health Acceleration Challenge Flyer",
+            "pdfFilename": "hca-challenge-2pg.pdf",
+            "description": "Details for potential applicants.",
+            "imgFilename": "hca-challenge-2pg.png",
+            "howToReference": "{{gsheets.downloads.hac-flyer.title}}"
         },
         "hac-press-release": {
             "id": "hac-press-release",
-            "pages": "index, challenge",
+            "pages": "index, ",
             "title": "Press Kit",
             "foreignUrl": "http://www.hbs.edu/news/releases/Pages/healthcareforum12-20-12.aspx",
             "description": "Challenge information and logos.",
@@ -1125,15 +1148,15 @@
             "file": "challenge-04-challenge-benefits-hbs-case-study",
             "howToReference": "{{gsheets.nav.challenge-challenge-benefits-hbs-case-study.navId}}"
         },
-        "challenge-challenge-benefits-connections": {
-            "id": "challenge-challenge-benefits-connections",
+        "challenge-challenge-benefits-exposure": {
+            "id": "challenge-challenge-benefits-exposure",
             "page": "challenge",
-            "navId": "challenge-benefits-connections",
-            "title": "Connections",
+            "navId": "challenge-benefits-exposure",
+            "title": "Exposure",
             "order": 5,
             "level": 3,
-            "file": "challenge-05-challenge-benefits-connections",
-            "howToReference": "{{gsheets.nav.challenge-challenge-benefits-connections.navId}}"
+            "file": "challenge-05-challenge-benefits-exposure",
+            "howToReference": "{{gsheets.nav.challenge-challenge-benefits-exposure.navId}}"
         },
         "challenge-challenge-benefits-financial-award": {
             "id": "challenge-challenge-benefits-financial-award",

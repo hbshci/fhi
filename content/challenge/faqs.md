@@ -5,7 +5,7 @@
 
 1. #### What is the Health Acceleration Challenge?
 
-    Our Challenge aims to identify and promote innovations that have credible, demonstrated evidence to generate significant value for the US health care delivery system. In particular, we are looking for proven ideas that, if more broadly disseminated, could move the needle on cost, quality or access.
+    Our Challenge aims to identify and promote innovations that have credible, demonstrated evidence to generate significant value for the U.S. health care delivery system. In particular, we are looking for proven ideas that, if more broadly disseminated, could move the needle on cost, quality or access.
 
 1. #### What do you mean by "demonstrated value" and "potential to scale rapidly"?
 
@@ -17,7 +17,7 @@
 
 1. #### Are participants supposed to solve a specific problem?
 
-    Innovation and value creation for health care delivery can come in many shapes and sizes from process improvement and new business models to software or hardware innovations. As a result, we want you to tell us how your innovation has created value for patients, customers or the delivery system and why your idea will be able to transform US health care delivery.
+    Innovation and value creation for health care delivery can come in many shapes and sizes from process improvement and new business models to software or hardware innovations. As a result, we want you to tell us how your innovation has created value for patients, customers or the delivery system and why your idea will be able to transform U.S. health care delivery.
 
 1. #### What are the benefits of participating?
 
@@ -33,15 +33,15 @@
 
 1. #### Who should apply to the Health Acceleration Challenge?
 
-    We welcome applications from all types of people—individuals and teams, clinicians and administrators, technologists and scientists, and those in the health care industry or outside of it—anyone with a proven health care innovation.   All types of organizations are invited to apply as well—established or early stage, for profit or not for profit, from within the US or outside.  
+    We welcome applications from all types of people—individuals and teams, clinicians and administrators, technologists and scientists, and those in the health care industry or outside of it—anyone with a proven health care innovation.   All types of organizations are invited to apply as well—established or early stage, for profit or not for profit, from within the U.S. or outside.  
 
 1. #### Do I have to be a for-profit entity?
 
     No. For-profit and non-profit ideas are bothwelcomed for consideration.
 
-1. #### Do I have to be based in the US or Boston?
+1. #### Do I have to be based in the U.S. or Boston?
 
-    No, you can be based anywhere in the world but your solution needs to be applicable to the US health care delivery system and you need to have a credible plan on how to deliver your solution in the US market.
+    No, you can be based anywhere in the world but your solution needs to be applicable to the U.S. health care delivery system and you need to have a credible plan on how to deliver your solution in the U.S. market.
 
 1. #### What are you not looking for?
 
@@ -49,7 +49,7 @@
 
 1. #### How far along does my innovation have to be?
 
-    The application is open to any organization or solution ranging from nearly developed to fully developed to the early stages of deployment. However, you need credible demonstrated evidence that your solution can significantly impact the US health care delivery system.  This means your solution needs to be implemented in at least one setting.
+    The application is open to any organization or solution ranging from nearly developed to fully developed to the early stages of deployment. However, you need credible demonstrated evidence that your solution can significantly impact the U.S. health care delivery system.  This means your solution needs to be implemented in at least one setting.
 
 1. #### What criteria will the Judging Committee use?
 
