@@ -1,15 +1,17 @@
 ---
-title: Forum on Health Care Innovation
+title: About
 slug: index
-top-heading: Health Acceleration Challenge Launch
-top-lead: HBS and HMS proudly present
+top-heading: "Health Acceleration Challenge Launch"
+top-lead: ""
 ---
 {{!-- MAIN CONTENT --}}
 <div class="docs-section">
 
   {{!-- Health Acceleration Challenge Launch
   ================================================== --}}
-  {{> heading-lead}}
+  <div class="page-header">
+    <h1 id="{{slugify top-heading}}">{{top-heading}}</h1>
+  </div>
   {{md 'challenge-launch-intro'}}
 
   {{!-- Health Acceleration Challenge Video 
@@ -19,12 +21,6 @@ top-lead: HBS and HMS proudly present
         {{> video}}
       </div>
     </div>
-
-</div>{{!-- /MAIN CONTENT --}}
-
-
-{{!-- SECONDARY CONTENT: News, etc --}}
-<div class="docs-section">
 
   {{!-- News and Press
   ================================================== --}}
@@ -47,16 +43,16 @@ top-lead: HBS and HMS proudly present
   </div>
   
 
-</div>{{!-- end of SECONDARY CONTENT: News, etc --}}
+</div>{{!-- .docs-section  --}}
 
 {{!-- TERTIARY CONTENT: About the Forum --}}
-<div class="docs-section">
 
   {{!-- About The Forum
   ================================================== --}}
   <div class="docs-section">
+    <h1 id="about-the-forum">About the Forum</h1>
+
     {{md 'about-the-forum'}}
-  </div>
 
   {{!-- Steering Committee
   ================================================== --}}
@@ -73,5 +69,6 @@ top-lead: HBS and HMS proudly present
        {{partial 'person' gsheets.people.Sterling }}
     </div>
   </div>
+</div>
 
-</div>{{!-- end of TERTIARY CONTENT: About the Forum --}}
+
