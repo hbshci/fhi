@@ -13,14 +13,15 @@
     {{!-- Content --}}
     <div class="container docs-container">
       <div class="row">
-        {{#isnt slug 'index'}}
           <div class="col-md-3">
             <div class="sidebar hidden-print" role="complementary">
               {{> sidebar-apply-now }}
               {{> sidenav }}
+              {{#is slug 'index'}}
+              {{> sidebar-subscribe }}
+              {{/is}}
             </div>
           </div>
-        {{/isnt}}
         <div class="col-md-9" role="main">
           <!--
             To create PDF of whole site, include {{> nav-main-links}} on the next line. 
@@ -30,17 +31,7 @@
           
           {{> body }}
         </div>
-        {{#is slug 'index'}}
-          <div class="col-md-3">
-            <div class="sidebar hidden-print" role="complementary">
-              
-              {{> sidebar-apply-now }}
-              {{!-- {{> sidenav }} --}}
-              {{> sidebar-subscribe }}
-              
-            </div>
-          </div>
-        {{/is}}
+        
       </div>
     </div>
 

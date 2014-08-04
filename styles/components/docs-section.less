@@ -60,7 +60,7 @@ h1[id] {
 }
 
 // Make headings stand out more, give some space
-.docs-section {
+.docs-container {
   p {
     //font-size: @font-size-large - 2;
     font-family: @font-family-sans-serif;
@@ -91,33 +91,37 @@ h1[id] {
     text-transform:uppercase;
     font-weight:bold;
   }
-  h1 {
-    font-size: 44px;
-    line-height: 48px;
+  h1 { // beta-uc
+    font-size:44px;
+    line-height:48px;
+    letter-spacing:0;
+    text-rendering:optimizeLegibility;
   }
-  h2 {
+  h2 { // gamma-uc
 /*    font-size: 24px;
     color: @link-color;*/
     
     font-size: 32px;
-    line-height: 50px;
+    line-height: 40px;
   }
-  h3 {
+  h3 { // epsilon-uc
     /*font-size: 20px;*/
     font-size: 23px;
-    line-height: 24px;
+    line-height: 28px;
   }
   .h1, .h2, .h3 {
     text-transform:uppercase;
     font-weight:bold;
   }
   .h1 {
-      font-size: 44px;
-    line-height: 48px;
+    font-size:44px;
+    line-height:48px;
+    letter-spacing:0;
+    text-rendering:optimizeLegibility;
   }
   .h2 {
     font-size: 32px;
-    line-height: 50px;
+    line-height: 40px;
   }
   .h3 {
     font-size: 23px;

@@ -1,6 +1,3 @@
-
-## About the Forum
-
 The Forum on Health Care Innovation is a collaboration between [Harvard Business School]({{gsheets.links.hbs-main.url}}) (HBS) and [Harvard Medical School]({{gsheets.links.hms-main.url}}) (HMS). Its purpose is to unite leading executives, policymakers, and academics in a cross-disciplinary exploration of innovative actions to improve quality, reduce costs, and, ultimately, increase value in the health care industry.
 
 The Forum's [initial event]({{gsheets.links.conference-2012-main.url}}) was a conference and survey that was summarized in [Five Key Imperatives]({{gsheets.links.conference-2012-5-imperatives.url}}).
