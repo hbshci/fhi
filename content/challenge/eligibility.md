@@ -13,8 +13,8 @@ All applicants to the HBS-HMS Health Acceleration Challenge must:
 
 * Be willing to share all application information with the public. _Contestants should not disclose any information that is proprietary or confidential._
 
-* Be available and responsive to questions between {{gsheets.dates.challenge-applicant-must-be-available-questions.rangeString}} so that an HBS case study can be written about the innovation.
+* Be available and responsive to questions between {{formatDate gsheets.dates.challenge-applicant-must-be-available-questions.dateFrom gsheets.formatting.date-month-withDay-andYear.fmt}} and {{formatDate gsheets.dates.challenge-applicant-must-be-available-questions.dateTo gsheets.formatting.date-month-withDay-andYear.fmt}}, so that an HBS case study can be written about the innovation.
 
-* Travel to Boston at own expense for {{gsheets.dates.conference-date-main.rangeString}} in order to present at the Forum on Health Care Innovation conference.  
+* Travel to Boston at own expense for {{gsheets.dates.conference-date-main.rangeString}}, in order to present at the Forum on Health Care Innovation conference.  
 
 * Be willing to comply with Harvard University’s use of name and endorsement policies, as established by the Harvard Trademark Office. _Any non-compliance will result in disqualification._

@@ -1,0 +1,6 @@
+<a href="{{#if pdfFilename}}{{assets}}/pdf/{{ pdfFilename }}{{else}}{{foreignUrl}}{{/if}}" target="_blank">
+{{#if imgFilename}}
+    <img src="{{assets}}/img/{{imgFilename}}" alt="{{title}}" >
+    {{else}}<strong>{{title}}</strong><br/>
+{{/if}}
+</a>

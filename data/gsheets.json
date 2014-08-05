@@ -5,7 +5,7 @@
             "displayName": "Apply",
             "dateTo": "2014-09-30T03:59:00.000Z",
             "rangeString": "August 11 – September 29, 2014",
-            "howToReference": "{{gsheets.dates.challenge-stages-apply.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-stages-apply"
         },
         "challenge-stages-advise": {
             "id": "challenge-stages-advise",
@@ -13,7 +13,7 @@
             "dateFrom": "2014-09-30T04:00:00.000Z",
             "dateTo": "2014-10-21T03:59:51.360Z",
             "rangeString": "September 30 – October 20, 2014",
-            "howToReference": "{{gsheets.dates.challenge-stages-advise.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-stages-advise"
         },
         "challenge-stages-refine": {
             "id": "challenge-stages-refine",
@@ -21,40 +21,40 @@
             "dateFrom": "2014-10-21T04:00:00.000Z",
             "dateTo": "2014-11-10T05:00:00.000Z",
             "rangeString": "October 21 – November 10, 2014",
-            "howToReference": "{{gsheets.dates.challenge-stages-refine.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-stages-refine"
         },
         "challenge-stages-announce": {
             "id": "challenge-stages-announce",
             "displayName": "Announce",
             "dateFrom": "2014-11-17T05:00:00.000Z",
-            "howToReference": "{{gsheets.dates.challenge-stages-announce.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-stages-announce"
         },
         "challenge-application-due": {
             "id": "challenge-application-due",
             "displayName": "Application Due",
             "dateFrom": "2014-09-30T03:59:00.000Z",
-            "howToReference": "{{gsheets.dates.challenge-application-due.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-application-due"
         },
         "challenge-webinar-date": {
             "id": "challenge-webinar-date",
             "displayName": "Challenge Webinar",
             "dateFrom": "2014-09-17T16:00:00.000Z",
-            "howToReference": "{{gsheets.dates.challenge-webinar-date.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-webinar-date"
         },
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-07-31T15:51:29.341Z",
+            "dateFrom": "2014-08-05T20:06:18.339Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
-            "howToReference": "{{gsheets.dates.data-refresh.dateFrom}}"
+            "howToReference": "gsheets.dates.data-refresh"
         },
         "conference-date-main": {
             "id": "conference-date-main",
             "displayName": "2015 Forum on Health Care Innovation Conference",
             "dateFrom": "2015-04-15T19:00:00.000Z",
             "dateTo": "2015-04-16T21:00:00.000Z",
-            "rangeString": "April 15 – 16, 2015",
-            "howToReference": "{{gsheets.dates.conference-date-main.dateFrom}}"
+            "rangeString": "April 15–16, 2015",
+            "howToReference": "gsheets.dates.conference-date-main"
         },
         "challenge-applicant-must-be-available-interview": {
             "id": "challenge-applicant-must-be-available-interview",
@@ -63,7 +63,7 @@
             "dateTo": "2014-11-10T05:00:00.000Z",
             "rangeString": "October 21 – November 10, 2014",
             "description": "from challenge rules end eligibility: Be available to be contacted by email or telephone at any point in the evaluation process and be available for a Skype or phone interview with a member of the evaluation committee during the time period of ",
-            "howToReference": "{{gsheets.dates.challenge-applicant-must-be-available-interview.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-applicant-must-be-available-interview"
         },
         "challenge-applicant-must-be-available-questions": {
             "id": "challenge-applicant-must-be-available-questions",
@@ -72,7 +72,7 @@
             "dateTo": "2015-04-14T04:00:00.000Z",
             "rangeString": "November 17, 2014 – April 14, 2015",
             "description": "from challenge process: * Be available and responsive to questions between XX - XX so that an HBS case study can be written about the innovation.",
-            "howToReference": "{{gsheets.dates.challenge-applicant-must-be-available-questions.dateFrom}}"
+            "howToReference": "gsheets.dates.challenge-applicant-must-be-available-questions"
         }
     },
     "links": {
@@ -98,7 +98,7 @@
         "challenge-platform-tos": {
             "id": "challenge-platform-tos",
             "name": "OpenIDEO terms of service",
-            "url": "https://openideo.com/terms",
+            "url": "http://openforum.hbs.org/terms",
             "howToReference": "gsheets.links.challenge-platform-tos"
         },
         "challenge-webinar-register-link": {
@@ -176,24 +176,31 @@
         "video-landing-page": {
             "id": "video-landing-page",
             "name": "Landing Page Video",
-            "url": "//www.youtube.com/embed/OnBBv0Bm-yY?rel=0",
+            "url": "//www.youtube.com/embed/IhnNr2A2IS8?rel=0",
             "howToReference": "gsheets.links.video-landing-page"
+        },
+        "challenge-platform-comments": {
+            "id": "challenge-platform-comments",
+            "name": "OpenIDEO Participant Comments",
+            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/brief.html",
+            "howToReference": "gsheets.links.challenge-platform-comments"
         }
     },
     "people": {
         "Bertolini": {
             "id": "Bertolini",
             "role": "Keynote",
-            "nameFirst": "Mark",
+            "firstName": "Mark",
+            "nameMiWPeriod": "T.",
             "nameLast": "Bertolini",
             "nameLastAndMd": "Bertolini",
-            "nameFinal": "Mark Bertolini",
+            "nameFinal": "Mark T. Bertolini",
             "nameFirstLastShort": "Mark Bertolini",
-            "bioLocationName": "Aetna Inc. profile, Mark Bertolini",
+            "bioLocationName": "Aetna Inc. profile, Mark T. Bertolini",
             "bioUrl": "http://www.aetna.com/about-us/aetna-leadership.html",
-            "title": "Chairman, Chief Executive Officer and President",
+            "title": "Chairman, Chief Executive Officer, and President",
             "company": "Aetna Inc.",
-            "titleAndCompany": "Chairman, Chief Executive Officer and President, Aetna Inc.",
+            "titleAndCompany": "Chairman, Chief Executive Officer, and President, Aetna Inc.",
             "photoUrl": "http://static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/mark_bertolini1.jpg?itok=mQqBxNle",
             "photo75wExists": "y",
             "howToReference": "gsheets.people.Bertolini"
@@ -201,7 +208,7 @@
         "Berwick": {
             "id": "Berwick",
             "role": "Speaker",
-            "nameFirst": "Donald",
+            "firstName": "Donald",
             "nameMiWPeriod": "M.",
             "nameLast": "Berwick",
             "nameHasMd": "MD",
@@ -222,16 +229,16 @@
         "Bingham": {
             "id": "Bingham",
             "role": "Speaker",
-            "nameFirst": "Alpheus",
+            "firstName": "Alpheus",
             "nameLast": "Bingham",
             "nameLastAndMd": "Bingham",
             "nameFinal": "Alpheus Bingham",
             "nameFirstLastShort": "Alpheus Bingham",
             "bioLocationName": "InnoCentive profile, Alpheus Bingham",
             "bioUrl": "http://www.innocentive.com/about-innocentive/management-team",
-            "title": "Co-founder",
+            "title": "Co-Founder",
             "company": "InnoCentive",
-            "titleAndCompany": "Co-founder, InnoCentive",
+            "titleAndCompany": "Co-Founder, InnoCentive",
             "video2012": "https://www.youtube.com/watch?v=ItkekGDstH0",
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/alpheus-bingham",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/alpheus_bingham.jpg",
@@ -242,7 +249,7 @@
         "Brown": {
             "id": "Brown",
             "role": "Speaker",
-            "nameFirst": "Tim",
+            "firstName": "Tim",
             "nameLast": "Brown",
             "nameLastAndMd": "Brown",
             "nameFinal": "Tim Brown",
@@ -262,7 +269,7 @@
         "Chin": {
             "id": "Chin",
             "role": "Moderator",
-            "nameFirst": "William",
+            "firstName": "William",
             "nameMiWPeriod": "W.",
             "nameLast": "Chin",
             "nameHasMd": "MD",
@@ -271,9 +278,9 @@
             "nameFirstLastShort": "William Chin",
             "bioLocationName": "Harvard Medical School profile, William W. Chin, MD",
             "bioUrl": "http://hms.harvard.edu/content/william-w-chin-md",
-            "title": "Executive Dean for Research, Bertarelli Professor of Translational Medical Science and Professor of Medicine",
+            "title": "Executive Dean for Research, Bertarelli Distinguished Professor of Translational Medical Science and Professor of Medicine",
             "company": "Harvard Medical School",
-            "titleAndCompany": "Executive Dean for Research, Bertarelli Professor of Translational Medical Science and Professor of Medicine, Harvard Medical School",
+            "titleAndCompany": "Executive Dean for Research, Bertarelli Distinguished Professor of Translational Medical Science and Professor of Medicine, Harvard Medical School",
             "video2012": "https://www.youtube.com/watch?v=wOZbUmh-ZLQ",
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/william-w-chin-md",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/william_chin.png",
@@ -284,7 +291,7 @@
         "Christensen": {
             "id": "Christensen",
             "role": "Moderator",
-            "nameFirst": "Clayton",
+            "firstName": "Clayton",
             "nameMiWPeriod": "M.",
             "nameLast": "Christensen",
             "nameLastAndMd": "Christensen",
@@ -305,8 +312,9 @@
         "Cosgrove": {
             "id": "Cosgrove",
             "role": "Speaker",
-            "nameFirst": "Delos",
-            "namePref": "Toby",
+            "firstName": "Delos",
+            "firstNameToUseIfAlt": "Toby",
+            "firstNameAlt": "Toby",
             "nameMiWPeriod": "M.",
             "nameLast": "Cosgrove",
             "nameHasMd": "MD",
@@ -328,7 +336,7 @@
         "Flier": {
             "id": "Flier",
             "role": "Keynote",
-            "nameFirst": "Jeffrey",
+            "firstName": "Jeffrey",
             "nameMiWPeriod": "S.",
             "nameLast": "Flier",
             "nameHasMd": "MD",
@@ -350,7 +358,7 @@
         "Garber": {
             "id": "Garber",
             "role": "Speaker",
-            "nameFirst": "Alan",
+            "firstName": "Alan",
             "nameMiWPeriod": "M.",
             "nameLast": "Garber",
             "nameHasMd": "MD",
@@ -371,7 +379,7 @@
         "Gilpin_Faust": {
             "id": "Gilpin_Faust",
             "role": "Vip",
-            "nameFirst": "Drew",
+            "firstName": "Drew",
             "nameLast": "Gilpin Faust",
             "nameLastAndMd": "Gilpin Faust",
             "nameFinal": "Drew Gilpin Faust",
@@ -391,8 +399,9 @@
         "Giusti": {
             "id": "Giusti",
             "role": "Speaker",
-            "nameFirst": "Kathryn",
-            "namePref": "Kathy",
+            "firstName": "Kathryn",
+            "firstNameToUseIfAlt": "Kathy",
+            "firstNameAlt": "Kathy",
             "nameLast": "Giusti",
             "nameLastAndMd": "Giusti",
             "nameFinal": "Kathy Giusti",
@@ -412,7 +421,7 @@
         "Gottlieb": {
             "id": "Gottlieb",
             "role": "Speaker",
-            "nameFirst": "Gary",
+            "firstName": "Gary",
             "nameMiWPeriod": "L.",
             "nameLast": "Gottlieb",
             "nameHasMd": "MD",
@@ -434,7 +443,7 @@
         "Hamermesh": {
             "id": "Hamermesh",
             "role": "Fac Co-Chair, Steering Committee",
-            "nameFirst": "Richard",
+            "firstName": "Richard",
             "nameMiWPeriod": "G.",
             "nameLast": "Hamermesh",
             "nameLastAndMd": "Hamermesh",
@@ -455,7 +464,7 @@
         "Herzlinger": {
             "id": "Herzlinger",
             "role": "Moderator",
-            "nameFirst": "Regina",
+            "firstName": "Regina",
             "nameMiWPeriod": "E.",
             "nameLast": "Herzlinger",
             "nameLastAndMd": "Herzlinger",
@@ -476,7 +485,7 @@
         "Huckman": {
             "id": "Huckman",
             "role": "Fac Co-Chair, Steering Committee",
-            "nameFirst": "Robert",
+            "firstName": "Robert",
             "nameMiWPeriod": "S.",
             "nameLast": "Huckman",
             "nameLastAndMd": "Huckman",
@@ -497,7 +506,7 @@
         "Lander": {
             "id": "Lander",
             "role": "Speaker",
-            "nameFirst": "Eric",
+            "firstName": "Eric",
             "nameMiWPeriod": "S.",
             "nameLast": "Lander",
             "nameLastAndMd": "Lander",
@@ -505,9 +514,9 @@
             "nameFirstLastShort": "Eric Lander",
             "bioLocationName": "The Eli and Edythe L. Broad Institute of Harvard and MIT profile, Eric S. Lander",
             "bioUrl": "http://www.broadinstitute.org/about/bios/bio-lander.html",
-            "title": "President & Founding Director",
+            "title": "President and Founding Director",
             "company": "The Eli and Edythe L. Broad Institute of Harvard and MIT",
-            "titleAndCompany": "President & Founding Director, The Eli and Edythe L. Broad Institute of Harvard and MIT",
+            "titleAndCompany": "President and Founding Director, The Eli and Edythe L. Broad Institute of Harvard and MIT",
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/eric-s-lander",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/eric_lander.jpg",
             "photoFilename": "eric_lander.jpg",
@@ -517,8 +526,9 @@
         "McGuire": {
             "id": "McGuire",
             "role": "Speaker",
-            "nameFirst": "Terrance",
-            "namePref": "Terry",
+            "firstName": "Terrance",
+            "firstNameToUseIfAlt": "Terry",
+            "firstNameAlt": "Terry",
             "nameMiWPeriod": "G.",
             "nameLast": "McGuire",
             "nameLastAndMd": "McGuire",
@@ -526,9 +536,9 @@
             "nameFirstLastShort": "Terrance McGuire",
             "bioLocationName": "Polaris Partners profile, Terrance G. McGuire",
             "bioUrl": "http://www.polarisventures.com/team/member/terry-mcguire/",
-            "title": "Co-founder and Managing General Partner",
+            "title": "Co-Founder and Managing General Partner",
             "company": "Polaris Partners",
-            "titleAndCompany": "Co-founder and Managing General Partner, Polaris Partners",
+            "titleAndCompany": "Co-Founder and Managing General Partner, Polaris Partners",
             "video2012": "https://www.youtube.com/watch?v=wQUlM-Hg2KI",
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/terrance-g-mcguire",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/terry_mcguire.jpg",
@@ -539,7 +549,7 @@
         "McNeil": {
             "id": "McNeil",
             "role": "Fac Co-Chair, Steering Committee",
-            "nameFirst": "Barbara",
+            "firstName": "Barbara",
             "nameMiWPeriod": "J.",
             "nameLast": "McNeil",
             "nameHasMd": "MD",
@@ -561,7 +571,7 @@
         "Mussallem": {
             "id": "Mussallem",
             "role": "Speaker",
-            "nameFirst": "Michael",
+            "firstName": "Michael",
             "nameMiWPeriod": "A.",
             "nameLast": "Mussallem",
             "nameLastAndMd": "Mussallem",
@@ -582,12 +592,12 @@
         "Newhouse": {
             "id": "Newhouse",
             "role": "Fac Co-Chair, Steering Committee",
-            "nameFirst": "Joeseph",
+            "firstName": "Joseph",
             "nameMiWPeriod": "P.",
             "nameLast": "Newhouse",
             "nameLastAndMd": "Newhouse",
-            "nameFinal": "Joeseph P. Newhouse",
-            "nameFirstLastShort": "Joeseph Newhouse",
+            "nameFinal": "Joseph P. Newhouse",
+            "nameFirstLastShort": "Joseph Newhouse",
             "bioLocationName": "Harvard University profile, Joeseph P. Newhouse",
             "bioUrl": "http://www.hcp.med.harvard.edu/people/hcp_core_faculty/joseph_newhouse",
             "title": "John D. MacArthur Professor of Health Policy and Management",
@@ -595,14 +605,14 @@
             "titleAndCompany": "John D. MacArthur Professor of Health Policy and Management, Harvard University",
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/joseph-p-newhouse",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/joseph_newhouse.jpg",
-            "photoFilename": "joeseph_newhouse.jpg",
+            "photoFilename": "joseph_newhouse.jpg",
             "photo75wExists": "y",
             "howToReference": "gsheets.people.Newhouse"
         },
         "Nohria": {
             "id": "Nohria",
             "role": "Keynote",
-            "nameFirst": "Nitin",
+            "firstName": "Nitin",
             "nameLast": "Nohria",
             "nameLastAndMd": "Nohria",
             "nameFinal": "Nitin Nohria",
@@ -622,7 +632,7 @@
         "Porter": {
             "id": "Porter",
             "role": "Moderator",
-            "nameFirst": "Michael",
+            "firstName": "Michael",
             "nameMiWPeriod": "E.",
             "nameLast": "Porter",
             "nameLastAndMd": "Porter",
@@ -643,7 +653,7 @@
         "Reisman": {
             "id": "Reisman",
             "role": "Speaker",
-            "nameFirst": "Lonny",
+            "firstName": "Lonny",
             "nameLast": "Reisman",
             "nameHasMd": "MD",
             "nameLastAndMd": "Reisman, MD",
@@ -651,9 +661,9 @@
             "nameFirstLastShort": "Lonny Reisman",
             "bioLocationName": "Aetna Inc. profile, Lonny Reisman, MD",
             "bioUrl": "http://www.aetna.com/about-aetna-insurance/aetna-corporate-profile/corporate-bios/reisman.html",
-            "title": "Senior Vice President, Chief Medical Officer",
+            "title": "Executive Vice President and Chief Medical Officer",
             "company": "Aetna Inc.",
-            "titleAndCompany": "Senior Vice President, Chief Medical Officer, Aetna Inc.",
+            "titleAndCompany": "Executive Vice President and Chief Medical Officer, Aetna Inc.",
             "video2012": "https://www.youtube.com/watch?v=zPU3m84Nnn0",
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/lonny-reisman-md",
             "photoUrl": "http://projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/lonny_reisman.jpg",
@@ -664,7 +674,7 @@
         "Schlichting": {
             "id": "Schlichting",
             "role": "Speaker",
-            "nameFirst": "Nancy",
+            "firstName": "Nancy",
             "nameMiWPeriod": "M.",
             "nameLast": "Schlichting",
             "nameLastAndMd": "Schlichting",
@@ -685,7 +695,7 @@
         "Sperling": {
             "id": "Sperling",
             "role": "Speaker",
-            "nameFirst": "Kenneth",
+            "firstName": "Kenneth",
             "nameMiWPeriod": "L.",
             "nameLast": "Sperling",
             "nameLastAndMd": "Sperling",
@@ -706,7 +716,7 @@
         "Sterling": {
             "id": "Sterling",
             "role": "Steering Committee",
-            "nameFirst": "Cara",
+            "firstName": "Cara",
             "nameLast": "Sterling",
             "nameLastAndMd": "Sterling",
             "nameFinal": "Cara Sterling",
@@ -720,12 +730,13 @@
         "Summers": {
             "id": "Summers",
             "role": "Keynote",
-            "nameFirst": "Lawrence",
-            "namePref": "Lawrence",
-            "otherName": "Larry",
+            "firstName": "Lawrence",
+            "firstNameToUseIfAlt": "Lawrence",
+            "firstNameAlt": "Larry",
+            "nameMiWPeriod": "H.",
             "nameLast": "Summers",
             "nameLastAndMd": "Summers",
-            "nameFinal": "Lawrence Summers",
+            "nameFinal": "Lawrence H. Summers",
             "nameFirstLastShort": "Lawrence Summers",
             "bioLocationName": "Harvard Kennedy School profile, Lawrence Summers",
             "bioUrl": "http://www.hks.harvard.edu/about/faculty-staff-directory/lawrence-summers",
@@ -739,7 +750,7 @@
         "Sussman": {
             "id": "Sussman",
             "role": "Speaker",
-            "nameFirst": "Andrew",
+            "firstName": "Andrew",
             "nameMiWPeriod": "J.",
             "nameLast": "Sussman",
             "nameHasMd": "MD",
@@ -761,7 +772,7 @@
         "Viehbacher": {
             "id": "Viehbacher",
             "role": "Speaker",
-            "nameFirst": "Christopher",
+            "firstName": "Christopher",
             "nameMiWPeriod": "A.",
             "nameLast": "Viehbacher",
             "nameLastAndMd": "Viehbacher",
@@ -782,7 +793,7 @@
         "Wolfsen": {
             "id": "Wolfsen",
             "role": "Speaker",
-            "nameFirst": "Brad",
+            "firstName": "Brad",
             "nameLast": "Wolfsen",
             "nameLastAndMd": "Wolfsen",
             "nameFinal": "Brad Wolfsen",
@@ -805,15 +816,17 @@
             "id": "2012-panel1",
             "year": 2012,
             "ourName": "panel1",
-            "websiteName": "Reducing Employee Healthcare Costs: Beyond Cost Shifting",
+            "websiteName": "Reducing Employee Health Care Costs: Beyond Cost Shifting",
             "description": "Moderated by Regina E. Herzlinger, Nancy R. McPherson Professor of Business Administration at HBS, this panel focused on innovative product models, increased access to quality and cost information, and incentives to encourage healthy behaviors in employees.",
-            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-1-reducing-employee-healthcare-costs-beyond-cost-shifting"
+            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-1-reducing-employee-healthcare-costs-beyond-cost-shifting",
+            "howToReference": "gsheets.links.2012-panel1"
         },
         "2012-keynote1": {
             "id": "2012-keynote1",
             "year": 2012,
             "ourName": "keynote1",
-            "websiteName": "Day 1 Keynote"
+            "websiteName": "Day 1 Keynote",
+            "howToReference": "gsheets.links.2012-keynote1"
         },
         "2012-panel2": {
             "id": "2012-panel2",
@@ -821,7 +834,8 @@
             "ourName": "panel2",
             "websiteName": "Developing More Meaningful Drugs, Devices, and Diagnostics",
             "description": "Led by William W. Chin, MD, Bertarelli Professor of Translational Medical Science and Professor of Medicine at HMS, this panel focused on new approaches to research and innovative business models, and how life science companies can be more patient centric.",
-            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-2-developing-more-meaningful-drugs-devices-and-diagnostics"
+            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-2-developing-more-meaningful-drugs-devices-and-diagnostics",
+            "howToReference": "gsheets.links.2012-panel2"
         },
         "2012-panel3": {
             "id": "2012-panel3",
@@ -829,29 +843,33 @@
             "ourName": "panel3",
             "websiteName": "Translating Academic Research into Clinical and Commercial Use",
             "description": "Headed by Barbara J. McNeil, MD, Ridley Watts Professor of Health Care Policy at HMS, this panel explored novel financing mechanisms as well as opportunities for academia, foundations, and companies to share critical information.",
-            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-3-translating-academic-research-clinical-and-commercial-use"
+            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-3-translating-academic-research-clinical-and-commercial-use",
+            "howToReference": "gsheets.links.2012-panel3"
         },
         "2012-keynote2": {
             "id": "2012-keynote2",
             "year": 2012,
             "ourName": "keynote2",
-            "websiteName": "Day 2 Keynote"
+            "websiteName": "Day 2 Keynote",
+            "howToReference": "gsheets.links.2012-keynote2"
         },
         "2012-panel4": {
             "id": "2012-panel4",
             "year": 2012,
             "ourName": "panel4",
             "websiteName": "Improving the Patient Experience",
-            "description": "Moderated by Clayton M. Christensen, Kim B. Clark Professor of Business Administration at HBS, this panel discussed approaches to making care delivery more patient friendly by providing services where and when people want them, organized in clear and efficient ways.",
-            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-4-improving-patient-experience"
+            "description": "Moderated by Clayton M. Christensen, Kim B. Clark Professor of Business Administration at HBS, this panel discussed approaches to making care delivery more patient-friendly by providing services where and when people want them, organized in clear and efficient ways.",
+            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-4-improving-patient-experience",
+            "howToReference": "gsheets.links.2012-panel4"
         },
         "2012-panel5": {
             "id": "2012-panel5",
             "year": 2012,
             "ourName": "panel5",
             "websiteName": "Improving the Value of Care Delivery",
-            "description": "Led by Michael E. Porter, Bishop William Lawrence University Professor at Harvard University, this panel discussed the critical role that high-quality, established healthcare providers can play in coordinating care for individuals as well as managing care for defined populations.",
-            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-5-improving-value-care-delivery"
+            "description": "Led by Michael E. Porter, Bishop William Lawrence University Professor at Harvard University, this panel discussed the critical role that high-quality, established health care providers can play in coordinating care for individuals as well as managing care for defined populations.",
+            "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-5-improving-value-care-delivery",
+            "howToReference": "gsheets.links.2012-panel5"
         }
     },
     "formatting": {
@@ -864,16 +882,16 @@
         },
         "date-long-withTime": {
             "id": "date-long-withTime",
-            "fmt": "%B %d, %Y at %I:%M %p EST",
+            "fmt": "%B %d, %Y at %I:%M %p ET",
             "description": "Full date for due dates",
-            "example": "September 29, 2014 at 11:59 PM",
+            "example": "September 29, 2014 at 11:59 PM ET",
             "howToReference": "gsheets.formatting.date-long-withTime"
         },
         "date-long-withTime-andWeekday": {
             "id": "date-long-withTime-andWeekday",
-            "fmt": "%B %d, %Y at %I:%M %p EST",
+            "fmt": "%B %d, %Y at %I:%M %p ET",
             "description": "Full date for due dates and appointments",
-            "example": "Wednesday September 17, 2014 at 12 PM EST",
+            "example": "Wednesday September 17, 2014 at 12 PM ET",
             "howToReference": "gsheets.formatting.date-long-withTime-andWeekday"
         },
         "date-month-withYear": {
@@ -928,7 +946,7 @@
         },
         "email-press-forum": {
             "id": "email-press-forum",
-            "val": "press@forumonhealthcareinnovation.org",
+            "val": "info@forumonhealthcareinnovation.org",
             "description": "email for press inquiries",
             "howToReference": "{{gsheets.snippets.email-press-forum.val}}"
         },
@@ -984,18 +1002,31 @@
             "type": "string",
             "description": "This is a the current Twitter promo tweet for Health Care Acceleration Challenge. It will occur alongside the apply now button.",
             "howToReference": "{{gsheets.snippets.social-twitter-share-tweet.val}}"
+        },
+        "timezone-suffix": {
+            "id": "timezone-suffix",
+            "val": "ET",
+            "description": "Suffix for timezone",
+            "howToReference": "{{gsheets.snippets.timezone-suffix.val}}"
+        },
+        "challenge-application-word-length": {
+            "id": "challenge-application-word-length",
+            "val": 1000,
+            "type": "number",
+            "description": "You will be asked to describe your solution, articulate how it improves health care value, quantify the potential impact it could have if disseminated broadly, and outline your dissemination plan in a ~1000 word application.",
+            "howToReference": "{{addCommas gsheets.snippets.challenge-application-word-length.val}}"
         }
     },
     "updates": {
-        "press-2014-07-27-top-ten-healthc": {
-            "id": "press-2014-07-27-top-ten-healthc",
+        "press-2014-07-27-top-ten-health-": {
+            "id": "press-2014-07-27-top-ten-health-",
             "category": "press",
             "date": "2014-07-27T04:00:00.000Z",
-            "headline": "Top Ten Healthcare Quotes For 2013",
+            "headline": "Top Ten Health Care Quotes For 2013",
             "url": "http://www.forbes.com/sites/danmunro/2013/12/22/top-ten-healthcare-quotes-for-2013/",
             "source": "Forbes",
             "message": "Quotes from Andrew J. Sussman, MD and Christopher A. Viehbacher made it to Forbes' top quotes of 2013. ",
-            "howToReference": "{{gsheets.updates.press-2014-07-27-top-ten-healthc.headline}}"
+            "howToReference": "{{gsheets.updates.press-2014-07-27-top-ten-health-.headline}}"
         },
         "press-2013-07-15-5-imperatives-f": {
             "id": "press-2013-07-15-5-imperatives-f",
@@ -1008,21 +1039,23 @@
         }
     },
     "downloads": {
-        "hac-flier": {
-            "id": "hac-flier",
+        "hac-flyer": {
+            "id": "hac-flyer",
             "pages": "index, challenge",
-            "title": "Barriers to Health Care Innovation",
-            "imgFilename": "hbs-hms-press-release-1.png",
-            "howToReference": "{{gsheets.downloads.hac-flier.title}}"
+            "title": "Health Acceleration Challenge Flyer",
+            "pdfFilename": "hca-challenge-2pg.pdf",
+            "description": "Details for potential applicants.",
+            "imgFilename": "hca-challenge-2pg.png",
+            "howToReference": "gsheets.downloads.hac-flyer"
         },
         "hac-press-release": {
             "id": "hac-press-release",
-            "pages": "index, challenge",
+            "pages": "index, ",
             "title": "Press Kit",
             "foreignUrl": "http://www.hbs.edu/news/releases/Pages/healthcareforum12-20-12.aspx",
             "description": "Challenge information and logos.",
             "imgFilename": "hbs-hms-press-release-1.png",
-            "howToReference": "{{gsheets.downloads.hac-press-release.title}}"
+            "howToReference": "gsheets.downloads.hac-press-release"
         },
         "five-imperatives": {
             "id": "five-imperatives",
@@ -1031,7 +1064,7 @@
             "foreignUrl": "http://www.hbs.edu/healthcare/pdf/Forum-on-Healthcare-Innovation-5-Imperatives.pdf",
             "description": "Key insights from the Forum's first conference on health care innovation.",
             "imgFilename": "5_imperatives_pdf_sq.png",
-            "howToReference": "{{gsheets.downloads.five-imperatives.title}}"
+            "howToReference": "gsheets.downloads.five-imperatives"
         }
     },
     "nav": {
@@ -1125,15 +1158,15 @@
             "file": "challenge-04-challenge-benefits-hbs-case-study",
             "howToReference": "{{gsheets.nav.challenge-challenge-benefits-hbs-case-study.navId}}"
         },
-        "challenge-challenge-benefits-connections": {
-            "id": "challenge-challenge-benefits-connections",
+        "challenge-challenge-benefits-exposure": {
+            "id": "challenge-challenge-benefits-exposure",
             "page": "challenge",
-            "navId": "challenge-benefits-connections",
-            "title": "Connections",
+            "navId": "challenge-benefits-exposure",
+            "title": "Exposure",
             "order": 5,
             "level": 3,
-            "file": "challenge-05-challenge-benefits-connections",
-            "howToReference": "{{gsheets.nav.challenge-challenge-benefits-connections.navId}}"
+            "file": "challenge-05-challenge-benefits-exposure",
+            "howToReference": "{{gsheets.nav.challenge-challenge-benefits-exposure.navId}}"
         },
         "challenge-challenge-benefits-financial-award": {
             "id": "challenge-challenge-benefits-financial-award",
@@ -1249,7 +1282,7 @@
             "id": "conference-2015-conference-conference-april-2015-in-boston",
             "page": "conference",
             "navId": "2015-conference-conference-april-2015-in-boston",
-            "title": "Conference April 2015 in Boston",
+            "title": "April 2015 Conference in Boston",
             "order": 2,
             "level": 3,
             "file": "conference-02-2015-conference-conference-april-2015-in-boston",

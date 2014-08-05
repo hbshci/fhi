@@ -1,1 +1,1 @@
-A Harvard Business School case study will be written about finalists’ organizations, discussed at the conference and potentially taught in class rooms around the world. Faculty writers include:
+A Harvard Business School case study will be written about finalists’ organizations, discussed at the conference and potentially taught in classrooms around the world. Faculty writers include:

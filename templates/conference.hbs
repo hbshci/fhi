@@ -45,55 +45,54 @@ slug: conference
 
   <h2 id="previous-conference-video-sessions">Session Videos</h2>
 
-   {{partial 'panel' panels.fhi12.panel1}}
+   {{ partial 'panel' gsheets.groups.2012-panel1 }}
    <div class="list-group team">
 
 	   {{partial 'person' gsheets.people.Herzlinger }}
-	   {{partial 'person' gsheets.people.Wolfsen }}
-	   {{partial 'person' gsheets.people.Sperling }}
 	   {{partial 'person' gsheets.people.Reisman }}
+     {{partial 'person' gsheets.people.Sperling }}
+     {{partial 'person' gsheets.people.Wolfsen }}  
 
    </div>
 
-   {{partial 'panel' panels.fhi12.panel2}}
+   {{partial 'panel' gsheets.groups.2012-panel2}}
    <div class="list-group team">
 
 	   {{partial 'person' gsheets.people.Chin }}
-	   {{partial 'person' gsheets.people.Viehbacher }}
+     {{partial 'person' gsheets.people.Bingham }}
 	   {{partial 'person' gsheets.people.Mussallem }}
-	   {{partial 'person' gsheets.people.Bingham }}
+     {{partial 'person' gsheets.people.Viehbacher }}
 
    </div>
 
-   {{partial 'panel' panels.fhi12.panel3}}
+   {{partial 'panel' gsheets.groups.2012-panel3}}
    <div class="list-group team">
 
-	   {{partial 'person' gsheets.people.McNeil }}
 	   {{partial 'person' gsheets.people.Giusti }}
 	   {{partial 'person' gsheets.people.Lander }}
 	   {{partial 'person' gsheets.people.McGuire }}
+     {{partial 'person' gsheets.people.McNeil }}
 
    </div>
 
-   {{partial 'panel' panels.fhi12.panel4}}
+   {{partial 'panel' gsheets.groups.2012-panel4}}
    <div class="list-group team">
 
+     {{partial 'person' gsheets.people.Brown }}
 	   {{partial 'person' gsheets.people.Christensen }}
-	   {{partial 'person' gsheets.people.Brown }}
 	   {{partial 'person' gsheets.people.Sussman }}
 
    </div>
 
-   {{partial 'panel' panels.fhi12.panel5}}
+   {{partial 'panel' gsheets.groups.2012-panel5}}
    <div class="list-group team">
 
+     {{partial 'person' gsheets.people.Cosgrove }}
+     {{partial 'person' gsheets.people.Gottlieb }}
 	   {{partial 'person' gsheets.people.Porter }}
-	   {{partial 'person' gsheets.people.Cosgrove }}
-	   {{partial 'person' gsheets.people.Gottlieb }}
 	   {{partial 'person' gsheets.people.Schlichting }}
 
    </div>
-
 
 </div>
 
@@ -102,6 +101,9 @@ slug: conference
 <div class="docs-section">
   <div class="page-header">
     <h1 id="thought-leadership">Thought Leadership</h1>
+  </div>
+  <div class="pull-right">
+  {{partial 'download-single' gsheets.downloads.five-imperatives}}
   </div>
   {{md 'five-imperatives'}}
 </div>
