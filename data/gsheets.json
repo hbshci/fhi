@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-04T20:57:10.734Z",
+            "dateFrom": "2014-08-05T14:01:52.713Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -53,7 +53,7 @@
             "displayName": "2015 Forum on Health Care Innovation Conference",
             "dateFrom": "2015-04-15T19:00:00.000Z",
             "dateTo": "2015-04-16T21:00:00.000Z",
-            "rangeString": "April 15 – 16, 2015",
+            "rangeString": "April 15–16, 2015",
             "howToReference": "gsheets.dates.conference-date-main"
         },
         "challenge-applicant-must-be-available-interview": {
@@ -813,7 +813,7 @@
             "id": "2012-panel1",
             "year": 2012,
             "ourName": "panel1",
-            "websiteName": "Reducing Employee Healthcare Costs: Beyond Cost Shifting",
+            "websiteName": "Reducing Employee Health Care Costs: Beyond Cost Shifting",
             "description": "Moderated by Regina E. Herzlinger, Nancy R. McPherson Professor of Business Administration at HBS, this panel focused on innovative product models, increased access to quality and cost information, and incentives to encourage healthy behaviors in employees.",
             "url": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/panel-1-reducing-employee-healthcare-costs-beyond-cost-shifting"
         },
@@ -936,7 +936,7 @@
         },
         "email-press-forum": {
             "id": "email-press-forum",
-            "val": "press@forumonhealthcareinnovation.org",
+            "val": "info@forumonhealthcareinnovation.org",
             "description": "email for press inquiries",
             "howToReference": "{{gsheets.snippets.email-press-forum.val}}"
         },
@@ -1272,7 +1272,7 @@
             "id": "conference-2015-conference-conference-april-2015-in-boston",
             "page": "conference",
             "navId": "2015-conference-conference-april-2015-in-boston",
-            "title": "Conference April 2015 in Boston",
+            "title": "April 2015 Conference in Boston",
             "order": 2,
             "level": 3,
             "file": "conference-02-2015-conference-conference-april-2015-in-boston",
