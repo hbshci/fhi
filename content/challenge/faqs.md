@@ -33,7 +33,7 @@
 
 1. #### Who should apply to the Health Acceleration Challenge?
 
-    We welcome applications from all types of people—individuals and teams, clinicians and administrators, technologists and scientists, and those inside or ouside the health care industry—anyone with a proven health care innovation.   All types of organizations are invited to apply as well—established or early stage, for profit or non-profit, from within the United States or outside.  
+    We welcome applications from all types of people—individuals and teams, clinicians and administrators, technologists and scientists, and those inside or outside the health care industry—anyone with a proven health care innovation.   All types of organizations are invited to apply as well—established or early stage, for profit or non-profit, from within the United States or outside.  
 
 1. #### Do I have to be a for-profit entity?
 
