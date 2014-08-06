@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-06T19:24:18.073Z",
+            "dateFrom": "2014-08-06T19:33:55.638Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -201,6 +201,7 @@
             "title": "Chairman, Chief Executive Officer, and President",
             "company": "Aetna Inc.",
             "titleAndCompany": "Chairman, Chief Executive Officer, and President, Aetna Inc.",
+            "bioPageOurs": "http://www.aetna.com/about-us/aetna-leadership.html",
             "photoUrl": "http://static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/mark_bertolini1.jpg?itok=mQqBxNle",
             "photo75wExists": "y",
             "howToReference": "gsheets.people.Bertolini"
@@ -745,6 +746,7 @@
             "title": "President Emeritus and Charles W. Eliot University Professor",
             "company": "Harvard University",
             "titleAndCompany": "President Emeritus and Charles W. Eliot University Professor, Harvard University",
+            "bioPageOurs": "http://www.hks.harvard.edu/about/faculty-staff-directory/lawrence-summers",
             "photoUrl": "http://static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/lawrence_summers_2012.jpg?itok=IUP4zmts",
             "photo75wExists": "y",
             "howToReference": "gsheets.people.Summers"
@@ -1052,7 +1054,7 @@
         },
         "hac-press-release": {
             "id": "hac-press-release",
-            "pages": "index, ",
+            "pages": "index",
             "title": "Press Kit",
             "foreignUrl": "http://www.hbs.edu/news/releases/Pages/healthcareforum12-20-12.aspx",
             "description": "Challenge information and logos.",
