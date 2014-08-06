@@ -64,47 +64,40 @@
 
 .docs-header {
 
-  height: 350px;
+  height: @mast-height-xs;
 
-  // .masthead-img {
-  //   background-image: url('../img/hci-fhi-banner_1200.jpg'); 
-  //   background-repeat: no-repeat;
-  //   width: 1200px;
-  //   height: 350px;
-  //   z-index: 100;
-  //   position:relative;
-  // }
-
-  // .masthead-main {
-  //     height: 230px;
-  //     width: 100%;
-  //     background-color: @brand-primary;
-  //     z-index: -50;
-  //     top:0px;
-  //     left:0px;
-  //     position:relative;
-  //   }
+  // make the mast image increase size with the larger screen size 
+  @media (min-width: @screen-lg-min) {
+    height: @mast-height-lg;
+  }
 
   img {
     position: relative;
     top: 0px;
     left: 0px;
+    // push the image in front of the masthead logos div below
     z-index: 10;
   }
 
   .masthead-logos {
-      height: 120px;
+      // add an extra pixel to the height; not sure why this is necessary, but it looks right
+      height: @mast-bottom-logo-height-xs + 1;
       width: 100%;
-      top: -120px;
+      // add an extra pixel to the height; not sure why this is necessary, but it looks right
+      top: -1 * @mast-bottom-logo-height-xs - 1;
       left: 0px;
       background-color: #000;
       z-index: 5;
       position:relative;
+      @media (min-width: @screen-lg-min) {
+          height: @mast-bottom-logo-height-lg;
+          top: -1 * @mast-bottom-logo-height-lg;
+      }
   }
 
 }
 
 body {
+  // this overrides some hard coded values in the docs css.
   padding-top:@navbar-height;
-  
 }
