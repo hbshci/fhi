@@ -6200,7 +6200,12 @@ hr {
   padding: 0px;
 }
 .docs-header {
-  height: 350px;
+  height: 300px;
+}
+@media (min-width: 1200px) {
+  .docs-header {
+    height: 350px;
+  }
 }
 .docs-header img {
   position: relative;
@@ -6209,13 +6214,19 @@ hr {
   z-index: 10;
 }
 .docs-header .masthead-logos {
-  height: 120px;
+  height: 92px;
   width: 100%;
-  top: -120px;
+  top: -92px;
   left: 0px;
   background-color: #000;
   z-index: 5;
   position: relative;
+}
+@media (min-width: 1200px) {
+  .docs-header .masthead-logos {
+    height: 120px;
+    top: -120px;
+  }
 }
 body {
   padding-top: 61px;
