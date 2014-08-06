@@ -6841,11 +6841,14 @@ h1[id] {
 .newsitem p {
   margin-left: 25px;
 }
-.newsitem span {
-  color: #a41034;
+.newsitem span.glyphicon {
+  color: #faae53;
 }
 .newsitem .source {
   font-style: italic;
+}
+.newsitem li {
+  margin-top: 1em;
 }
 .anchor,
 .anchor:empty {
