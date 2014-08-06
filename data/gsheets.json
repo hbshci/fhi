@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-05T20:06:18.339Z",
+            "dateFrom": "2014-08-06T19:24:18.073Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -725,6 +725,8 @@
             "company": "Harvard Business School",
             "titleAndCompany": "Director, Health Care Initiative, Harvard Business School",
             "bioPageOurs": "http://www.hbs.edu/healthcare/initiative/",
+            "photoUrl": "http://static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/3bfd5ed.jpg?itok=pB1i1gpg",
+            "photoFilename": "cara_sterling.jpg",
             "howToReference": "gsheets.people.Sterling"
         },
         "Summers": {
@@ -1042,7 +1044,7 @@
         "hac-flyer": {
             "id": "hac-flyer",
             "pages": "index, challenge",
-            "title": "Health Acceleration Challenge Flyer",
+            "title": "Health Acceleration Challenge Flyer (PDF)",
             "pdfFilename": "hca-challenge-2pg.pdf",
             "description": "Details for potential applicants.",
             "imgFilename": "hca-challenge-2pg.png",
@@ -1060,7 +1062,7 @@
         "five-imperatives": {
             "id": "five-imperatives",
             "pages": "index",
-            "title": "5 Imperatives",
+            "title": "5 Imperatives (PDF)",
             "foreignUrl": "http://www.hbs.edu/healthcare/pdf/Forum-on-Healthcare-Innovation-5-Imperatives.pdf",
             "description": "Key insights from the Forum's first conference on health care innovation.",
             "imgFilename": "5_imperatives_pdf_sq.png",
