@@ -6831,6 +6831,13 @@ h1[id] {
   padding-bottom: 0px;
   padding-top: 14px;
 }
+.process .btn,
+.process small {
+  color: #f7f7f7;
+  border-color: transparent #f99721 transparent #faa949;
+  background-color: #faae53;
+  opacity: 1;
+}
 .newsitem p {
   margin-left: 25px;
 }
