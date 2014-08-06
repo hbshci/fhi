@@ -64,6 +64,8 @@
 
 .docs-header {
 
+  height: 350px;
+
   // .masthead-img {
   //   background-image: url('../img/hci-fhi-banner_1200.jpg'); 
   //   background-repeat: no-repeat;
@@ -77,17 +79,28 @@
   //     height: 230px;
   //     width: 100%;
   //     background-color: @brand-primary;
-  //     z-index: 50;
+  //     z-index: -50;
+  //     top:0px;
+  //     left:0px;
   //     position:relative;
   //   }
 
-  // .masthead-logos {
-  //     height: 120px;
-  //     width: 100%;
-  //     background-color: #000;
-  //     z-index: 50;
-  //     position:relative;
-  // }
+  img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+  }
+
+  .masthead-logos {
+      height: 120px;
+      width: 100%;
+      top: -120px;
+      left: 0px;
+      background-color: #000;
+      z-index: 5;
+      position:relative;
+  }
 
 }
 
