@@ -6199,6 +6199,24 @@ hr {
 .main-logo {
   padding: 0px;
 }
+.docs-header {
+  height: 350px;
+}
+.docs-header img {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+.docs-header .masthead-logos {
+  height: 120px;
+  width: 100%;
+  top: -120px;
+  left: 0px;
+  background-color: #000;
+  z-index: 5;
+  position: relative;
+}
 body {
   padding-top: 61px;
 }
