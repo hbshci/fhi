@@ -1,4 +1,4 @@
 <a href="#" class="btn btn-default disabled">
-  <strong>{{displayName}}</strong><br />
-  <small>{{> date-range this}}</small><br />
+  <strong>{{ displayName }}</strong><br />
+  <small>{{#if dateFrom}}{{formatDate dateFrom "%b %e"}}{{else}}Until {{/if}}{{#and dateFrom dateTo}} – {{/and}}{{#if dateTo}}{{formatDate dateTo "%b %e"}}{{/if}}</small><br />
 </a>
