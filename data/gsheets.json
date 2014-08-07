@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-06T19:33:55.638Z",
+            "dateFrom": "2014-08-07T19:05:28.930Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -1076,7 +1076,7 @@
             "id": "about-health-acceleration-challenge-launch",
             "page": "about",
             "navId": "health-acceleration-challenge-launch",
-            "title": "Health Acceleration Challenge Launch",
+            "title": "Challenge Launch",
             "order": 1,
             "level": 2,
             "file": "about-01-health-acceleration-challenge-launch",
@@ -1086,21 +1086,21 @@
             "id": "about-health-acceleration-challenge-launch-news-and-press",
             "page": "about",
             "navId": "health-acceleration-challenge-launch-news-and-press",
-            "title": "News and Press",
+            "title": "News",
             "order": 2,
             "level": 2,
             "file": "about-02-health-acceleration-challenge-launch-news-and-press",
             "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-news-and-press.navId}}"
         },
-        "about-health-acceleration-challenge-launch-downloads-and-press-kit": {
-            "id": "about-health-acceleration-challenge-launch-downloads-and-press-kit",
+        "about-health-acceleration-challenge-launch-downloads": {
+            "id": "about-health-acceleration-challenge-launch-downloads",
             "page": "about",
-            "navId": "health-acceleration-challenge-launch-downloads-and-press-kit",
-            "title": "Downloads and Press Kit",
+            "navId": "health-acceleration-challenge-launch-downloads",
+            "title": "Downloads",
             "order": 3,
             "level": 2,
-            "file": "about-03-health-acceleration-challenge-launch-downloads-and-press-kit",
-            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-downloads-and-press-kit.navId}}"
+            "file": "about-03-health-acceleration-challenge-launch-downloads",
+            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-downloads.navId}}"
         },
         "about-health-acceleration-challenge-launch-about-the-forum": {
             "id": "about-health-acceleration-challenge-launch-about-the-forum",
@@ -1126,7 +1126,7 @@
             "id": "challenge-challenge-overview",
             "page": "challenge",
             "navId": "challenge-overview",
-            "title": "Overview",
+            "title": "Challenge Overview",
             "order": 1,
             "level": 2,
             "file": "challenge-01-challenge-overview",
@@ -1286,7 +1286,7 @@
             "id": "conference-2015-conference-conference-april-2015-in-boston",
             "page": "conference",
             "navId": "2015-conference-conference-april-2015-in-boston",
-            "title": "April 2015 Conference in Boston",
+            "title": "April 2015 Conference",
             "order": 2,
             "level": 3,
             "file": "conference-02-2015-conference-conference-april-2015-in-boston",

@@ -100,7 +100,7 @@ module.exports = function navigationPlugin(params, callback) {
     var anchor = template(anchorTemplate, {
       id: id
     });
-    $(this).append(anchor);
+    $(this).prepend(anchor);
 
     // Adjust heading
     $(this).removeAttr('id').addClass('docs-heading');
