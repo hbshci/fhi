@@ -1,3 +1,7 @@
-Some of the greatest health care innovations have taken decades to reach widespread adoption. Long time horizons for seemingly significant solutions add to the ever-increasing cost of health care, threatening both our economy and our well-being.
+Some of the greatest health care innovations have taken decades to reach widespread adoption, adding to the ever-increasing cost of health care.
 
-We are looking for ideas that have demonstrated value for the U.S. health care delivery system and are ready to be widely disseminated. <a href="{{gsheets.links.challenge-application.url}}" target="_blank">What's your innovation?</a>
+We are looking for solutions that have already been implemented at least once and have demonstrated effectiveness . This "scale-up" competition seeks to shorten the time frame for innovation dissemination.
+
+The Health Acceleration Challenge is looking for proven ideas that have the potential to do great things for the US health care delivery system.
+
+<a class="h3" href="{{gsheets.links.challenge-application.url}}" target="_blank">What’s your innovation?</a>
