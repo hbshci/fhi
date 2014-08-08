@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-07T19:05:28.930Z",
+            "dateFrom": "2014-08-08T12:42:15.195Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -104,7 +104,7 @@
         "challenge-webinar-register-link": {
             "id": "challenge-webinar-register-link",
             "name": "Register for Webinar",
-            "url": "http://www.example.com",
+            "url": "https://getfeedback.com/r/q2KvBQVS",
             "howToReference": "gsheets.links.challenge-webinar-register-link"
         },
         "conference-2012-5-imperatives": {
@@ -146,12 +146,8 @@
         "social-twitter-fhi": {
             "id": "social-twitter-fhi",
             "name": "Twitter Account",
+            "url": "https://twitter.com/ForumHealthInno",
             "howToReference": "gsheets.links.social-twitter-fhi"
-        },
-        "social-linkedin-fhi": {
-            "id": "social-linkedin-fhi",
-            "name": "LinkedIn Account",
-            "howToReference": "gsheets.links.social-linkedin-fhi"
         },
         "social-twitter-share": {
             "id": "social-twitter-share",
@@ -170,7 +166,7 @@
         "challenge-register-participate": {
             "id": "challenge-register-participate",
             "name": "Register for Participating in the Health Care Acceleration Challenge",
-            "url": "http://www.example.com",
+            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/innovations/",
             "howToReference": "gsheets.links.challenge-register-participate"
         },
         "video-landing-page": {
@@ -184,6 +180,12 @@
             "name": "OpenIDEO Participant Comments",
             "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/brief.html",
             "howToReference": "gsheets.links.challenge-platform-comments"
+        },
+        "subscribe-from-webpage": {
+            "id": "subscribe-from-webpage",
+            "name": "Subscribe via webpage to Forum on Health Care Innovation Updates",
+            "url": "http://healthcareinitiative.mkt1960.com/fhi\n",
+            "howToReference": "gsheets.links.subscribe-from-webpage"
         }
     },
     "people": {
