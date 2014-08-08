@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-08T13:32:42.760Z",
+            "dateFrom": "2014-08-08T14:38:45.007Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -962,23 +962,21 @@
             "type": "number",
             "howToReference": "{{addCommas gsheets.snippets.num-hbs-hms-alumni-access-to.val}}"
         },
-        "social-linkedin-share-mini": {
-            "id": "social-linkedin-share-mini",
-            "description": "length: 4 chars. Must always be true",
-            "howToReference": "{{gsheets.snippets.social-linkedin-share-mini.val}}"
-        },
         "social-linkedin-share-source": {
             "id": "social-linkedin-share-source",
+            "val": "http://HealthAccelerationChallenge.com",
             "description": "length: 200 chars. The source of the article. Must be URL encoded. Example: Wired Magazine",
             "howToReference": "{{gsheets.snippets.social-linkedin-share-source.val}}"
         },
         "social-linkedin-share-summary": {
             "id": "social-linkedin-share-summary",
+            "val": "Harvard Business School and Harvard Medical School are launching the Health Acceleration Challenge to award $150,000 to proven health care delivery innovations that are ready to scale. Apply by September 29.",
             "description": "length: 256 chars. A brief summary of the article. Must be URL encoded. Longer titles will be truncated gracefully with ellipses.",
             "howToReference": "{{gsheets.snippets.social-linkedin-share-summary.val}}"
         },
         "social-linkedin-share-title": {
             "id": "social-linkedin-share-title",
+            "val": "What is your health care innovation? ",
             "description": "length: 200 chars. The title of the article. Must be URL encoded",
             "howToReference": "{{gsheets.snippets.social-linkedin-share-title.val}}"
         },
@@ -1014,6 +1012,10 @@
             "type": "number",
             "description": "You will be asked to describe your solution, articulate how it improves health care value, quantify the potential impact it could have if disseminated broadly, and outline your dissemination plan in a ~1000 word application.",
             "howToReference": "{{addCommas gsheets.snippets.challenge-application-word-length.val}}"
+        },
+        "social-linkedin-share-url": {
+            "id": "social-linkedin-share-url",
+            "val": "http://j.mp/1B0mN16"
         }
     },
     "updates": {
