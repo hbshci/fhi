@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-08T12:42:15.195Z",
+            "dateFrom": "2014-08-08T13:32:42.760Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -982,11 +982,11 @@
             "description": "length: 200 chars. The title of the article. Must be URL encoded",
             "howToReference": "{{gsheets.snippets.social-linkedin-share-title.val}}"
         },
-        "social-share-url": {
-            "id": "social-share-url",
-            "val": "http://forumonhealthcareinnovation.org",
+        "social-twitter-share-url": {
+            "id": "social-twitter-share-url",
+            "val": "http://j.mp/1msZqn2",
             "description": "length: 1024 chars. The permanent link to the article. Must be URL encoded",
-            "howToReference": "{{gsheets.snippets.social-share-url.val}}"
+            "howToReference": "{{gsheets.snippets.social-twitter-share-url.val}}"
         },
         "social-twitter-fhi-username": {
             "id": "social-twitter-fhi-username",
@@ -995,16 +995,9 @@
             "description": "For use with Twitter buttons",
             "howToReference": "{{gsheets.snippets.social-twitter-fhi-username.val}}"
         },
-        "social-twitter-share-hashtags": {
-            "id": "social-twitter-share-hashtags",
-            "val": "healthcareinnovation",
-            "type": "string",
-            "description": "https://dev.twitter.com/docs/intents",
-            "howToReference": "{{gsheets.snippets.social-twitter-share-hashtags.val}}"
-        },
         "social-twitter-share-tweet": {
             "id": "social-twitter-share-tweet",
-            "val": "This is a the current Twitter promo tweet for Health Care Acceleration Challenge. It will occur alongside the apply now button.",
+            "val": "$150,000 Health Acceleration Challenge for proven ideas. Apply: http://j.mp/1msZqn2 #HarvardHAC @HarvardHBS @HarvardMed @ForumHealthInno",
             "type": "string",
             "description": "This is a the current Twitter promo tweet for Health Care Acceleration Challenge. It will occur alongside the apply now button.",
             "howToReference": "{{gsheets.snippets.social-twitter-share-tweet.val}}"
@@ -1104,25 +1097,25 @@
             "file": "about-03-health-acceleration-challenge-launch-downloads",
             "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-downloads.navId}}"
         },
-        "about-health-acceleration-challenge-launch-about-the-forum": {
-            "id": "about-health-acceleration-challenge-launch-about-the-forum",
+        "about-about-the-forum": {
+            "id": "about-about-the-forum",
             "page": "about",
-            "navId": "health-acceleration-challenge-launch-about-the-forum",
+            "navId": "about-the-forum",
             "title": "About the Forum",
             "order": 4,
             "level": 2,
-            "file": "about-04-health-acceleration-challenge-launch-about-the-forum",
-            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-about-the-forum.navId}}"
+            "file": "about-04-about-the-forum",
+            "howToReference": "{{gsheets.nav.about-about-the-forum.navId}}"
         },
-        "about-health-acceleration-challenge-launch-steering-committee": {
-            "id": "about-health-acceleration-challenge-launch-steering-committee",
+        "about-about-the-forum-steering-committee": {
+            "id": "about-about-the-forum-steering-committee",
             "page": "about",
-            "navId": "health-acceleration-challenge-launch-steering-committee",
+            "navId": "about-the-forum-steering-committee",
             "title": "Steering Committee",
             "order": 5,
             "level": 2,
-            "file": "about-05-health-acceleration-challenge-launch-steering-committee",
-            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-steering-committee.navId}}"
+            "file": "about-05-about-the-forum-steering-committee",
+            "howToReference": "{{gsheets.nav.about-about-the-forum-steering-committee.navId}}"
         },
         "challenge-challenge-overview": {
             "id": "challenge-challenge-overview",
