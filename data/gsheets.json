@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-09T19:45:51.337Z",
+            "dateFrom": "2014-08-09T19:57:38.856Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -1071,7 +1071,7 @@
             "id": "five-imperatives",
             "pages": "index",
             "title": "5 Imperatives (PDF)",
-            "foreignUrl": "#N/A",
+            "foreignUrl": "http://www.hbs.edu/healthcare/pdf/Forum-on-Healthcare-Innovation-5-Imperatives.pdf",
             "description": "Key insights from the Forum's first conference on health care innovation.",
             "imgFilename": "5_imperatives_pdf_sq.png",
             "howToReference": "gsheets.downloads.five-imperatives"
