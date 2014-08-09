@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-09T19:19:25.891Z",
+            "dateFrom": "2014-08-09T19:45:51.337Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -888,16 +888,16 @@
         },
         "date-long-withTime": {
             "id": "date-long-withTime",
-            "fmt": "#N/A",
+            "fmt": "%B %d, %Y at %I:%M %p ET",
             "description": "Full date for due dates",
-            "example": "#N/A",
+            "example": "September 29, 2014 at 11:59 PM ET",
             "howToReference": "gsheets.formatting.date-long-withTime"
         },
         "date-long-withTime-andWeekday": {
             "id": "date-long-withTime-andWeekday",
-            "fmt": "#N/A",
+            "fmt": "%B %d, %Y at %I:%M %p ET",
             "description": "Full date for due dates and appointments",
-            "example": "#N/A",
+            "example": "Wednesday September 17, 2014 at 12 PM ET",
             "howToReference": "gsheets.formatting.date-long-withTime-andWeekday"
         },
         "date-month-withYear": {
@@ -928,95 +928,103 @@
             "val": 1000,
             "type": "number",
             "description": "You will be asked to describe your solution, articulate how it improves health care value, quantify the potential impact it could have if disseminated broadly, and outline your dissemination plan in a ~1000 word application.",
-            "howToReference": "{{addCommas gsheets.snippets.challenge-application-word-length.val}}"
+            "howToReference": "{{addCommas gsheets.snippets.challenge-application-word-length.val}}",
+            "undefined": 1
         },
         "challenge-prize-grand-amt": {
             "id": "challenge-prize-grand-amt",
             "val": 150000,
             "type": "currency",
-            "howToReference": "${{addCommas gsheets.snippets.challenge-prize-grand-amt.val}}"
+            "howToReference": "${{addCommas gsheets.snippets.challenge-prize-grand-amt.val}}",
+            "undefined": 1
         },
         "challenge-prize-one-year-later": {
             "id": "challenge-prize-one-year-later",
             "val": 50000,
             "type": "currency",
             "description": "an additional $50,000 will be awarded a year later to the organization that has had the most success scaling up.",
-            "howToReference": "${{addCommas gsheets.snippets.challenge-prize-one-year-later.val}}"
+            "howToReference": "${{addCommas gsheets.snippets.challenge-prize-one-year-later.val}}",
+            "undefined": 1
         },
         "conference-num-attendees": {
             "id": "conference-num-attendees",
             "val": 150,
             "type": "number",
             "description": "Our Challenge finalists will gain access to 150 senior health care leaders at our invitation-only conference in April 2015.",
-            "howToReference": "{{addCommas gsheets.snippets.conference-num-attendees.val}}"
+            "howToReference": "{{addCommas gsheets.snippets.conference-num-attendees.val}}",
+            "undefined": 1
         },
         "conference-num-attendees-prev": {
             "id": "conference-num-attendees-prev",
             "val": 150,
             "type": "number",
             "description": "Our previous conference was attended by over XXX senior health care leaders from virtually every sector of health care, who came together to talk about barriers and opportunities for health care innovation.",
-            "howToReference": "{{addCommas gsheets.snippets.conference-num-attendees-prev.val}}"
+            "howToReference": "{{addCommas gsheets.snippets.conference-num-attendees-prev.val}}",
+            "undefined": 1
         },
         "email-press-forum": {
             "id": "email-press-forum",
             "val": "info@forumonhealthcareinnovation.org",
             "description": "email for press inquiries",
-            "howToReference": "{{gsheets.snippets.email-press-forum.val}}"
+            "howToReference": "{{gsheets.snippets.email-press-forum.val}}",
+            "undefined": 1
         },
         "num-hbs-hms-alumni-access-to": {
             "id": "num-hbs-hms-alumni-access-to",
             "val": 150000,
             "type": "number",
-            "howToReference": "{{addCommas gsheets.snippets.num-hbs-hms-alumni-access-to.val}}"
+            "howToReference": "{{addCommas gsheets.snippets.num-hbs-hms-alumni-access-to.val}}",
+            "undefined": 1
         },
         "social-linkedin-share-source": {
             "id": "social-linkedin-share-source",
             "val": "http://HealthAccelerationChallenge.com",
             "description": "length: 200 chars. The source of the article. Must be URL encoded. Example: Wired Magazine",
-            "howToReference": "{{gsheets.snippets.social-linkedin-share-source.val}}"
+            "howToReference": "{{gsheets.snippets.social-linkedin-share-source.val}}",
+            "undefined": 1
         },
         "social-linkedin-share-summary": {
             "id": "social-linkedin-share-summary",
             "val": "Harvard Business School and Harvard Medical School are launching the Health Acceleration Challenge to award $150,000 to proven health care delivery innovations that are ready to scale. Apply by September 29.",
             "type": 207,
             "description": "length: 256 chars. A brief summary of the article. Must be URL encoded. Longer titles will be truncated gracefully with ellipses.",
-            "howToReference": "{{gsheets.snippets.social-linkedin-share-summary.val}}"
+            "howToReference": "{{gsheets.snippets.social-linkedin-share-summary.val}}",
+            "undefined": 1
         },
         "social-linkedin-share-title": {
             "id": "social-linkedin-share-title",
             "val": "What is your health care innovation? ",
             "description": "length: 200 chars. The title of the article. Must be URL encoded",
-            "howToReference": "{{gsheets.snippets.social-linkedin-share-title.val}}"
+            "howToReference": "{{gsheets.snippets.social-linkedin-share-title.val}}",
+            "undefined": 1
         },
         "social-linkedin-share-url": {
             "id": "social-linkedin-share-url",
-            "val": "http://j.mp/1B0mN16"
+            "val": "http://j.mp/1B0mN16",
+            "undefined": 1
         },
         "social-twitter-fhi-username": {
             "id": "social-twitter-fhi-username",
             "val": "forumHealthInno",
             "type": "string",
             "description": "For use with Twitter buttons",
-            "howToReference": "{{gsheets.snippets.social-twitter-fhi-username.val}}"
+            "howToReference": "{{gsheets.snippets.social-twitter-fhi-username.val}}",
+            "undefined": 1
         },
         "social-twitter-share-tweet": {
             "id": "social-twitter-share-tweet",
             "val": "$150,000 Health Acceleration Challenge for proven ideas. Apply: http://j.mp/1msZqn2 #HarvardHAC @HarvardHBS @HarvardMed @ForumHealthInno",
             "type": "string",
             "description": "This is a the current Twitter promo tweet for Health Care Acceleration Challenge. It will occur alongside the apply now button.",
-            "howToReference": "{{gsheets.snippets.social-twitter-share-tweet.val}}"
-        },
-        "social-twitter-share-url": {
-            "id": "social-twitter-share-url",
-            "val": "http://j.mp/1msZqn2",
-            "description": "length: 1024 chars. The permanent link to the article. Must be URL encoded",
-            "howToReference": "{{gsheets.snippets.social-twitter-share-url.val}}"
+            "howToReference": "{{gsheets.snippets.social-twitter-share-tweet.val}}",
+            "undefined": 1
         },
         "timezone-suffix": {
             "id": "timezone-suffix",
             "val": "ET",
-            "description": "Suffix for timezone",
-            "howToReference": "{{gsheets.snippets.timezone-suffix.val}}"
+            "type": "string",
+            "howToReference": "{{gsheets.snippets.timezone-suffix.val}}",
+            "undefined": 1
         }
     },
     "updates": {

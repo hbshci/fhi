@@ -3,7 +3,7 @@ date-last-updated: "2014-08-08 after updates from Rob and Richard"
 ---
 All applicants to the HBS-HMS Health Acceleration Challenge must:
 
-* Submit an application in English by {{> date-challenge-due}} using [the OpenForum platform]( {{gsheets.links.challenge-application}} ), and agree to the OpenForum terms of service, which can be reviewed [here]( {{gsheets.links.challenge-platform-tos.url}} ).
+* Submit an application in English by {{> date-challenge-due}} using [the OpenForum platform]( {{gsheets.links.challenge-application.url}} ), and agree to the OpenForum terms of service, which can be reviewed [here]( {{gsheets.links.challenge-platform-tos.url}} ).
 
 * Be willing to provide additional material and references and allow data to be audited if requested by the Challenge team.
 
