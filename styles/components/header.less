@@ -62,6 +62,7 @@
   padding: 0px;
 }
 
+// pmn
 .docs-header {
 
   height: @mast-height-xs;
@@ -75,8 +76,37 @@
     position: relative;
     top: 0px;
     left: 0px;
-    // push the image in front of the masthead logos div below
+    // push the image in FRONT of the masthead logos div below
     z-index: 10;
+    // we actually want to hide the original image we're replacing, so set a height and width of 0px;
+    // cf. http://stackoverflow.com/a/10247567/78202
+    height: 0px;
+    width: 0px;
+    background-size:auto;
+    background-repeat: no-repeat;
+
+    // note that the urls contain the dimension variable
+    // cf. http://stackoverflow.com/a/10256444/78202
+    @media(min-width: @screen-xxs-min) {
+      background-image: url("../img/hci-fhi-banner_@{mast-width-xxs}.jpg");
+      padding: @mast-height-xxs/2 @mast-width-xxs/2;
+    }
+    @media(min-width: @screen-xs-min) {
+      background-image: url("../img/hci-fhi-banner_@{mast-width-xs}.jpg");
+      padding: @mast-height-xs/2 @mast-width-xs/2;
+    }
+    @media(min-width: @screen-sm-min) {
+      background-image: url("../img/hci-fhi-banner_@{mast-width-sm}.jpg");
+      padding: @mast-height-sm/2 @mast-width-sm/2;
+    }
+    @media(min-width: @screen-md-min) {
+      background-image: url("../img/hci-fhi-banner_@{mast-width-md}.jpg");
+      padding: @mast-height-md/2 @mast-width-md/2;
+    }
+    @media(min-width: @screen-lg-min) {
+      background-image: url("../img/hci-fhi-banner_@{mast-width-lg}.jpg");
+      padding: @mast-height-lg/2 @mast-width-lg/2;
+    }
   }
 
   .masthead-logos {
@@ -89,11 +119,22 @@
       background-color: #000;
       z-index: 5;
       position:relative;
+
+      @media (min-width: @screen-xxs-min) {
+          height: @mast-bottom-logo-height-xxs;
+          top: -1 * @mast-bottom-logo-height-xxs;
+      }
+      @media (min-width: @screen-xs-min) {
+          height: @mast-bottom-logo-height-xs;
+          top: -1 * @mast-bottom-logo-height-xs;
+      }
       @media (min-width: @screen-lg-min) {
           height: @mast-bottom-logo-height-lg;
           top: -1 * @mast-bottom-logo-height-lg;
       }
   }
+
+
 
 }
 

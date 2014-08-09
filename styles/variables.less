@@ -241,6 +241,9 @@
 // Media queries breakpoints
 // --------------------------------------------------
 
+// Mobile Portrait
+@screen-xxs-min:		     320px;
+
 // Extra small screen / phone
 // Note: Deprecated @screen-xs and @screen-phone as of v3.0.1
 @screen-xs:                  480px;
@@ -347,12 +350,21 @@
 // -------------------------
 
 // Main Masthead Image
-@mast-height-xs:                            300px;
-@mast-height-xm:                            @mast-height-xs;
+@mast-height-xxs:                           300px;
+@mast-height-xs:                            @mast-height-xxs;
+@mast-height-sm:                            @mast-height-xs;
 @mast-height-md:                            @mast-height-xs;
 @mast-height-lg:                            350px;
 
+// Main Masthead Image Width
+@mast-width-xxs:                           320px;
+@mast-width-xs:                            480px;
+@mast-width-sm:                            768px;
+@mast-width-md:                            992px;
+@mast-width-lg:                            1200px;
+
 // Logo Bar at Bottom of Masthead
+@mast-bottom-logo-height-xxs:               143px;
 @mast-bottom-logo-height-xs:                91px;
 @mast-bottom-logo-height-sm:                @mast-bottom-logo-height-xs;
 @mast-bottom-logo-height-md:                @mast-bottom-logo-height-xs;
