@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-08T14:38:45.007Z",
+            "dateFrom": "2014-08-09T19:19:25.891Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -95,11 +95,23 @@
             "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/brief.html",
             "howToReference": "gsheets.links.challenge-main"
         },
+        "challenge-platform-comments": {
+            "id": "challenge-platform-comments",
+            "name": "OpenIDEO Participant Comments",
+            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/brief.html",
+            "howToReference": "gsheets.links.challenge-platform-comments"
+        },
         "challenge-platform-tos": {
             "id": "challenge-platform-tos",
             "name": "OpenIDEO terms of service",
             "url": "http://openforum.hbs.org/terms",
             "howToReference": "gsheets.links.challenge-platform-tos"
+        },
+        "challenge-register-participate": {
+            "id": "challenge-register-participate",
+            "name": "Register for Participating in the Health Care Acceleration Challenge",
+            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/innovations/",
+            "howToReference": "gsheets.links.challenge-register-participate"
         },
         "challenge-webinar-register-link": {
             "id": "challenge-webinar-register-link",
@@ -143,6 +155,13 @@
             "url": "http://hms.harvard.edu/",
             "howToReference": "gsheets.links.hms-main"
         },
+        "social-linkedin-share": {
+            "id": "social-linkedin-share",
+            "name": "Share Health Care Acceleration Challenge on LinkedIn",
+            "description": "https://developer.linkedin.com/plugins/share-plugin-generator",
+            "url": "https://developer.linkedin.com/plugins/share-plugin-generator",
+            "howToReference": "gsheets.links.social-linkedin-share"
+        },
         "social-twitter-fhi": {
             "id": "social-twitter-fhi",
             "name": "Twitter Account",
@@ -156,36 +175,17 @@
             "url": "https://about.twitter.com/resources/buttons",
             "howToReference": "gsheets.links.social-twitter-share"
         },
-        "social-linkedin-share": {
-            "id": "social-linkedin-share",
-            "name": "Share Health Care Acceleration Challenge on LinkedIn",
-            "description": "https://developer.linkedin.com/plugins/share-plugin-generator",
-            "url": "https://developer.linkedin.com/plugins/share-plugin-generator",
-            "howToReference": "gsheets.links.social-linkedin-share"
-        },
-        "challenge-register-participate": {
-            "id": "challenge-register-participate",
-            "name": "Register for Participating in the Health Care Acceleration Challenge",
-            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/innovations/",
-            "howToReference": "gsheets.links.challenge-register-participate"
+        "subscribe-from-webpage": {
+            "id": "subscribe-from-webpage",
+            "name": "Subscribe via webpage to Forum on Health Care Innovation Updates",
+            "url": "http://healthcareinitiative.mkt1960.com/fhi\n",
+            "howToReference": "gsheets.links.subscribe-from-webpage"
         },
         "video-landing-page": {
             "id": "video-landing-page",
             "name": "Landing Page Video",
             "url": "//www.youtube.com/embed/IhnNr2A2IS8?rel=0",
             "howToReference": "gsheets.links.video-landing-page"
-        },
-        "challenge-platform-comments": {
-            "id": "challenge-platform-comments",
-            "name": "OpenIDEO Participant Comments",
-            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/brief.html",
-            "howToReference": "gsheets.links.challenge-platform-comments"
-        },
-        "subscribe-from-webpage": {
-            "id": "subscribe-from-webpage",
-            "name": "Subscribe via webpage to Forum on Health Care Innovation Updates",
-            "url": "http://healthcareinitiative.mkt1960.com/fhi\n",
-            "howToReference": "gsheets.links.subscribe-from-webpage"
         }
     },
     "people": {
@@ -888,16 +888,16 @@
         },
         "date-long-withTime": {
             "id": "date-long-withTime",
-            "fmt": "%B %d, %Y at %I:%M %p ET",
+            "fmt": "#N/A",
             "description": "Full date for due dates",
-            "example": "September 29, 2014 at 11:59 PM ET",
+            "example": "#N/A",
             "howToReference": "gsheets.formatting.date-long-withTime"
         },
         "date-long-withTime-andWeekday": {
             "id": "date-long-withTime-andWeekday",
-            "fmt": "%B %d, %Y at %I:%M %p ET",
+            "fmt": "#N/A",
             "description": "Full date for due dates and appointments",
-            "example": "Wednesday September 17, 2014 at 12 PM ET",
+            "example": "#N/A",
             "howToReference": "gsheets.formatting.date-long-withTime-andWeekday"
         },
         "date-month-withYear": {
@@ -923,6 +923,13 @@
         }
     },
     "snippets": {
+        "challenge-application-word-length": {
+            "id": "challenge-application-word-length",
+            "val": 1000,
+            "type": "number",
+            "description": "You will be asked to describe your solution, articulate how it improves health care value, quantify the potential impact it could have if disseminated broadly, and outline your dissemination plan in a ~1000 word application.",
+            "howToReference": "{{addCommas gsheets.snippets.challenge-application-word-length.val}}"
+        },
         "challenge-prize-grand-amt": {
             "id": "challenge-prize-grand-amt",
             "val": 150000,
@@ -971,6 +978,7 @@
         "social-linkedin-share-summary": {
             "id": "social-linkedin-share-summary",
             "val": "Harvard Business School and Harvard Medical School are launching the Health Acceleration Challenge to award $150,000 to proven health care delivery innovations that are ready to scale. Apply by September 29.",
+            "type": 207,
             "description": "length: 256 chars. A brief summary of the article. Must be URL encoded. Longer titles will be truncated gracefully with ellipses.",
             "howToReference": "{{gsheets.snippets.social-linkedin-share-summary.val}}"
         },
@@ -980,11 +988,9 @@
             "description": "length: 200 chars. The title of the article. Must be URL encoded",
             "howToReference": "{{gsheets.snippets.social-linkedin-share-title.val}}"
         },
-        "social-twitter-share-url": {
-            "id": "social-twitter-share-url",
-            "val": "http://j.mp/1msZqn2",
-            "description": "length: 1024 chars. The permanent link to the article. Must be URL encoded",
-            "howToReference": "{{gsheets.snippets.social-twitter-share-url.val}}"
+        "social-linkedin-share-url": {
+            "id": "social-linkedin-share-url",
+            "val": "http://j.mp/1B0mN16"
         },
         "social-twitter-fhi-username": {
             "id": "social-twitter-fhi-username",
@@ -1000,22 +1006,17 @@
             "description": "This is a the current Twitter promo tweet for Health Care Acceleration Challenge. It will occur alongside the apply now button.",
             "howToReference": "{{gsheets.snippets.social-twitter-share-tweet.val}}"
         },
+        "social-twitter-share-url": {
+            "id": "social-twitter-share-url",
+            "val": "http://j.mp/1msZqn2",
+            "description": "length: 1024 chars. The permanent link to the article. Must be URL encoded",
+            "howToReference": "{{gsheets.snippets.social-twitter-share-url.val}}"
+        },
         "timezone-suffix": {
             "id": "timezone-suffix",
             "val": "ET",
             "description": "Suffix for timezone",
             "howToReference": "{{gsheets.snippets.timezone-suffix.val}}"
-        },
-        "challenge-application-word-length": {
-            "id": "challenge-application-word-length",
-            "val": 1000,
-            "type": "number",
-            "description": "You will be asked to describe your solution, articulate how it improves health care value, quantify the potential impact it could have if disseminated broadly, and outline your dissemination plan in a ~1000 word application.",
-            "howToReference": "{{addCommas gsheets.snippets.challenge-application-word-length.val}}"
-        },
-        "social-linkedin-share-url": {
-            "id": "social-linkedin-share-url",
-            "val": "http://j.mp/1B0mN16"
         }
     },
     "updates": {
@@ -1062,7 +1063,7 @@
             "id": "five-imperatives",
             "pages": "index",
             "title": "5 Imperatives (PDF)",
-            "foreignUrl": "http://www.hbs.edu/healthcare/pdf/Forum-on-Healthcare-Innovation-5-Imperatives.pdf",
+            "foreignUrl": "#N/A",
             "description": "Key insights from the Forum's first conference on health care innovation.",
             "imgFilename": "5_imperatives_pdf_sq.png",
             "howToReference": "gsheets.downloads.five-imperatives"

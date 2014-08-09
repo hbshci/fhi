@@ -2,12 +2,6 @@
 title: Conference
 slug: conference
 ---
-   
-{{!-- example of how to include a single person 
-<div class="list-group team">
-   {{partial 'person' gsheets.people.Hamermesh }}
- </div>
- --}}
 
 {{!-- 2015 Conference
 ================================================== --}}
@@ -16,15 +10,20 @@ slug: conference
     <h1 id="2015-conference">{{gsheets.nav.conference-2015-conference.title}}</h1>
   </div>
   
-  {{> h3-then-md gsheets.nav.conference-2015-conference-conference-april-2015-in-boston}}
-  {{> h3-then-md gsheets.nav.conference-2015-conference-keynote-speakers}}
+  {{> h3 gsheets.nav.conference-2015-conference-conference-april-2015-in-boston}}
+  {{md "conference-02-2015-conference-conference-april-2015-in-boston"}}
+  
+  {{> h3 gsheets.nav.conference-2015-conference-keynote-speakers}}
+  {{md "conference-03-2015-conference-keynote-speakers"}}
   <div class="list-group team">
     {{partial 'person' gsheets.people.Bertolini }}
     {{partial 'person' gsheets.people.Flier }}
     {{partial 'person' gsheets.people.Nohria }}
     {{partial 'person' gsheets.people.Summers }}
   </div>
-  {{> h3-then-md gsheets.nav.conference-2015-conference-win-conference-tickets}}
+
+  {{> h3 gsheets.nav.conference-2015-conference-win-conference-tickets}}
+  {{md "conference-04-2015-conference-win-conference-tickets"}}
 
 </div>
 
