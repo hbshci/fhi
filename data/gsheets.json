@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-10T14:10:10.644Z",
+            "dateFrom": "2014-08-10T14:36:29.895Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -86,8 +86,7 @@
         "challenge-flyer": {
             "id": "challenge-flyer",
             "name": "Health Acceleration Challenge Flyer",
-            "relativePath": "pdf",
-            "fileName": "hca-challenge-2pg.pdf",
+            "url": "http://www.hbs.edu/healthcare/pdf/hca-challenge-2pg.pdf",
             "howToReference": "gsheets.links.challenge-flyer"
         },
         "challenge-landing-page": {
@@ -1075,8 +1074,7 @@
             "correspondingLink": "challenge-flyer",
             "pages": "index, challenge",
             "title": "Health Acceleration Challenge Flyer (PDF)",
-            "relativePath": "pdf",
-            "fileName": "hca-challenge-2pg.pdf",
+            "foreignUrl": "http://www.hbs.edu/healthcare/pdf/hca-challenge-2pg.pdf",
             "description": "Details for potential applicants.",
             "imgFilename": "hca-challenge-2pg.png",
             "howToReference": "gsheets.downloads.hac-flyer"
