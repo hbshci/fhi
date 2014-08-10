@@ -10,7 +10,7 @@
 
   background: #fff;
   background-color: #fff;
-  padding: 1px @content-gutter 80px @content-gutter; // add 1px top padding to prevent collapsing
+  // padding: 1px @content-gutter 80px @content-gutter; // add 1px top padding to prevent collapsing
   margin: 0 -15px;
 
   border: none;
@@ -20,6 +20,16 @@
   // inside content blocks.
   .container-fluid {
     padding: 0;
+  }
+
+  @media(min-width: @screen-xxs-min) {
+      padding: 1px @content-gutter/6 80px @content-gutter/6;
+  }
+  @media(min-width:@screen-sm-min) {
+      padding: 1px @content-gutter/2 80px @content-gutter/2;
+  }
+  @media(min-width:@screen-md-min) {
+      padding: 1px @content-gutter 80px @content-gutter;
   }
 }
 

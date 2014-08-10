@@ -26,7 +26,7 @@ top-lead: ""
   ================================================== --}}
   {{#if gsheets.updates}}
     <h2 id="news-and-press">News</h2>
-    <ul class="list-unstyled">
+    <ul class="list-unstyled news">
       {{#each gsheets.updates}}
         <!-- {{gsheets.updates.press-2013-07-15.headline}} -->
         {{> 'newsitem' .}}
