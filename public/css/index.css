@@ -6592,13 +6592,27 @@ table th[class*="col-"] {
   overflow: hidden;
   background: #fff;
   background-color: #fff;
-  padding: 1px 60px 80px 60px;
   margin: 0 -15px;
   border: none;
   border-radius: 0 0 4px 4px;
 }
 .docs-content .container-fluid {
   padding: 0;
+}
+@media (min-width: 320px) {
+  .docs-content {
+    padding: 1px 10px 80px 10px;
+  }
+}
+@media (min-width: 768px) {
+  .docs-content {
+    padding: 1px 30px 80px 30px;
+  }
+}
+@media (min-width: 992px) {
+  .docs-content {
+    padding: 1px 60px 80px 60px;
+  }
 }
 .docs-content {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -6908,6 +6922,7 @@ h1[id] {
 }
 .newsitem li {
   margin-top: 1em;
+  margin-left: 10px;
 }
 .anchor,
 .anchor:empty {
