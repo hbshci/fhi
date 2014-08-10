@@ -5,11 +5,11 @@
     <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
             <div class="caption">
-                <h4><a href="{{#if pdfFilename}}{{../../assets}}/pdf/{{ pdfFilename }}{{else}}{{foreignUrl}}{{/if}}" target="_blank">{{title}}</a></h4>
+                <h4><a href="{{#if fileName}}{{../../assets}}/pdf/{{ fileName }}{{else}}{{foreignUrl}}{{/if}}" target="_blank">{{title}}</a></h4>
                 {{#if description}}{{description}}{{/if}}
             </div>
             {{#if imgFilename}}
-                <a href="{{#if pdfFilename}}{{../../../../assets}}/pdf/{{ pdfFilename }}{{else}}{{foreignUrl}}{{/if}}" target="_blank" ><img src="{{../../../assets}}/img/{{imgFilename}}" alt="{{title}}" ></a>
+                <a href="{{#if fileName}}{{../../../../assets}}/pdf/{{ fileName }}{{else}}{{foreignUrl}}{{/if}}" target="_blank" ><img src="{{../../../assets}}/img/{{imgFilename}}" alt="{{title}}" ></a>
             {{/if}}
         </div>
     </div>
@@ -17,7 +17,7 @@
     
     <div class="list-group-item">
 
-        <a href="{{#if pdfFilename}}{{../../../assets}}/pdf/{{ pdfFilename }}{{else}}{{foreignUrl}}{{/if}}" target="_blank">
+        <a href="{{#if fileName}}{{../../../assets}}/{{relativePath}}/{{ fileName }}{{else}}{{foreignUrl}}{{/if}}" target="_blank">
         {{#if imgFilename}}
                 <img src="{{../../../assets}}/img/{{imgFilename}}" alt="{{title}}" >
         {{/if}}

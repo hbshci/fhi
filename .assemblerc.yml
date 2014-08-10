@@ -97,21 +97,6 @@ cdn:
   cloudflare:      //cdnjs.cloudflare.com/ajax/libs/less.js/
 
 
-# =============================================
-# SEO/SEM
-# =============================================
-
-# Most of these are not enabled. You will need
-# to setup accounts with the services you want
-# to use and add the templates.
-# http://www.alexa.com/
-
-analytics:
-  alexa:           uniqueCodeHere
-  google:          false
-  google_site_id:  false
-
-
 
 # =============================================
 # SOCIAL / SHARING

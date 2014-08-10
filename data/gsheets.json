@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-10T12:31:14.971Z",
+            "dateFrom": "2014-08-10T14:10:10.644Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -83,6 +83,13 @@
             "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/innovations/",
             "howToReference": "gsheets.links.challenge-application"
         },
+        "challenge-flyer": {
+            "id": "challenge-flyer",
+            "name": "Health Acceleration Challenge Flyer",
+            "relativePath": "pdf",
+            "fileName": "hca-challenge-2pg.pdf",
+            "howToReference": "gsheets.links.challenge-flyer"
+        },
         "challenge-landing-page": {
             "id": "challenge-landing-page",
             "name": "Health Care Acceleration Challenge Landing Page",
@@ -94,6 +101,13 @@
             "name": "OpenIDEO production link",
             "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/brief.html",
             "howToReference": "gsheets.links.challenge-main"
+        },
+        "challenge-media-kit-download": {
+            "id": "challenge-media-kit-download",
+            "name": "Health Acceleration Challenge Media Kit",
+            "relativePath": "zip",
+            "fileName": "HAC_Media_Kit.zip",
+            "howToReference": "gsheets.links.challenge-media-kit-download"
         },
         "challenge-platform-comments": {
             "id": "challenge-platform-comments",
@@ -929,14 +943,14 @@
             "type": "number",
             "description": "You will be asked to describe your solution, articulate how it improves health care value, quantify the potential impact it could have if disseminated broadly, and outline your dissemination plan in a ~1000 word application.",
             "howToReference": "{{addCommas gsheets.snippets.challenge-application-word-length.val}}",
-            "undefined": 1
+            "propertyCount": 1
         },
         "challenge-prize-grand-amt": {
             "id": "challenge-prize-grand-amt",
             "val": 150000,
             "type": "currency",
             "howToReference": "${{addCommas gsheets.snippets.challenge-prize-grand-amt.val}}",
-            "undefined": 1
+            "propertyCount": 1
         },
         "challenge-prize-one-year-later": {
             "id": "challenge-prize-one-year-later",
@@ -944,7 +958,7 @@
             "type": "currency",
             "description": "an additional $50,000 will be awarded a year later to the organization that has had the most success scaling up.",
             "howToReference": "${{addCommas gsheets.snippets.challenge-prize-one-year-later.val}}",
-            "undefined": 1
+            "propertyCount": 1
         },
         "conference-num-attendees": {
             "id": "conference-num-attendees",
@@ -952,7 +966,7 @@
             "type": "number",
             "description": "Our Challenge finalists will gain access to 150 senior health care leaders at our invitation-only conference in April 2015.",
             "howToReference": "{{addCommas gsheets.snippets.conference-num-attendees.val}}",
-            "undefined": 1
+            "propertyCount": 1
         },
         "conference-num-attendees-prev": {
             "id": "conference-num-attendees-prev",
@@ -960,35 +974,35 @@
             "type": "number",
             "description": "Our previous conference was attended by over XXX senior health care leaders from virtually every sector of health care, who came together to talk about barriers and opportunities for health care innovation.",
             "howToReference": "{{addCommas gsheets.snippets.conference-num-attendees-prev.val}}",
-            "undefined": 1
+            "propertyCount": 1
         },
         "email-press-forum": {
             "id": "email-press-forum",
             "val": "info@forumonhealthcareinnovation.org",
             "description": "email for press inquiries",
             "howToReference": "{{gsheets.snippets.email-press-forum.val}}",
-            "undefined": 1
+            "propertyCount": 1
         },
         "google-analytics-site-id": {
             "id": "google-analytics-site-id",
             "val": "UA-41037769-2",
             "type": "string",
             "howToReference": "{{gsheets.snippets.google-analytics-site-id.val}}",
-            "undefined": 1
+            "propertyCount": 1
         },
         "num-hbs-hms-alumni-access-to": {
             "id": "num-hbs-hms-alumni-access-to",
             "val": 150000,
             "type": "number",
             "howToReference": "{{addCommas gsheets.snippets.num-hbs-hms-alumni-access-to.val}}",
-            "undefined": 1
+            "propertyCount": 1
         },
         "social-linkedin-share-source": {
             "id": "social-linkedin-share-source",
             "val": "http://HealthAccelerationChallenge.com",
             "description": "length: 200 chars. The source of the article. Must be URL encoded. Example: Wired Magazine",
             "howToReference": "{{gsheets.snippets.social-linkedin-share-source.val}}",
-            "undefined": 1
+            "propertyCount": 1
         },
         "social-linkedin-share-summary": {
             "id": "social-linkedin-share-summary",
@@ -996,19 +1010,19 @@
             "type": 207,
             "description": "length: 256 chars. A brief summary of the article. Must be URL encoded. Longer titles will be truncated gracefully with ellipses.",
             "howToReference": "{{gsheets.snippets.social-linkedin-share-summary.val}}",
-            "undefined": 1
+            "propertyCount": 1
         },
         "social-linkedin-share-title": {
             "id": "social-linkedin-share-title",
             "val": "What is your health care innovation? ",
             "description": "length: 200 chars. The title of the article. Must be URL encoded",
             "howToReference": "{{gsheets.snippets.social-linkedin-share-title.val}}",
-            "undefined": 1
+            "propertyCount": 1
         },
         "social-linkedin-share-url": {
             "id": "social-linkedin-share-url",
             "val": "http://j.mp/1B0mN16",
-            "undefined": 1
+            "propertyCount": 1
         },
         "social-twitter-fhi-username": {
             "id": "social-twitter-fhi-username",
@@ -1016,7 +1030,7 @@
             "type": "string",
             "description": "For use with Twitter buttons",
             "howToReference": "{{gsheets.snippets.social-twitter-fhi-username.val}}",
-            "undefined": 1
+            "propertyCount": 1
         },
         "social-twitter-share-tweet": {
             "id": "social-twitter-share-tweet",
@@ -1024,14 +1038,14 @@
             "type": "string",
             "description": "This is a the current Twitter promo tweet for Health Care Acceleration Challenge. It will occur alongside the apply now button.",
             "howToReference": "{{gsheets.snippets.social-twitter-share-tweet.val}}",
-            "undefined": 1
+            "propertyCount": 1
         },
         "timezone-suffix": {
             "id": "timezone-suffix",
             "val": "ET",
             "type": "string",
             "howToReference": "{{gsheets.snippets.timezone-suffix.val}}",
-            "undefined": 1
+            "propertyCount": 1
         }
     },
     "updates": {
@@ -1058,24 +1072,29 @@
     "downloads": {
         "hac-flyer": {
             "id": "hac-flyer",
+            "correspondingLink": "challenge-flyer",
             "pages": "index, challenge",
             "title": "Health Acceleration Challenge Flyer (PDF)",
-            "pdfFilename": "hca-challenge-2pg.pdf",
+            "relativePath": "pdf",
+            "fileName": "hca-challenge-2pg.pdf",
             "description": "Details for potential applicants.",
             "imgFilename": "hca-challenge-2pg.png",
             "howToReference": "gsheets.downloads.hac-flyer"
         },
         "hac-press-release": {
             "id": "hac-press-release",
-            "pages": "index",
-            "title": "Press Kit",
-            "foreignUrl": "http://www.hbs.edu/news/releases/Pages/healthcareforum12-20-12.aspx",
+            "correspondingLink": "challenge-media-kit-download",
+            "pages": "index, challenge",
+            "title": "Press Kit (ZIP)",
+            "relativePath": "zip",
+            "fileName": "HAC_Media_Kit.zip",
             "description": "Challenge information and logos.",
             "imgFilename": "hbs-hms-press-release-1.png",
             "howToReference": "gsheets.downloads.hac-press-release"
         },
         "five-imperatives": {
             "id": "five-imperatives",
+            "correspondingLink": "conference-2012-5-imperatives",
             "pages": "index",
             "title": "5 Imperatives (PDF)",
             "foreignUrl": "http://www.hbs.edu/healthcare/pdf/Forum-on-Healthcare-Innovation-5-Imperatives.pdf",
