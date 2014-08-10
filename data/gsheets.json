@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-10T14:36:29.895Z",
+            "dateFrom": "2014-08-10T19:22:57.075Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -1033,7 +1033,7 @@
         },
         "social-twitter-share-tweet": {
             "id": "social-twitter-share-tweet",
-            "val": "$150,000 Health Acceleration Challenge for proven ideas. Apply: http://j.mp/1msZqn2 #HarvardHAC @HarvardHBS @HarvardMed @ForumHealthInno",
+            "val": "$150,000 Health Acceleration Challenge. Apply http://j.mp/1msZqn2 #HarvardHAC @HarvardHBS @HarvardMed @ForumHealthInno",
             "type": "string",
             "description": "This is a the current Twitter promo tweet for Health Care Acceleration Challenge. It will occur alongside the apply now button.",
             "howToReference": "{{gsheets.snippets.social-twitter-share-tweet.val}}",
