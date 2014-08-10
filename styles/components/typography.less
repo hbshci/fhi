@@ -19,8 +19,15 @@ h1, h2, h3 {
     font-weight:bold;
   }
   h1 { // beta-uc
-    font-size:44px;
-    line-height:48px;
+    @media(max-width: @screen-xs-max) {
+      font-size: 38px;
+      line-height: 44px; 
+    }
+    @media(min-width: @screen-sm-min) {
+      font-size:44px;
+      line-height:48px;
+    }
+    
     letter-spacing:0;
     text-rendering:optimizeLegibility;
   }
@@ -41,10 +48,18 @@ h1, h2, h3 {
     font-weight:bold;
   }
   .h1 {
-    font-size:44px;
-    line-height:48px;
+    @media(max-width: @screen-xs-max) {
+      font-size: 38px;
+      line-height: 44px; 
+    }
+    @media(min-width: @screen-sm-min) {
+      font-size:44px;
+      line-height:48px;
+    }
+    
     letter-spacing:0;
     text-rendering:optimizeLegibility;
+    
   }
   .h2 {
     font-size: 32px;
