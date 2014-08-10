@@ -6624,6 +6624,27 @@ table th[class*="col-"] {
     border-bottom: 0;
   }
 }
+.video {
+  height: 360px;
+}
+@media (max-width: 479px) {
+  .video {
+    height: 190px;
+    width: 300px;
+  }
+}
+@media (min-width: 480px) and (max-width: 991px) {
+  .video {
+    height: 253px;
+    width: 450px;
+  }
+}
+@media (min-width: 992px) {
+  .video {
+    height: 360px;
+    width: 640px;
+  }
+}
 .docs-content {
   position: relative;
   overflow: hidden;
