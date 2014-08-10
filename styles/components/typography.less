@@ -9,6 +9,9 @@ h1, h2, h3 {
   .lc {
     text-transform:none;
   }
+  a {
+    color: @brand-primary;
+  }
 }
 
 
@@ -46,6 +49,7 @@ h1, h2, h3 {
   .h1, .h2, .h3 {
     text-transform:uppercase;
     font-weight:bold;
+    
   }
   .h1 {
     @media(max-width: @screen-xs-max) {
@@ -69,6 +73,9 @@ h1, h2, h3 {
     font-size: 23px;
     line-height: 24px;
   }
+  a.h1, a.h2, a.h3, a.h4  {
+      color: @link-color;
+  }
 }
 
 .docs-nav {
@@ -76,3 +83,4 @@ h1, h2, h3 {
 
   
 }
+
