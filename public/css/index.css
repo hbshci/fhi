@@ -5930,10 +5930,20 @@ h3 .lc {
   font-weight: bold;
 }
 .docs-container h1 {
-  font-size: 44px;
-  line-height: 48px;
   letter-spacing: 0;
   text-rendering: optimizeLegibility;
+}
+@media (max-width: 767px) {
+  .docs-container h1 {
+    font-size: 38px;
+    line-height: 44px;
+  }
+}
+@media (min-width: 768px) {
+  .docs-container h1 {
+    font-size: 44px;
+    line-height: 48px;
+  }
 }
 .docs-container h2 {
   /*    font-size: 24px;
@@ -5953,10 +5963,20 @@ h3 .lc {
   font-weight: bold;
 }
 .docs-container .h1 {
-  font-size: 44px;
-  line-height: 48px;
   letter-spacing: 0;
   text-rendering: optimizeLegibility;
+}
+@media (max-width: 767px) {
+  .docs-container .h1 {
+    font-size: 38px;
+    line-height: 44px;
+  }
+}
+@media (min-width: 768px) {
+  .docs-container .h1 {
+    font-size: 44px;
+    line-height: 48px;
+  }
 }
 .docs-container .h2 {
   font-size: 32px;
