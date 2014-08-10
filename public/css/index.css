@@ -5923,11 +5923,28 @@ h2 .lc,
 h3 .lc {
   text-transform: none;
 }
+h1 a,
+h2 a,
+h3 a {
+  color: #a41034;
+}
 .docs-container h1,
 .docs-container h2,
-.docs-container h3 {
-  text-transform: uppercase;
+.docs-container h3,
+.docs-container h4,
+.docs-container .h1,
+.docs-container .h2,
+.docs-container .h3,
+.docs-container .h4 {
   font-weight: bold;
+}
+.docs-container h1,
+.docs-container h2,
+.docs-container h3,
+.docs-container .h1,
+.docs-container .h2,
+.docs-container .h3 {
+  text-transform: uppercase;
 }
 .docs-container h1 {
   letter-spacing: 0;
@@ -5956,12 +5973,6 @@ h3 .lc {
   font-size: 23px;
   line-height: 28px;
 }
-.docs-container .h1,
-.docs-container .h2,
-.docs-container .h3 {
-  text-transform: uppercase;
-  font-weight: bold;
-}
 .docs-container .h1 {
   letter-spacing: 0;
   text-rendering: optimizeLegibility;
@@ -5985,6 +5996,12 @@ h3 .lc {
 .docs-container .h3 {
   font-size: 23px;
   line-height: 24px;
+}
+.docs-container a.h1,
+.docs-container a.h2,
+.docs-container a.h3,
+.docs-container a.h4 {
+  color: #a41034;
 }
 *,
 *:before,
@@ -6639,10 +6656,10 @@ table th[class*="col-"] {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 .docs-section + .docs-section {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .docs-section {
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 .docs-section:last-child {
   margin-bottom: 0;
@@ -6810,67 +6827,6 @@ h1[id] {
 .navbar-nav .btn:hover {
   border-color: transparent;
 }
-/*
-.docs-nav {
-  text-shadow: 0 -1px 0 rgba(0,0,0,.15);
-  // background-color: @navbar-inverse-bg;
-  background-color: @navbar-default-bg;
-  border-color: rgba(0,0,0,.2);
-  box-shadow: 0 1px 0 rgba(255,255,255,.07);
-
-  .navbar-collapse {
-    border-color: @navbar-inverse-border;
-    // border-color: @navbar-default-border;
-  }
-
-  // increase specificity to override Bootstrap styles
-  .container .navbar-brand {
-    //margin: 5px 0 12px 0;
-    width: 300px;
-    padding: 0;
-
-    // to resize image, only the width and margin of
-    // the parent, .navbar-brand, needs to be adjusted
-    img {
-      .img-responsive();
-
-      @media (max-width: @screen-xs-max) {
-        margin-left:10px;
-
-      }
-    }
-  }
-
-  .navbar-nav > li > a {
-    padding-top: 12px;
-    // color: @navbar-inverse-link-color;
-    color: @navbar-default-link-color;
-    &:hover {
-      color: #fff;
-    }
-  }
-
-  .navbar-nav > .active > a {
-    &, &:hover {
-      color: #fff;
-      background-color: rgba(0,0,0,.2);
-    }
-  }
-
-  .navbar-toggle {
-    border-color: @navbar-inverse-bg;
-    //border-color: @navbar-default-bg;
-    &:hover {
-      background-color: @navbar-inverse-border;
-      border-color: @navbar-inverse-border;
-      // background-color: @navbar-default-border;
-      // border-color: @navbar-default-border;
-    }
-  }
-}
-
-
-*/
 .btn-outline {
   color: #a41034;
   background-color: #fff;
