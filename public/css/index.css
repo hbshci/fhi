@@ -5914,18 +5914,27 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+.h1,
+.h2,
+.h3 {
   margin-top: 30px;
   margin-bottom: 15px;
 }
 h1 .lc,
 h2 .lc,
-h3 .lc {
+h3 .lc,
+.h1 .lc,
+.h2 .lc,
+.h3 .lc {
   text-transform: none;
 }
 h1 a,
 h2 a,
-h3 a {
+h3 a,
+.h1 a,
+.h2 a,
+.h3 a {
   color: #a41034;
 }
 .docs-container h1,
