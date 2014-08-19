@@ -1,4 +1,4 @@
-<a href="{{gsheets.links.challenge-application.url}}" class="btn btn-primary" target="_blank"><span class="glyphicon glyphicon-ok"></span> 
+<a href="{{gsheets.links.challenge-application.url}}" class="btn btn-primary" target="_blank" onclick="ga('send', 'event', 'button', 'Apply', 'Apply Now - from {{slug}} page');"><span class="glyphicon glyphicon-ok"></span> 
 <strong>Apply</span><br><small>by 
 {{formatDate gsheets.dates.challenge-application-due.dateFrom gsheets.formatting.date-brief-noyear.fmt}}
 </small></a>
