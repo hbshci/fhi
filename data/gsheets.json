@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-10T20:47:51.240Z",
+            "dateFrom": "2014-08-19T12:12:17.502Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -196,9 +196,21 @@
         },
         "video-landing-page": {
             "id": "video-landing-page",
-            "name": "Landing Page Video",
+            "name": "Landing Page Video on YouTube",
             "url": "//www.youtube.com/embed/IhnNr2A2IS8?rel=0",
             "howToReference": "gsheets.links.video-landing-page"
+        },
+        "video-landing-page-external-addr": {
+            "id": "video-landing-page-external-addr",
+            "name": "This link takes you directly to the video on the landing page",
+            "url": "http://healthaccelerationchallenge.com/#video",
+            "howToReference": "gsheets.links.video-landing-page-external-addr"
+        },
+        "video-challenge-how-to-apply": {
+            "id": "video-challenge-how-to-apply",
+            "name": "Video: How to Apply to the Challenge",
+            "url": "//www.youtube.com/embed/xY2bq1tEyqg",
+            "howToReference": "gsheets.links.video-challenge-how-to-apply"
         }
     },
     "people": {
