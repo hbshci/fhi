@@ -9,7 +9,7 @@ To build the website:
 0. Install [Node.js](http://nodejs.org/), which is available on all plaforms. Node is server software that you run from the command line. 
 0. Install [Git](http://git-scm.com/), which is available on all platforms. Git is software for managing versions of software that is in the process of being written. Github uses git to help programmers manage versions of the software they are writing.
 0. Open a command prompt or terminal. If on Windows, use [Git BASH](http://msysgit.github.io/). If on Mac, use [terminal](http://www.maclife.com/article/feature/25_terminal_tips_every_mac_user_should_know).
-0. Enter `cd ~` and then `git clone git@github.com:codekiln/fhi.git`. 
+0. Enter `cd ~` and then `git clone git@github.com:hbshci/fhi.git`. 
 0. Enter `cd fhi` and then `npm i` to install the dependencies for the project. 
 0. Enter `grunt design`. This should open up a web browser that contains the web page. You may now edit the text files, save them, and watch the page reload with the new changes reflected. At this point, you can copy the contents of the _gh_pages directory onto any server.
 
