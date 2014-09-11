@@ -1,6 +1,6 @@
 <div class="pull-right">{{!--[![{{gsheets.downloads.five-imperatives.title}}]({{assets}}/img/{{gsheets.downloads.five-imperatives.imgFilename}})]({{assets}}/pdf/{{gsheets.downloads.five-imperatives.pdfFilename}})--}}</div>
 
-A key output of the previous conference was a report entitled "5 Imperatives," which outlined the five key steps to fostering innovation in health care. Participants agreed that there is no "magic bullet" that can heroically resolve our health care challenges. Instead, the most intriguing ideas share common themes of collaboration, integration, and distributed knowledge. The 5 key imperatives are:
+A key output of the previous Forum on Health Care Innovation conference was a report entitled "5 Imperatives," which outlined the five key steps to fostering innovation in health care. Participants agreed that there is no "magic bullet" that can heroically resolve our health care challenges. Instead, the most intriguing ideas share common themes of collaboration, integration, and distributed knowledge. The 5 key imperatives are:
 
 1. #### Making value the central objective
 
