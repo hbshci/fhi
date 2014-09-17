@@ -2,7 +2,7 @@
   <!-- Default panel contents -->
   <div class="panel-body">
     {{md 'sidebar-subscribe-content'}}
-    <a href="{{gsheets.links.subscribe-from-webpage.url}}" type="button" target="_blank" class="btn btn-default">
+    <a href="{{gsheets.links.subscribe-from-webpage.url}}" type="button" onclick="ewt.trackLink({name:'Button - Subscribe to FHI Updates',type:'click',link:this }); ga('send', 'event', 'button', 'Subscribe', 'Subscribe to FHI Updates - from {{slug}}');" target="_blank" class="btn btn-default">
     	<span class="glyphicon glyphicon-envelope"></span> Subscribe
  	</a>
   </div>
