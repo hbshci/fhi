@@ -2,12 +2,11 @@ We’re looking for proven ideas that have the potential to do great things for 
 
 Innovations must have credible, demonstrated evidence of their value proposition (such as cost savings, outcomes improvement, patient satisfaction, etc.); have a compelling dissemination plan; and be at the cusp of scaling. You can [Apply Now]({{gsheets.links.challenge-application.url}}) or find out more through our [Frequently Asked Questions](#challenge-faqs). 
 
-We are holding an informational webinar today, September 17, 2014 at 12:00 PM ET. Please join the webinar at this link: 
-{{!--
-{{formatDate 
+We held an informational webinar on {{formatDate 
 	gsheets.dates.challenge-webinar-date.dateFrom 
-	gsheets.formatting.date-long-withTime-andWeekday.fmt
-}}. Please register for the webinar here: 
---}}
+	gsheets.formatting.date-month-withDay-andYear.fmt
+}}. Please check back here soon to see a recording of the webinar. 
 
+{{!--
 {{> buttons-webinar}}
+--}}
