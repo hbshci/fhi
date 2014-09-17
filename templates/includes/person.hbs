@@ -1,5 +1,5 @@
 <div class="list-group-item">
-      <a target="_blank" class="team-member" href="{{  bioUrl }}">
+      <a onclick="ewt.trackLink({name:'Person Bio - {{id}}',type:'click',link:this }); ga('send', 'event', 'click', 'Person Bio', 'Person Bio - {{id}}');" target="_blank" class="team-member" href="{{  bioUrl }}">
         <img src="{{ photoUrl }}" alt="{{ nameFinal }}">
         <strong>{{ nameFinal }}</strong><br> {{ titleAndCompany }} 
       </a>

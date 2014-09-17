@@ -5,7 +5,7 @@
 			{{#if message}}
 				<a alt="View Details" data-toggle="collapse" data-target="#{{id}}">
 			{{/if}}<span class="h5 glyphicon glyphicon-plus"></span>{{#if message}}</a>{{/if}}
-			<a target="_blank" class="h4" onclick="ewt.trackLink({name:'News - {{source}} - {{headline}}',type:'click',link:this }); ga('send', 'event', 'click', '{{title}}', 'News - {{source}} - {{headline}}');" href="{{url}}">{{headline}}
+			<a target="_blank" class="h4" onclick="ewt.trackLink({name:'News - {{source}} - {{headline}}',type:'click',link:this }); ga('send', 'event', 'click', 'News', 'News - {{source}} - {{headline}}');" href="{{url}}">{{headline}}
 				{{#if source}}
 					 — <span class="source">{{source}}</span>
 				{{/if}}
