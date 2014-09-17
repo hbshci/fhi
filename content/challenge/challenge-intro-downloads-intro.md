@@ -1,1 +1,1 @@
-For additional information about the Health Acceleration Challenge, download these items.
+For additional information about the Health Acceleration Challenge, please see the following items:

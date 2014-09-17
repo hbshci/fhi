@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-08-19T12:12:17.502Z",
+            "dateFrom": "2014-09-17T18:18:22.372Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -208,9 +208,14 @@
         },
         "video-challenge-how-to-apply": {
             "id": "video-challenge-how-to-apply",
-            "name": "Video: How to Apply to the Challenge",
+            "name": "How to Apply",
             "url": "//www.youtube.com/embed/xY2bq1tEyqg",
             "howToReference": "gsheets.links.video-challenge-how-to-apply"
+        },
+        "challenge-webinar-watch": {
+            "id": "challenge-webinar-watch",
+            "url": "http://hbsconference.adobeconnect.com/p7sfq11181f/",
+            "howToReference": "gsheets.links.challenge-webinar-watch"
         }
     },
     "people": {
@@ -1061,27 +1066,64 @@
         }
     },
     "updates": {
-        "press-2014-07-27-top-ten-health-": {
-            "id": "press-2014-07-27-top-ten-health-",
+        "press-2014-08-25": {
+            "id": "press-2014-08-25",
             "category": "press",
+            "date": "2014-08-25T04:00:00.000Z",
+            "headline": "Harvard Is Hosting a ‘Health Acceleration Challenge’",
+            "url": "http://www.bostonmagazine.com/health/blog/2014/08/25/harvard-health-acceleration-challenge/",
+            "source": "Boston Magazine",
+            "howToReference": "{{gsheets.updates.press-2014-08-25.headline}}"
+        },
+        "press-2014-08-20": {
+            "id": "press-2014-08-20",
+            "category": "press",
+            "date": "2014-08-20T04:00:00.000Z",
+            "headline": "Harvard launches Health Acceleration Challenge",
+            "url": "http://www.beckershospitalreview.com/leadership-management/harvard-launches-health-acceleration-challenge.html",
+            "source": "Becker's Hospital Review",
+            "howToReference": "{{gsheets.updates.press-2014-08-20.headline}}"
+        },
+        "press-2014-08-18": {
+            "id": "press-2014-08-18",
+            "category": "press",
+            "date": "2014-08-18T04:00:00.000Z",
+            "headline": "Harvard Wants Your Proven Ideas To Improve Health Care",
+            "url": "http://www.forbes.com/sites/hbsworkingknowledge/2014/08/18/harvard-wants-your-proven-ideas-to-improve-health-care/",
+            "source": "Forbes",
+            "howToReference": "{{gsheets.updates.press-2014-08-18.headline}}"
+        },
+        "press-archive-2014-07-27-top-ten-health-": {
+            "id": "press-archive-2014-07-27-top-ten-health-",
+            "category": "press-archive",
             "date": "2014-07-27T04:00:00.000Z",
             "headline": "Top Ten Health Care Quotes For 2013",
             "url": "http://www.forbes.com/sites/danmunro/2013/12/22/top-ten-healthcare-quotes-for-2013/",
             "source": "Forbes",
             "message": "Quotes from Andrew J. Sussman, MD and Christopher A. Viehbacher made it to Forbes' top quotes of 2013. ",
-            "howToReference": "{{gsheets.updates.press-2014-07-27-top-ten-health-.headline}}"
+            "howToReference": "{{gsheets.updates.press-archive-2014-07-27-top-ten-health-.headline}}"
         },
-        "press-2013-07-15-5-imperatives-f": {
-            "id": "press-2013-07-15-5-imperatives-f",
-            "category": "press",
+        "press-archive-2013-07-15-5-imperatives-f": {
+            "id": "press-archive-2013-07-15-5-imperatives-f",
+            "category": "press-archive",
             "date": "2013-07-15T04:00:00.000Z",
             "headline": "5 Imperatives For Improving Health Care",
             "url": "http://www.forbes.com/sites/hbsworkingknowledge/2013/07/15/5-imperatives-for-improving-health-care/",
             "source": "Forbes",
-            "howToReference": "{{gsheets.updates.press-2013-07-15-5-imperatives-f.headline}}"
+            "howToReference": "{{gsheets.updates.press-archive-2013-07-15-5-imperatives-f.headline}}"
         }
     },
     "downloads": {
+        "hac-webinar": {
+            "id": "hac-webinar",
+            "correspondingLink": "challenge-webinar-watch",
+            "pages": "index, challenge",
+            "title": "Health Acceleration Challenge Webinar (VIDEO)",
+            "foreignUrl": "http://hbsconference.adobeconnect.com/p7sfq11181f/",
+            "description": "An informational webinar about the Health Acceleration Challenge.",
+            "imgFilename": "webinar_img_75w.png",
+            "howToReference": "gsheets.downloads.hac-webinar"
+        },
         "hac-flyer": {
             "id": "hac-flyer",
             "correspondingLink": "challenge-flyer",
