@@ -17,7 +17,7 @@
     
     <div class="list-group-item">
 
-        <a href="{{#if fileName }}{{../../../assets}}/{{relativePath}}/{{ fileName }}{{else}}{{ foreignUrl }}{{/if}}" target="_blank">
+        <a href="{{#if fileName }}{{../../../assets}}/{{relativePath}}/{{ fileName }}{{else}}{{ foreignUrl }}{{/if}}" target="_blank" onclick="ga('send', 'event', 'download', '{{title}}', 'Download {{title}} - {{../../slug}} page');">
         {{#if imgFilename}}
                 <img src="{{../../../assets}}/img/{{imgFilename}}" alt="{{title}}" >
         {{/if}}
