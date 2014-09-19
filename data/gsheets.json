@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-09-17T18:18:22.372Z",
+            "dateFrom": "2014-09-18T19:33:45.786Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -214,6 +214,7 @@
         },
         "challenge-webinar-watch": {
             "id": "challenge-webinar-watch",
+            "name": "An informational webinar about the Health Acceleration Challenge.",
             "url": "http://hbsconference.adobeconnect.com/p7sfq11181f/",
             "howToReference": "gsheets.links.challenge-webinar-watch"
         }
@@ -1063,6 +1064,14 @@
             "type": "string",
             "howToReference": "{{gsheets.snippets.timezone-suffix.val}}",
             "propertyCount": 1
+        },
+        "site-meta-description": {
+            "id": "site-meta-description",
+            "val": "The Harvard Forum on Healthcare Innovation launches the Health Acceleration Challenge to find proven ideas with potential to do great things for US health care.",
+            "type": "string",
+            "description": "This description was part of SEO description for the site.",
+            "howToReference": "{{gsheets.snippets.site-meta-description.val}}",
+            "propertyCount": 1
         }
     },
     "updates": {
@@ -1116,7 +1125,7 @@
     "downloads": {
         "hac-webinar": {
             "id": "hac-webinar",
-            "correspondingLink": "challenge-webinar-watch",
+            "linkId": "challenge-webinar-watch",
             "pages": "index, challenge",
             "title": "Health Acceleration Challenge Webinar (VIDEO)",
             "foreignUrl": "http://hbsconference.adobeconnect.com/p7sfq11181f/",
@@ -1126,7 +1135,7 @@
         },
         "hac-flyer": {
             "id": "hac-flyer",
-            "correspondingLink": "challenge-flyer",
+            "linkId": "challenge-flyer",
             "pages": "index, challenge",
             "title": "Health Acceleration Challenge Flyer (PDF)",
             "foreignUrl": "http://www.hbs.edu/healthcare/pdf/hca-challenge-2pg.pdf",
@@ -1136,7 +1145,7 @@
         },
         "hac-press-release": {
             "id": "hac-press-release",
-            "correspondingLink": "challenge-media-kit-download",
+            "linkId": "challenge-media-kit-download",
             "pages": "index, challenge",
             "title": "Press Kit (ZIP)",
             "relativePath": "zip",
@@ -1147,7 +1156,7 @@
         },
         "five-imperatives": {
             "id": "five-imperatives",
-            "correspondingLink": "conference-2012-5-imperatives",
+            "linkId": "conference-2012-5-imperatives",
             "pages": "index",
             "title": "5 Imperatives (PDF)",
             "foreignUrl": "http://www.hbs.edu/healthcare/pdf/Forum-on-Healthcare-Innovation-5-Imperatives.pdf",
@@ -1187,15 +1196,15 @@
             "file": "about-03-health-acceleration-challenge-launch-downloads",
             "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-downloads.navId}}"
         },
-        "about-about-the-forum": {
-            "id": "about-about-the-forum",
+        "about-about-the-forum-on-health-care-innovation": {
+            "id": "about-about-the-forum-on-health-care-innovation",
             "page": "about",
-            "navId": "about-the-forum",
+            "navId": "about-the-forum-on-health-care-innovation",
             "title": "About the Forum",
             "order": 4,
             "level": 2,
-            "file": "about-04-about-the-forum",
-            "howToReference": "{{gsheets.nav.about-about-the-forum.navId}}"
+            "file": "about-04-about-the-forum-on-health-care-innovation",
+            "howToReference": "{{gsheets.nav.about-about-the-forum-on-health-care-innovation.navId}}"
         },
         "about-about-the-forum-steering-committee": {
             "id": "about-about-the-forum-steering-committee",
