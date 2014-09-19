@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-09-18T19:33:45.786Z",
+            "dateFrom": "2014-09-19T15:47:46.299Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -1065,12 +1065,52 @@
             "howToReference": "{{gsheets.snippets.timezone-suffix.val}}",
             "propertyCount": 1
         },
-        "site-meta-description": {
-            "id": "site-meta-description",
+        "about-meta-description": {
+            "id": "about-meta-description",
             "val": "The Harvard Forum on Healthcare Innovation launches the Health Acceleration Challenge to find proven ideas with potential to do great things for US health care.",
             "type": "string",
             "description": "This description was part of SEO description for the site.",
-            "howToReference": "{{gsheets.snippets.site-meta-description.val}}",
+            "howToReference": "{{gsheets.snippets.about-meta-description.val}}",
+            "propertyCount": 1
+        },
+        "challenge-meta-description": {
+            "id": "challenge-meta-description",
+            "val": "Apply for The Health Acceleration Challenge. Bring proven innovation to US Health Care Delivery with the Harvard Forum on Health Care Innovation.",
+            "type": "string",
+            "description": "This description was part of SEO description for the site.",
+            "howToReference": "{{gsheets.snippets.challenge-meta-description.val}}",
+            "propertyCount": 1
+        },
+        "conference-meta-description": {
+            "id": "conference-meta-description",
+            "val": "The Harvard Forum on Health Care Innovation conference is a periodic event bringing together leaders from the health care industry to discuss innovation.",
+            "type": "string",
+            "description": "This description was part of SEO description for the site.",
+            "howToReference": "{{gsheets.snippets.conference-meta-description.val}}",
+            "propertyCount": 1
+        },
+        "about-title": {
+            "id": "about-title",
+            "val": "Harvard Health Acceleration Challenge Launch",
+            "type": "string",
+            "description": "This title prefix was part of the SEO adjustments recommended by Tony",
+            "howToReference": "{{gsheets.snippets.about-title.val}}",
+            "propertyCount": 1
+        },
+        "challenge-title": {
+            "id": "challenge-title",
+            "val": "Harvard Health Acceleration Challenge Launch",
+            "type": "string",
+            "description": "This title prefix was part of the SEO adjustments recommended by Tony",
+            "howToReference": "{{gsheets.snippets.challenge-title.val}}",
+            "propertyCount": 1
+        },
+        "conference-title": {
+            "id": "conference-title",
+            "val": "Harvard Forum on Health Care Innovation",
+            "type": "string",
+            "description": "This title prefix was part of the SEO adjustments recommended by Tony",
+            "howToReference": "{{gsheets.snippets.conference-title.val}}",
             "propertyCount": 1
         }
     },

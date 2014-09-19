@@ -1,15 +1,25 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="{{gsheets.snippets.site-meta-description.val}}">
+
 <meta name="author" content="P. Myer Nore">
-<meta name="com.silverpop.pagename" content="{{slug}}" />
+
 {{!-- SilverPop tracking, recommended in head tag  --}}
 <meta name="com.silverpop.brandeddomains" content="www.pages01.net,forumonhealthcareinnovation.org,healthcareinitiative.mkt1960.com" />
+<meta name="com.silverpop.pagename" content="{{slug}}" />
 
-<title>
-  Harvard Health Acceleration Challenge Launch | {{default title (titleize basename)}}
-</title>
+{{#is slug 'index'}}
+<meta name="description" content="{{gsheets.snippets.about-meta-description.val}}">
+<title>{{default gsheets.snippets.about-title.val 'Harvard Forum on Health Care Innovation'}} | {{default title (titleize basename)}}</title>
+{{/is}}
+{{#is slug 'challenge'}}
+<meta name="description" content="{{gsheets.snippets.challenge-meta-description.val}}">
+<title>{{default gsheets.snippets.challenge-title.val 'Harvard Forum on Health Care Innovation'}} | {{default title (titleize basename)}}</title>
+{{/is}}
+{{#is slug 'conference'}}
+<meta name="description" content="{{gsheets.snippets.conference-meta-description.val}}">
+<title>{{default gsheets.snippets.conference-title.val 'Harvard Forum on Health Care Innovation'}} | {{default title (titleize basename)}}</title>
+{{/is}}
 
 <!-- Main styles -->
 <link href="http://fast.fonts.net/cssapi/0cc3175a-e210-4fe6-98df-afb108ad3e95.css" rel="stylesheet"/>
