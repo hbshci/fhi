@@ -25,7 +25,7 @@
 
 1. #### How do teams apply?
 
-    Please submit your application [here]({{gsheets.links.challenge-application.url}}). Applications close on {{> date-challenge-due}}.
+    Applications closed on {{> date-challenge-due}}.
 
 1. #### How is this different from other Challenges?
 
