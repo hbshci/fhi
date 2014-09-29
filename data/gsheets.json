@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-09-26T20:11:01.311Z",
+            "dateFrom": "2014-09-29T15:05:04.802Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -1024,8 +1024,8 @@
         },
         "social-linkedin-share-summary": {
             "id": "social-linkedin-share-summary",
-            "val": "Harvard Business School and Harvard Medical School are launching the Health Acceleration Challenge to award $150,000 to proven health care delivery innovations that are ready to scale. Apply by September 29.",
-            "type": 207,
+            "val": "Health Acceleration Challenge: 302 Innovations Submitted! Share comments about the innovations today for a chance to earn a free ticket to Harvard Business School and Harvard Medical School invite-only conference for health care leaders in April 2015.",
+            "type": 251,
             "description": "length: 256 chars. A brief summary of the article. Must be URL encoded. Longer titles will be truncated gracefully with ellipses.",
             "howToReference": "{{gsheets.snippets.social-linkedin-share-summary.val}}",
             "propertyCount": 1
@@ -1052,7 +1052,7 @@
         },
         "social-twitter-share-tweet": {
             "id": "social-twitter-share-tweet",
-            "val": "$150,000 Health Acceleration Challenge. Apply http://j.mp/1msZqn2 #HarvardHAC @HarvardHBS @HarvardMed @ForumHealthInno",
+            "val": "Health Acceleration Challenge: 302 Innovators Applied! Comment at http://j.mp/1xq1Tbm @ForumHealthInno #HarvardHAC",
             "type": "string",
             "description": "This is a the current Twitter promo tweet for Health Care Acceleration Challenge. It will occur alongside the apply now button.",
             "howToReference": "{{gsheets.snippets.social-twitter-share-tweet.val}}",
@@ -1091,7 +1091,7 @@
         },
         "about-title": {
             "id": "about-title",
-            "val": "225 Innovators Applied to Health Acceleration Challenge",
+            "val": "302 Innovators Applied to Health Acceleration Challenge",
             "type": "string",
             "description": "This title prefix was part of the SEO adjustments recommended by Tony",
             "howToReference": "{{gsheets.snippets.about-title.val}}",
@@ -1115,7 +1115,7 @@
         },
         "challenge-num-applicants": {
             "id": "challenge-num-applicants",
-            "val": 225,
+            "val": 302,
             "type": "number",
             "description": "The number of applications received on the OpenIdeo platform for the Health Acceleration Challenge",
             "howToReference": "{{addCommas gsheets.snippets.challenge-num-applicants.val}}",
@@ -1123,7 +1123,7 @@
         },
         "challenge-num-participants": {
             "id": "challenge-num-participants",
-            "val": 1037,
+            "val": 1408,
             "type": "number",
             "description": "The number of participants on the OpenIdeo platform for the Health Acceleration Challenge",
             "howToReference": "{{addCommas gsheets.snippets.challenge-num-participants.val}}",
@@ -1235,7 +1235,7 @@
             "page": "about",
             "navId": "health-acceleration-challenge-launch",
             "title": "Challenge Launch",
-            "longTitle": "225 Innovators Applied to Health Acceleration Challenge",
+            "longTitle": "302 Innovators Applied to Health Acceleration Challenge",
             "order": 1,
             "level": 2,
             "file": "about-01-health-acceleration-challenge-launch",
