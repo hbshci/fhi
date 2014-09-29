@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-09-29T15:05:04.802Z",
+            "dateFrom": "2014-09-29T17:25:19.356Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -1091,7 +1091,7 @@
         },
         "about-title": {
             "id": "about-title",
-            "val": "302 Innovators Applied to Health Acceleration Challenge",
+            "val": "Harvard Health Acceleration Challenge Launch",
             "type": "string",
             "description": "This title prefix was part of the SEO adjustments recommended by Tony",
             "howToReference": "{{gsheets.snippets.about-title.val}}",
