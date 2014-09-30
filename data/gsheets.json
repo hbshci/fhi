@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-09-29T17:25:19.356Z",
+            "dateFrom": "2014-09-30T13:39:56.908Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -920,16 +920,16 @@
         },
         "date-long-withTime": {
             "id": "date-long-withTime",
-            "fmt": "%B %d, %Y at %I:%M %p ET",
+            "fmt": "#N/A",
             "description": "Full date for due dates",
-            "example": "September 29, 2014 at 11:59 PM ET",
+            "example": "#N/A",
             "howToReference": "gsheets.formatting.date-long-withTime"
         },
         "date-long-withTime-andWeekday": {
             "id": "date-long-withTime-andWeekday",
-            "fmt": "%B %d, %Y at %I:%M %p ET",
+            "fmt": "#N/A",
             "description": "Full date for due dates and appointments",
-            "example": "Wednesday September 17, 2014 at 12 PM ET",
+            "example": "#N/A",
             "howToReference": "gsheets.formatting.date-long-withTime-andWeekday"
         },
         "date-month-withYear": {
@@ -955,12 +955,60 @@
         }
     },
     "snippets": {
+        "about-meta-description": {
+            "id": "about-meta-description",
+            "val": "The Harvard Forum on Healthcare Innovation launches the Health Acceleration Challenge to find proven ideas with potential to do great things for US health care.",
+            "type": "string",
+            "description": "This description was part of SEO description for the site.",
+            "howToReference": "{{gsheets.snippets.about-meta-description.val}}",
+            "propertyCount": 1
+        },
+        "about-title": {
+            "id": "about-title",
+            "val": "478 Innovators Applied to Health Acceleration Challenge",
+            "type": "string",
+            "description": "This title prefix was part of the SEO adjustments recommended by Tony",
+            "howToReference": "{{gsheets.snippets.about-title.val}}",
+            "propertyCount": 1
+        },
+        "challenge-applicants-venerable-institutions": {
+            "id": "challenge-applicants-venerable-institutions",
+            "val": "Cleveland Clinic, Mayo Clinic, Kaiser Permanente, MD Anderson, Stanford, Intermountain, MGH and many more",
+            "type": "string",
+            "description": "The examples of large hospitals that participated in the challenge. ",
+            "howToReference": "{{gsheets.snippets.challenge-applicants-venerable-institutions.val}}",
+            "propertyCount": 1
+        },
         "challenge-application-word-length": {
             "id": "challenge-application-word-length",
             "val": 1000,
             "type": "number",
             "description": "You will be asked to describe your solution, articulate how it improves health care value, quantify the potential impact it could have if disseminated broadly, and outline your dissemination plan in a ~1000 word application.",
             "howToReference": "{{addCommas gsheets.snippets.challenge-application-word-length.val}}",
+            "propertyCount": 1
+        },
+        "challenge-meta-description": {
+            "id": "challenge-meta-description",
+            "val": "Apply for The Health Acceleration Challenge. Bring proven innovation to US Health Care Delivery with the Harvard Forum on Health Care Innovation.",
+            "type": "string",
+            "description": "This description was part of SEO description for the site.",
+            "howToReference": "{{gsheets.snippets.challenge-meta-description.val}}",
+            "propertyCount": 1
+        },
+        "challenge-num-applicants": {
+            "id": "challenge-num-applicants",
+            "val": 478,
+            "type": "number",
+            "description": "The number of applications received on the OpenIdeo platform for the Health Acceleration Challenge",
+            "howToReference": "{{addCommas gsheets.snippets.challenge-num-applicants.val}}",
+            "propertyCount": 1
+        },
+        "challenge-num-participants": {
+            "id": "challenge-num-participants",
+            "val": 1850,
+            "type": "number",
+            "description": "The number of participants on the OpenIdeo platform for the Health Acceleration Challenge",
+            "howToReference": "{{addCommas gsheets.snippets.challenge-num-participants.val}}",
             "propertyCount": 1
         },
         "challenge-prize-grand-amt": {
@@ -978,6 +1026,22 @@
             "howToReference": "${{addCommas gsheets.snippets.challenge-prize-one-year-later.val}}",
             "propertyCount": 1
         },
+        "challenge-title": {
+            "id": "challenge-title",
+            "val": "Harvard Health Acceleration Challenge Launch",
+            "type": "string",
+            "description": "This title prefix was part of the SEO adjustments recommended by Tony",
+            "howToReference": "{{gsheets.snippets.challenge-title.val}}",
+            "propertyCount": 1
+        },
+        "conference-meta-description": {
+            "id": "conference-meta-description",
+            "val": "The Harvard Forum on Health Care Innovation conference is a periodic event bringing together leaders from the health care industry to discuss innovation.",
+            "type": "string",
+            "description": "This description was part of SEO description for the site.",
+            "howToReference": "{{gsheets.snippets.conference-meta-description.val}}",
+            "propertyCount": 1
+        },
         "conference-num-attendees": {
             "id": "conference-num-attendees",
             "val": 150,
@@ -992,6 +1056,14 @@
             "type": "number",
             "description": "Our previous conference was attended by over XXX senior health care leaders from virtually every sector of health care, who came together to talk about barriers and opportunities for health care innovation.",
             "howToReference": "{{addCommas gsheets.snippets.conference-num-attendees-prev.val}}",
+            "propertyCount": 1
+        },
+        "conference-title": {
+            "id": "conference-title",
+            "val": "Harvard Forum on Health Care Innovation",
+            "type": "string",
+            "description": "This title prefix was part of the SEO adjustments recommended by Tony",
+            "howToReference": "{{gsheets.snippets.conference-title.val}}",
             "propertyCount": 1
         },
         "email-press-forum": {
@@ -1024,7 +1096,7 @@
         },
         "social-linkedin-share-summary": {
             "id": "social-linkedin-share-summary",
-            "val": "Health Acceleration Challenge: 302 Innovations Submitted! Share comments about the innovations today for a chance to earn a free ticket to Harvard Business School and Harvard Medical School invite-only conference for health care leaders in April 2015.",
+            "val": "Health Acceleration Challenge: 478 Innovations Submitted! Share comments about the innovations today for a chance to earn a free ticket to Harvard Business School and Harvard Medical School invite-only conference for health care leaders in April 2015.",
             "type": 251,
             "description": "length: 256 chars. A brief summary of the article. Must be URL encoded. Longer titles will be truncated gracefully with ellipses.",
             "howToReference": "{{gsheets.snippets.social-linkedin-share-summary.val}}",
@@ -1052,7 +1124,7 @@
         },
         "social-twitter-share-tweet": {
             "id": "social-twitter-share-tweet",
-            "val": "Health Acceleration Challenge: 302 Innovators Applied! Comment at http://j.mp/1xq1Tbm @ForumHealthInno #HarvardHAC",
+            "val": "Health Acceleration Challenge: 478 Innovators Applied! Comment at http://j.mp/1xq1Tbm @ForumHealthInno #HarvardHAC",
             "type": "string",
             "description": "This is a the current Twitter promo tweet for Health Care Acceleration Challenge. It will occur alongside the apply now button.",
             "howToReference": "{{gsheets.snippets.social-twitter-share-tweet.val}}",
@@ -1063,78 +1135,6 @@
             "val": "ET",
             "type": "string",
             "howToReference": "{{gsheets.snippets.timezone-suffix.val}}",
-            "propertyCount": 1
-        },
-        "about-meta-description": {
-            "id": "about-meta-description",
-            "val": "The Harvard Forum on Healthcare Innovation launches the Health Acceleration Challenge to find proven ideas with potential to do great things for US health care.",
-            "type": "string",
-            "description": "This description was part of SEO description for the site.",
-            "howToReference": "{{gsheets.snippets.about-meta-description.val}}",
-            "propertyCount": 1
-        },
-        "challenge-meta-description": {
-            "id": "challenge-meta-description",
-            "val": "Apply for The Health Acceleration Challenge. Bring proven innovation to US Health Care Delivery with the Harvard Forum on Health Care Innovation.",
-            "type": "string",
-            "description": "This description was part of SEO description for the site.",
-            "howToReference": "{{gsheets.snippets.challenge-meta-description.val}}",
-            "propertyCount": 1
-        },
-        "conference-meta-description": {
-            "id": "conference-meta-description",
-            "val": "The Harvard Forum on Health Care Innovation conference is a periodic event bringing together leaders from the health care industry to discuss innovation.",
-            "type": "string",
-            "description": "This description was part of SEO description for the site.",
-            "howToReference": "{{gsheets.snippets.conference-meta-description.val}}",
-            "propertyCount": 1
-        },
-        "about-title": {
-            "id": "about-title",
-            "val": "Harvard Health Acceleration Challenge Launch",
-            "type": "string",
-            "description": "This title prefix was part of the SEO adjustments recommended by Tony",
-            "howToReference": "{{gsheets.snippets.about-title.val}}",
-            "propertyCount": 1
-        },
-        "challenge-title": {
-            "id": "challenge-title",
-            "val": "Harvard Health Acceleration Challenge Launch",
-            "type": "string",
-            "description": "This title prefix was part of the SEO adjustments recommended by Tony",
-            "howToReference": "{{gsheets.snippets.challenge-title.val}}",
-            "propertyCount": 1
-        },
-        "conference-title": {
-            "id": "conference-title",
-            "val": "Harvard Forum on Health Care Innovation",
-            "type": "string",
-            "description": "This title prefix was part of the SEO adjustments recommended by Tony",
-            "howToReference": "{{gsheets.snippets.conference-title.val}}",
-            "propertyCount": 1
-        },
-        "challenge-num-applicants": {
-            "id": "challenge-num-applicants",
-            "val": 302,
-            "type": "number",
-            "description": "The number of applications received on the OpenIdeo platform for the Health Acceleration Challenge",
-            "howToReference": "{{addCommas gsheets.snippets.challenge-num-applicants.val}}",
-            "propertyCount": 1
-        },
-        "challenge-num-participants": {
-            "id": "challenge-num-participants",
-            "val": 1408,
-            "type": "number",
-            "description": "The number of participants on the OpenIdeo platform for the Health Acceleration Challenge",
-            "howToReference": "{{addCommas gsheets.snippets.challenge-num-participants.val}}",
-            "propertyCount": 1
-        },
-        "challenge-applicants-venerable-institutions": {
-            "id": "challenge-applicants-venerable-institutions",
-            "val": "Cleveland Clinic, Mayo Clinic, Kaiser Permanente, and MD Anderson",
-            "type": "string",
-            "description": "The examples of large hospitals that participated in the challenge. ",
-            "howToReference": "{{gsheets.snippets.challenge-applicants-venerable-institutions.val}}",
             "propertyCount": 1
         }
     },
@@ -1235,7 +1235,7 @@
             "page": "about",
             "navId": "health-acceleration-challenge-launch",
             "title": "Challenge Launch",
-            "longTitle": "302 Innovators Applied to Health Acceleration Challenge",
+            "longTitle": "478 Innovators Applied to Health Acceleration Challenge",
             "order": 1,
             "level": 2,
             "file": "about-01-health-acceleration-challenge-launch",
