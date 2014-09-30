@@ -1,7 +1,7 @@
 ---
 title: About
 slug: index
-top-heading: "Health Acceleration Challenge Launch"
+top-heading: "Innovators Applied to Health Acceleration Challenge"
 top-lead: ""
 ---
 {{!-- MAIN CONTENT --}}
@@ -10,14 +10,14 @@ top-lead: ""
   {{!-- Health Acceleration Challenge Launch
   ================================================== --}}
   <div class="page-header">
-    {{#markdown}}# Health Acceleration Challenge Launch{{/markdown}}
+    <h1 id="{{gsheets.nav.about-health-acceleration-challenge-launch.navId}}">{{gsheets.snippets.about-title.val}}</h1>
   </div>
   {{md 'challenge-launch-intro'}}
 
   {{!-- Health Acceleration Challenge Video 
   ================================================== --}}
   <p><span class="anchor-target" id="video"></span>
-  <a class="h3" href="{{gsheets.links.challenge-application.url}}" target="_blank">What’s your innovation?</a></p>
+  <a class="h3" href="{{gsheets.links.challenge-application.url}}" target="_blank">Comment on the ideas &raquo;</a></p>
     <div class="row" >
       <div class="col-sm-10 col-md-8">
         {{> video gsheets.links.video-landing-page}}

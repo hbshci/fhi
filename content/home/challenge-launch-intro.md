@@ -1,5 +1,3 @@
-Some of the greatest health care innovations have taken decades to reach widespread adoption, adding to the ever-increasing cost of health care.
+Applications for the Health Acceleration Challenge have now closed. We received **{{addCommas gsheets.snippets.challenge-num-applicants.val}}** applications from numerous entrepreneurs as well as from venerable institutions such as **{{gsheets.snippets.challenge-applicants-venerable-institutions.val}}**. 
 
-The Forum on Health Care Innovation is looking for solutions that have already been implemented at least once and have demonstrated effectiveness. This "scale-up" competition seeks to shorten the time frame for innovation dissemination.
-
-The Health Acceleration Challenge is looking for proven ideas that have the potential to do great things for the US health care delivery system. <a  href="{{rel "challenge"}}">Learn More »</a>
+Help us select the finalists by viewing and commenting on the applications [here]({{gsheets.links.challenge-register-participate.url}}). In fact, sharing insightful comments on other people's ideas **could earn you free tickets to our invite-only conference** even if you are not a Challenge applicant.
