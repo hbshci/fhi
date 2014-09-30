@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-09-30T13:56:08.807Z",
+            "dateFrom": "2014-09-30T14:21:01.796Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -1013,7 +1013,7 @@
         },
         "challenge-prize-grand-amt": {
             "id": "challenge-prize-grand-amt",
-            "val": "date-long-withTime",
+            "val": 150000,
             "type": "currency",
             "howToReference": "${{addCommas gsheets.snippets.challenge-prize-grand-amt.val}}",
             "propertyCount": 1
