@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-09-30T13:39:56.908Z",
+            "dateFrom": "2014-09-30T13:56:08.807Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -920,16 +920,16 @@
         },
         "date-long-withTime": {
             "id": "date-long-withTime",
-            "fmt": "#N/A",
+            "fmt": "%B %d, %Y at %I:%M %p ET",
             "description": "Full date for due dates",
-            "example": "#N/A",
+            "example": "September 29, 2014 at 11:59 PM ET",
             "howToReference": "gsheets.formatting.date-long-withTime"
         },
         "date-long-withTime-andWeekday": {
             "id": "date-long-withTime-andWeekday",
-            "fmt": "#N/A",
+            "fmt": "%B %d, %Y at %I:%M %p ET",
             "description": "Full date for due dates and appointments",
-            "example": "#N/A",
+            "example": "Wednesday September 17, 2014 at 12 PM ET",
             "howToReference": "gsheets.formatting.date-long-withTime-andWeekday"
         },
         "date-month-withYear": {
@@ -1013,7 +1013,7 @@
         },
         "challenge-prize-grand-amt": {
             "id": "challenge-prize-grand-amt",
-            "val": 150000,
+            "val": "date-long-withTime",
             "type": "currency",
             "howToReference": "${{addCommas gsheets.snippets.challenge-prize-grand-amt.val}}",
             "propertyCount": 1
