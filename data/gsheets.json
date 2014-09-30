@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-09-30T14:21:01.796Z",
+            "dateFrom": "2014-09-30T14:44:25.903Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -78,9 +78,9 @@
     "links": {
         "challenge-application": {
             "id": "challenge-application",
-            "name": "Health Care Acceleration Challenge Application",
-            "description": "Apply for the Health Care Acceleration Challenge.",
-            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/innovations/",
+            "name": "Health Care Acceleration Challenge Participate Now",
+            "description": "Participate in the Health Care Acceleration Challenge.",
+            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/evaluation/?order=COMMENTS&direction=ASC",
             "howToReference": "gsheets.links.challenge-application"
         },
         "challenge-flyer": {
@@ -123,7 +123,7 @@
         "challenge-register-participate": {
             "id": "challenge-register-participate",
             "name": "Register for Participating in the Health Care Acceleration Challenge",
-            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/innovations/",
+            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/evaluation/?order=COMMENTS&direction=ASC",
             "howToReference": "gsheets.links.challenge-register-participate"
         },
         "challenge-webinar-register-link": {
