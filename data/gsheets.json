@@ -19,7 +19,7 @@
             "id": "challenge-stages-refine",
             "displayName": "Refine",
             "dateFrom": "2014-10-21T04:00:00.000Z",
-            "dateTo": "2014-11-20T05:00:00.000Z",
+            "dateTo": "2014-11-19T05:00:00.000Z",
             "rangeString": "October 21 – November 19, 2014",
             "howToReference": "gsheets.dates.challenge-stages-refine"
         },
@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-11-19T15:36:06.628Z",
+            "dateFrom": "2014-11-19T16:23:50.428Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -217,6 +217,12 @@
             "name": "An informational webinar about the Health Acceleration Challenge.",
             "url": "http://hbsconference.adobeconnect.com/p7sfq11181f/",
             "howToReference": "gsheets.links.challenge-webinar-watch"
+        },
+        "challenge-promovid-watch": {
+            "id": "challenge-promovid-watch",
+            "name": "Health Acceleration Challenge Launch (VIDEO)",
+            "url": "//www.youtube.com/embed/IhnNr2A2IS8?rel=0",
+            "howToReference": "gsheets.links.challenge-promovid-watch"
         }
     },
     "people": {
@@ -944,8 +950,8 @@
             "photoUrl": "http://www.hbs.edu/healthcare/images/photos/medalogix.png",
             "howToReference": "gsheets.orgs.medalogix"
         },
-        "twine_health": {
-            "id": "twine_health",
+        "twine": {
+            "id": "twine",
             "type": "hac-finalist",
             "name": "Twine Health",
             "oneline": "The I-PASS Handoff Process is a multifaceted approach to improve the exchange of information among health care providers. ",
@@ -1049,12 +1055,33 @@
             "howToReference": "{{addCommas gsheets.snippets.challenge-num-applicants.val}}",
             "propertyCount": 1
         },
+        "challenge-num-comments": {
+            "id": "challenge-num-comments",
+            "val": 2000,
+            "type": "number",
+            "howToReference": "{{addCommas gsheets.snippets.challenge-num-comments.val}}",
+            "propertyCount": 1
+        },
+        "challenge-num-countries": {
+            "id": "challenge-num-countries",
+            "val": 127,
+            "type": "number",
+            "howToReference": "{{addCommas gsheets.snippets.challenge-num-countries.val}}",
+            "propertyCount": 1
+        },
         "challenge-num-participants": {
             "id": "challenge-num-participants",
-            "val": 1850,
+            "val": 2671,
             "type": "number",
             "description": "The number of participants on the OpenIdeo platform for the Health Acceleration Challenge",
             "howToReference": "{{addCommas gsheets.snippets.challenge-num-participants.val}}",
+            "propertyCount": 1
+        },
+        "challenge-num-visitors": {
+            "id": "challenge-num-visitors",
+            "val": 20000,
+            "type": "number",
+            "howToReference": "{{addCommas gsheets.snippets.challenge-num-visitors.val}}",
             "propertyCount": 1
         },
         "challenge-prize-grand-amt": {
@@ -1158,6 +1185,7 @@
         "social-linkedin-share-url": {
             "id": "social-linkedin-share-url",
             "val": "http://j.mp/1B0mN16",
+            "howToReference": "{{gsheets.snippets.social-linkedin-share-url.val}}",
             "propertyCount": 1
         },
         "social-twitter-fhi-username": {
@@ -1233,6 +1261,15 @@
         }
     },
     "downloads": {
+        "hac-promovid": {
+            "id": "hac-promovid",
+            "linkId": "challenge-promovid-watch",
+            "pages": "index",
+            "title": "Health Acceleration Challenge Launch (VIDEO)",
+            "foreignUrl": "//www.youtube.com/embed/IhnNr2A2IS8?rel=0",
+            "description": "This video introduces the Health Acceleration Challenge from HBS and HMS.",
+            "imgFilename": "hca-challenge-2pg.png"
+        },
         "hac-webinar": {
             "id": "hac-webinar",
             "linkId": "challenge-webinar-watch",
@@ -1276,16 +1313,16 @@
         }
     },
     "nav": {
-        "about-health-acceleration-challenge-launch": {
-            "id": "about-health-acceleration-challenge-launch",
+        "about-health-acceleration-challenge-finalists": {
+            "id": "about-health-acceleration-challenge-finalists",
             "page": "about",
-            "navId": "health-acceleration-challenge-launch",
-            "title": "Challenge Launch",
-            "longTitle": "478 Innovators Applied to Health Acceleration Challenge",
+            "navId": "health-acceleration-challenge-finalists",
+            "title": "Challenge Finalists",
+            "longTitle": "Health Acceleration Challenge Finalists",
             "order": 1,
             "level": 2,
-            "file": "about-01-health-acceleration-challenge-launch",
-            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch.navId}}"
+            "file": "about-01-health-acceleration-challenge-finalists",
+            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-finalists.navId}}"
         },
         "about-health-acceleration-challenge-launch-news-and-press": {
             "id": "about-health-acceleration-challenge-launch-news-and-press",
