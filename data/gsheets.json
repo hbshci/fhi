@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-11-19T16:23:50.428Z",
+            "dateFrom": "2014-11-19T19:47:34.240Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -923,6 +923,7 @@
             "name": "I-Pass",
             "oneline": "Twine is a cloud-based collaborative care platform that aligns patient and clinician values through the model of apprenticeship. ",
             "description": "Twine is a cloud-based collaborative care platform that aligns patient and clinician values through the model of apprenticeship. ",
+            "twitter": "@IPASSHANDOFF",
             "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/the-i-pass-handoff-process-high-reliability-communication-for-better-patient-handoffs-and-safer-care",
             "orgUrl": "http://ipasshandoffstudy.com/",
             "photoUrl": "http://www.hbs.edu/healthcare/images/photos/i_pass.jpg",
@@ -934,6 +935,7 @@
             "name": "Bloodbuy",
             "oneline": "Bloodbuy connects hospitals and blood centers nationwide, to ensure the efficient flow of lifesaving blood products to patients in need.",
             "description": "Bloodbuy connects hospitals and blood centers nationwide, to ensure the efficient flow of lifesaving blood products to patients in need.",
+            "twitter": "@Bloodbuy",
             "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/bloodbuy-is-a-cloud-based-platform-that-connects-hospitals-and-blood-centers-nationwide-to-ensure-the-efficient-flow-of-lifesaving-blood-products-to-patients-in-need-we-are-redefining-the-vein-to-vein-value-chain",
             "orgUrl": "http://www.bloodbuy.com/",
             "photoUrl": "http://www.hbs.edu/healthcare/images/photos/bloodbuy.png",
@@ -945,6 +947,7 @@
             "name": "Medalogix",
             "oneline": "Medalogix improves a patient’s final days by leveraging data insights.",
             "description": "Medalogix improves a patient’s final days by leveraging data insights.",
+            "twitter": "@medalogix",
             "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/improving-a-patient-s-final-days-by-leveraging-data-insights",
             "orgUrl": "http://medalogix.com/",
             "photoUrl": "http://www.hbs.edu/healthcare/images/photos/medalogix.png",
@@ -956,10 +959,11 @@
             "name": "Twine Health",
             "oneline": "The I-PASS Handoff Process is a multifaceted approach to improve the exchange of information among health care providers. ",
             "description": "The I-PASS Handoff Process is a multifaceted approach to improve the exchange of information among health care providers. ",
+            "twitter": "@twinehealth",
             "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/twine-collaborative-care-platform-empowering-patients-through-apprenticeship",
             "orgUrl": "http://www.twinehealth.com/",
             "photoUrl": "http://www.hbs.edu/healthcare/images/photos/twine_health.png",
-            "howToReference": "gsheets.orgs.twine_health"
+            "howToReference": "gsheets.orgs.twine"
         }
     },
     "formatting": {
@@ -1169,22 +1173,22 @@
         },
         "social-linkedin-share-summary": {
             "id": "social-linkedin-share-summary",
-            "val": "Health Acceleration Challenge: 478 Innovations Submitted! Share comments about the innovations today for a chance to earn a free ticket to Harvard Business School and Harvard Medical School invite-only conference for health care leaders in April 2015.",
-            "type": 251,
+            "val": "Bloodbuy, I-Pass, Medalogix and Twine win the HBS-HMS Health Acceleration Challenge 2014! Thank you to the 478 applicants and 2,747 participants for sharing their demonstrated health care innovations that are ready to scale.",
+            "type": 224,
             "description": "length: 256 chars. A brief summary of the article. Must be URL encoded. Longer titles will be truncated gracefully with ellipses.",
             "howToReference": "{{gsheets.snippets.social-linkedin-share-summary.val}}",
             "propertyCount": 1
         },
         "social-linkedin-share-title": {
             "id": "social-linkedin-share-title",
-            "val": "What is your health care innovation? ",
+            "val": "Health Acceleration Challenge Finalists",
             "description": "length: 200 chars. The title of the article. Must be URL encoded",
             "howToReference": "{{gsheets.snippets.social-linkedin-share-title.val}}",
             "propertyCount": 1
         },
         "social-linkedin-share-url": {
             "id": "social-linkedin-share-url",
-            "val": "http://j.mp/1B0mN16",
+            "val": "https://www.linkedin.com/shareArticle?mini=true&url=http://forumonhealthcareinnovation.org/?utm_campaign=hac_announce&utm_source=fhi_web_selflinkedin&utm_medium=social&utm_content=linkedin_2014-11-19_23-11_pm&title=Health%20Acceleration%20Challenge%20Finalists&summary=Bloodbuy,%20I-Pass,%20Medalogix%20and%20Twine%20win%20the%20HBS-HMS%20Health%20Acceleration%20Challenge%202014!%20Thank%20you%20to%20the%20478%20applicants%20and%202,747%20participants%20for%20sharing%20their%20demonstrated%20health%20care%20innovations%20that%20are%20ready%20to%20scale.&source=",
             "howToReference": "{{gsheets.snippets.social-linkedin-share-url.val}}",
             "propertyCount": 1
         },
@@ -1198,7 +1202,7 @@
         },
         "social-twitter-share-tweet": {
             "id": "social-twitter-share-tweet",
-            "val": "Health Acceleration Challenge: 478 Innovators Applied! Comment at http://j.mp/1xq1Tbm @ForumHealthInno #HarvardHAC",
+            "val": "Congrats to the HBS-HMS Health Acceleration Challenge Finalists! @IPASSHANDOFF @Bloodbuy @medalogix @twinehealth  http://forumonhealthcareinnovation.org/?utm_campaign=hac_announce&utm_source=fhi-web-selftweet&utm_medium=social&utm_content=tweet_2014-11-19_23-11_pm",
             "type": "string",
             "description": "This is a the current Twitter promo tweet for Health Care Acceleration Challenge. It will occur alongside the apply now button.",
             "howToReference": "{{gsheets.snippets.social-twitter-share-tweet.val}}",
