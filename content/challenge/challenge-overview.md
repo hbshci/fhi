@@ -2,7 +2,8 @@ We’re looking for proven ideas that have the potential to do great things for 
 
 Innovations must have credible, demonstrated evidence of their value proposition (such as cost savings, outcomes improvement, patient satisfaction, etc.); have a compelling dissemination plan; and be at the cusp of scaling. 
 
-Applications for the Health Acceleration Challenge closed on September 29 and we received **{{addCommas gsheets.snippets.challenge-num-applicants.val}}** applications! You can still view these innovations and participate with comments on our application platform [here]({{gsheets.links.challenge-register-participate.url}}). In fact, sharing insightful comments on other people's ideas **could earn you free tickets to our invite-only conference** even if you are not a Challenge applicant.
+Applications for the Health Acceleration Challenge closed on September 29 and we received **{{addCommas gsheets.snippets.challenge-num-applicants.val}}** applications! After a rigorous screening process, we are proud to announce our four finalists for the Health Acceleration Challenge: <a href="{{gsheets.orgs.bloodbuy.profileUrl}}" target="_blank">Bloodbuy</a>, <a href="{{gsheets.orgs.i_pass.profileUrl}}" target="_blank">I-Pass</a>, <a href="{{gsheets.orgs.medalogix.profileUrl}}" target="_blank">Medalogix</a>, and <a href="{{gsheets.orgs.twine.profileUrl}}" target="_blank">Twine</a>.
+
 
 {{!--We held an informational webinar on {{formatDate 
 	gsheets.dates.challenge-webinar-date.dateFrom 
