@@ -61,7 +61,7 @@
 
 1. #### I want to participate but don't have an innovation. 
 
-    Even if you don't have an innovation you can contribute on a variety of levels, ranging from applauding ideas to contributing complex concepts. Sharing insightful comments on other people's ideas on the Health Acceleration Challenge platform **could earn you free tickets to our invite-only conference** even if you are not a Challenge applicant.
+    Even if you don't have an innovation you can contribute on a variety of levels, ranging from applauding and commenting on ideas to contributing complex concepts. 
 
 1. #### How much time and effort does it take to be part of the Challenge?
 
