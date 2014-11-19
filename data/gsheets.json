@@ -19,14 +19,14 @@
             "id": "challenge-stages-refine",
             "displayName": "Refine",
             "dateFrom": "2014-10-21T04:00:00.000Z",
-            "dateTo": "2014-11-10T05:00:00.000Z",
-            "rangeString": "October 21 – November 10, 2014",
+            "dateTo": "2014-11-20T05:00:00.000Z",
+            "rangeString": "October 21 – November 19, 2014",
             "howToReference": "gsheets.dates.challenge-stages-refine"
         },
         "challenge-stages-announce": {
             "id": "challenge-stages-announce",
             "displayName": "Announce",
-            "dateFrom": "2014-11-17T05:00:00.000Z",
+            "dateFrom": "2014-11-20T05:00:00.000Z",
             "howToReference": "gsheets.dates.challenge-stages-announce"
         },
         "challenge-application-due": {
@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-09-30T13:56:08.807Z",
+            "dateFrom": "2014-11-19T15:36:06.628Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -61,16 +61,16 @@
             "displayName": "Dates Applicant Must Be Available for Interview",
             "dateFrom": "2014-10-21T04:00:00.000Z",
             "dateTo": "2014-11-10T05:00:00.000Z",
-            "rangeString": "October 21 – November 10, 2014",
+            "rangeString": "October 21 – November 19, 2014",
             "description": "from challenge rules end eligibility: Be available to be contacted by email or telephone at any point in the evaluation process and be available for a Skype or phone interview with a member of the evaluation committee during the time period of ",
             "howToReference": "gsheets.dates.challenge-applicant-must-be-available-interview"
         },
         "challenge-applicant-must-be-available-questions": {
             "id": "challenge-applicant-must-be-available-questions",
             "displayName": "Dates Applicant Must Be Available for Questions",
-            "dateFrom": "2014-11-17T05:00:00.000Z",
+            "dateFrom": "2014-11-20T05:00:00.000Z",
             "dateTo": "2015-04-14T04:00:00.000Z",
-            "rangeString": "November 17, 2014 – April 14, 2015",
+            "rangeString": "November 20, 2014 – April 14, 2015",
             "description": "from challenge process: * Be available and responsive to questions between XX - XX so that an HBS case study can be written about the innovation.",
             "howToReference": "gsheets.dates.challenge-applicant-must-be-available-questions"
         }
@@ -78,9 +78,9 @@
     "links": {
         "challenge-application": {
             "id": "challenge-application",
-            "name": "Health Care Acceleration Challenge Application",
-            "description": "Apply for the Health Care Acceleration Challenge.",
-            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/innovations/",
+            "name": "Health Care Acceleration Challenge Participate Now",
+            "description": "Participate in the Health Care Acceleration Challenge.",
+            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/?order=COMMENTS&direction=ASC",
             "howToReference": "gsheets.links.challenge-application"
         },
         "challenge-flyer": {
@@ -123,7 +123,7 @@
         "challenge-register-participate": {
             "id": "challenge-register-participate",
             "name": "Register for Participating in the Health Care Acceleration Challenge",
-            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/innovations/",
+            "url": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/?order=COMMENTS&direction=ASC",
             "howToReference": "gsheets.links.challenge-register-participate"
         },
         "challenge-webinar-register-link": {
@@ -910,6 +910,52 @@
             "howToReference": "gsheets.links.2012-panel5"
         }
     },
+    "orgs": {
+        "i_pass": {
+            "id": "i_pass",
+            "type": "hac-finalist",
+            "name": "I-Pass",
+            "oneline": "Twine is a cloud-based collaborative care platform that aligns patient and clinician values through the model of apprenticeship. ",
+            "description": "Twine is a cloud-based collaborative care platform that aligns patient and clinician values through the model of apprenticeship. ",
+            "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/the-i-pass-handoff-process-high-reliability-communication-for-better-patient-handoffs-and-safer-care",
+            "orgUrl": "http://ipasshandoffstudy.com/",
+            "photoUrl": "http://www.hbs.edu/healthcare/images/photos/i_pass.jpg",
+            "howToReference": "gsheets.orgs.i_pass"
+        },
+        "bloodbuy": {
+            "id": "bloodbuy",
+            "type": "hac-finalist",
+            "name": "Bloodbuy",
+            "oneline": "Bloodbuy connects hospitals and blood centers nationwide, to ensure the efficient flow of lifesaving blood products to patients in need.",
+            "description": "Bloodbuy connects hospitals and blood centers nationwide, to ensure the efficient flow of lifesaving blood products to patients in need.",
+            "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/bloodbuy-is-a-cloud-based-platform-that-connects-hospitals-and-blood-centers-nationwide-to-ensure-the-efficient-flow-of-lifesaving-blood-products-to-patients-in-need-we-are-redefining-the-vein-to-vein-value-chain",
+            "orgUrl": "http://www.bloodbuy.com/",
+            "photoUrl": "http://www.hbs.edu/healthcare/images/photos/bloodbuy.png",
+            "howToReference": "gsheets.orgs.bloodbuy"
+        },
+        "medalogix": {
+            "id": "medalogix",
+            "type": "hac-finalist",
+            "name": "Medalogix",
+            "oneline": "Medalogix improves a patient’s final days by leveraging data insights.",
+            "description": "Medalogix improves a patient’s final days by leveraging data insights.",
+            "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/improving-a-patient-s-final-days-by-leveraging-data-insights",
+            "orgUrl": "http://medalogix.com/",
+            "photoUrl": "http://www.hbs.edu/healthcare/images/photos/medalogix.png",
+            "howToReference": "gsheets.orgs.medalogix"
+        },
+        "twine_health": {
+            "id": "twine_health",
+            "type": "hac-finalist",
+            "name": "Twine Health",
+            "oneline": "The I-PASS Handoff Process is a multifaceted approach to improve the exchange of information among health care providers. ",
+            "description": "The I-PASS Handoff Process is a multifaceted approach to improve the exchange of information among health care providers. ",
+            "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/twine-collaborative-care-platform-empowering-patients-through-apprenticeship",
+            "orgUrl": "http://www.twinehealth.com/",
+            "photoUrl": "http://www.hbs.edu/healthcare/images/photos/twine_health.png",
+            "howToReference": "gsheets.orgs.twine_health"
+        }
+    },
     "formatting": {
         "date-brief-noyear": {
             "id": "date-brief-noyear",
@@ -1013,7 +1059,7 @@
         },
         "challenge-prize-grand-amt": {
             "id": "challenge-prize-grand-amt",
-            "val": "date-long-withTime",
+            "val": 150000,
             "type": "currency",
             "howToReference": "${{addCommas gsheets.snippets.challenge-prize-grand-amt.val}}",
             "propertyCount": 1
