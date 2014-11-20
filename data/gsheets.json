@@ -1291,7 +1291,7 @@
         "hac-promovid": {
             "id": "hac-promovid",
             "linkId": "challenge-promovid-watch",
-            "pages": "index",
+            "pages": "index, challenge",
             "title": "Health Acceleration Challenge Launch (VIDEO)",
             "foreignUrl": "//www.youtube.com/embed/IhnNr2A2IS8?rel=0",
             "description": "This video introduces the Health Acceleration Challenge from HBS and HMS.",
