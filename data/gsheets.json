@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-11-20T11:22:16.671Z",
+            "dateFrom": "2014-11-20T11:58:05.838Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -1288,6 +1288,16 @@
         }
     },
     "downloads": {
+        "hac-finalistvid": {
+            "id": "hac-finalistvid",
+            "linkId": "null",
+            "pages": "challenge",
+            "title": "HBS-HMS Health Acceleration Challenge Finalists (VIDEO)",
+            "foreignUrl": "//www.youtube.com/embed/V_WlkhJxdEw",
+            "description": "In this video, Challenge Finalists discuss their health care innovations.",
+            "imgFilename": "fhi-announce-video-thumbnail-75w.png",
+            "howToReference": "gsheets.downloads.hac-finalistvid"
+        },
         "hac-promovid": {
             "id": "hac-promovid",
             "linkId": "challenge-promovid-watch",
@@ -1295,7 +1305,8 @@
             "title": "Health Acceleration Challenge Launch (VIDEO)",
             "foreignUrl": "//www.youtube.com/embed/IhnNr2A2IS8?rel=0",
             "description": "This video introduces the Health Acceleration Challenge from HBS and HMS.",
-            "imgFilename": "challenge_launch_promo_video.PNG"
+            "imgFilename": "challenge_launch_promo_video.PNG",
+            "howToReference": "gsheets.downloads.hac-promovid"
         },
         "hac-webinar": {
             "id": "hac-webinar",
