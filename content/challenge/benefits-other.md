@@ -8,4 +8,4 @@ Our finalists will split ${{addCommas gsheets.snippets.challenge-prize-grand-amt
 
 ### Community Feedback
 
-Applicants will receive invaluable feedback on their innovation and scale-up plan from a community of health care executives and entrepreneurs through our Health Acceleration Challenge platform. We hope that our process will assist you in finding new investors, customers and collaborators, even if you are not selected as a finalist in our Challenge.
+Applicants will receive invaluable feedback on their innovation and scale-up plan from a community of health care executives and entrepreneurs through our Health Acceleration Challenge platform. We hope that our process will assist you in finding new investors, customers and collaborators, even if you are not selected as a finalist in our Challenge. 

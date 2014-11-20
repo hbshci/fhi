@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-11-19T21:18:46.892Z",
+            "dateFrom": "2014-11-20T11:22:16.671Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -197,7 +197,7 @@
         "video-landing-page": {
             "id": "video-landing-page",
             "name": "Landing Page Video on YouTube",
-            "url": "//www.youtube.com/embed/IhnNr2A2IS8?rel=0",
+            "url": "//www.youtube.com/embed/V_WlkhJxdEw",
             "howToReference": "gsheets.links.video-landing-page"
         },
         "video-landing-page-external-addr": {
@@ -923,11 +923,11 @@
             "name": "I-Pass",
             "oneline": "The I-PASS Handoff Process is a multifaceted approach to improve the exchange of information among health care providers. ",
             "descriptionRaw": "%%org%% uses a multifaceted approach to improve the exchange of information among health care providers by standardizing the patient hand-off process at every change of shift. It has already yielded a 30% reduction in medical errors resulting from patient transfer.  The enterprise is led by the I-Pass Executive Council, a group of six individuals from a number of hospitals across the country, including Boston Children’s/Harvard Medical School, St. Christopher’s Hospital for Children/Drexel University College of Medicine, and the Benioff Children’s Hospital/University of California San Francisco.",
-            "descriptionPlain": "I-Pass (http://ipasshandoffstudy.com/) uses a multifaceted approach to improve the exchange of information among health care providers by standardizing the patient hand-off process at every change of shift. It has already yielded a 30% reduction in medical errors resulting from patient transfer.  The enterprise is led by the I-Pass Executive Council, a group of six individuals from a number of hospitals across the country, including Boston Children’s/Harvard Medical School, St. Christopher’s Hospital for Children/Drexel University College of Medicine, and the Benioff Children’s Hospital/University of California San Francisco.",
-            "descriptionWithLinkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/the-i-pass-handoff-process-high-reliability-communication-for-better-patient-handoffs-and-safer-care'>I-Pass</a> uses a multifaceted approach to improve the exchange of information among health care providers by standardizing the patient hand-off process at every change of shift. It has already yielded a 30% reduction in medical errors resulting from patient transfer.  The enterprise is led by the I-Pass Executive Council, a group of six individuals from a number of hospitals across the country, including Boston Children’s/Harvard Medical School, St. Christopher’s Hospital for Children/Drexel University College of Medicine, and the Benioff Children’s Hospital/University of California San Francisco.",
-            "linkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/the-i-pass-handoff-process-high-reliability-communication-for-better-patient-handoffs-and-safer-care'>I-Pass</a>",
+            "descriptionPlain": "I-Pass uses a multifaceted approach to improve the exchange of information among health care providers by standardizing the patient hand-off process at every change of shift. It has already yielded a 30% reduction in medical errors resulting from patient transfer.  The enterprise is led by the I-Pass Executive Council, a group of six individuals from a number of hospitals across the country, including Boston Children’s/Harvard Medical School, St. Christopher’s Hospital for Children/Drexel University College of Medicine, and the Benioff Children’s Hospital/University of California San Francisco.",
+            "descriptionWithLinkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/the-i-pass-handoff-process-high-reliability-communication-for-better-patient-handoffs-and-safer-care'>I-Pass</a> uses a multifaceted approach to improve the exchange of information among health care providers by standardizing the patient hand-off process at every change of shift. It has already yielded a 30% reduction in medical errors resulting from patient transfer.  The enterprise is led by the I-Pass Executive Council, a group of six individuals from a number of hospitals across the country, including Boston Children’s/Harvard Medical School, St. Christopher’s Hospital for Children/Drexel University College of Medicine, and the Benioff Children’s Hospital/University of California San Francisco.",
+            "linkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/the-i-pass-handoff-process-high-reliability-communication-for-better-patient-handoffs-and-safer-care'>I-Pass</a>",
             "twitter": "@IPASSHANDOFF",
-            "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/the-i-pass-handoff-process-high-reliability-communication-for-better-patient-handoffs-and-safer-care",
+            "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/the-i-pass-handoff-process-high-reliability-communication-for-better-patient-handoffs-and-safer-care",
             "orgUrl": "http://ipasshandoffstudy.com/",
             "photoUrl": "http://www.hbs.edu/healthcare/images/photos/i_pass.jpg",
             "howToReference": "gsheets.orgs.i_pass"
@@ -938,11 +938,11 @@
             "name": "Bloodbuy",
             "oneline": "Bloodbuy connects hospitals and blood centers nationwide, to ensure the efficient flow of lifesaving blood products to patients in need.",
             "descriptionRaw": "%%org%% notes that blood is a core commodity of health care. For this reason, the Dallas company built a cloud-based platform that addresses the uneven geographic distribution of available blood supply in real time, enabling price transparency and greater efficiency in a critical health care market.",
-            "descriptionPlain": "Bloodbuy (http://www.bloodbuy.com/) notes that blood is a core commodity of health care. For this reason, the Dallas company built a cloud-based platform that addresses the uneven geographic distribution of available blood supply in real time, enabling price transparency and greater efficiency in a critical health care market.",
-            "descriptionWithLinkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/bloodbuy-is-a-cloud-based-platform-that-connects-hospitals-and-blood-centers-nationwide-to-ensure-the-efficient-flow-of-lifesaving-blood-products-to-patients-in-need-we-are-redefining-the-vein-to-vein-value-chain'>Bloodbuy</a> notes that blood is a core commodity of health care. For this reason, the Dallas company built a cloud-based platform that addresses the uneven geographic distribution of available blood supply in real time, enabling price transparency and greater efficiency in a critical health care market.",
-            "linkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/bloodbuy-is-a-cloud-based-platform-that-connects-hospitals-and-blood-centers-nationwide-to-ensure-the-efficient-flow-of-lifesaving-blood-products-to-patients-in-need-we-are-redefining-the-vein-to-vein-value-chain'>Bloodbuy</a>",
+            "descriptionPlain": "Bloodbuy notes that blood is a core commodity of health care. For this reason, the Dallas company built a cloud-based platform that addresses the uneven geographic distribution of available blood supply in real time, enabling price transparency and greater efficiency in a critical health care market.",
+            "descriptionWithLinkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/bloodbuy-is-a-cloud-based-platform-that-connects-hospitals-and-blood-centers-nationwide-to-ensure-the-efficient-flow-of-lifesaving-blood-products-to-patients-in-need-we-are-redefining-the-vein-to-vein-value-chain'>Bloodbuy</a> notes that blood is a core commodity of health care. For this reason, the Dallas company built a cloud-based platform that addresses the uneven geographic distribution of available blood supply in real time, enabling price transparency and greater efficiency in a critical health care market.",
+            "linkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/bloodbuy-is-a-cloud-based-platform-that-connects-hospitals-and-blood-centers-nationwide-to-ensure-the-efficient-flow-of-lifesaving-blood-products-to-patients-in-need-we-are-redefining-the-vein-to-vein-value-chain'>Bloodbuy</a>",
             "twitter": "@Bloodbuy",
-            "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/bloodbuy-is-a-cloud-based-platform-that-connects-hospitals-and-blood-centers-nationwide-to-ensure-the-efficient-flow-of-lifesaving-blood-products-to-patients-in-need-we-are-redefining-the-vein-to-vein-value-chain",
+            "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/bloodbuy-is-a-cloud-based-platform-that-connects-hospitals-and-blood-centers-nationwide-to-ensure-the-efficient-flow-of-lifesaving-blood-products-to-patients-in-need-we-are-redefining-the-vein-to-vein-value-chain",
             "orgUrl": "http://www.bloodbuy.com/",
             "photoUrl": "http://www.hbs.edu/healthcare/images/photos/bloodbuy.png",
             "howToReference": "gsheets.orgs.bloodbuy"
@@ -953,11 +953,11 @@
             "name": "Medalogix",
             "oneline": "Medalogix improves a patient’s final days by leveraging data insights.",
             "descriptionRaw": "The goal of %%org%% is to help provide better quality of life at the end of a patient’s life. The Nashville-based company does this by leveraging predictive analytics to identify patients that are eligible for hospice and then implementing a workflow that allows clinicians to help patients better manage the hospice decision and transfer process, minimizing associated difficulties and costs for all those involved.",
-            "descriptionPlain": "The goal of Medalogix (http://medalogix.com/) is to help provide better quality of life at the end of a patient’s life. The Nashville-based company does this by leveraging predictive analytics to identify patients that are eligible for hospice and then implementing a workflow that allows clinicians to help patients better manage the hospice decision and transfer process, minimizing associated difficulties and costs for all those involved.",
-            "descriptionWithLinkHtml": "The goal of <a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/improving-a-patient-s-final-days-by-leveraging-data-insights'>Medalogix</a> is to help provide better quality of life at the end of a patient’s life. The Nashville-based company does this by leveraging predictive analytics to identify patients that are eligible for hospice and then implementing a workflow that allows clinicians to help patients better manage the hospice decision and transfer process, minimizing associated difficulties and costs for all those involved.",
-            "linkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/improving-a-patient-s-final-days-by-leveraging-data-insights'>Medalogix</a>",
+            "descriptionPlain": "The goal of Medalogix is to help provide better quality of life at the end of a patient’s life. The Nashville-based company does this by leveraging predictive analytics to identify patients that are eligible for hospice and then implementing a workflow that allows clinicians to help patients better manage the hospice decision and transfer process, minimizing associated difficulties and costs for all those involved.",
+            "descriptionWithLinkHtml": "The goal of <a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/improving-a-patient-s-final-days-by-leveraging-data-insights'>Medalogix</a> is to help provide better quality of life at the end of a patient’s life. The Nashville-based company does this by leveraging predictive analytics to identify patients that are eligible for hospice and then implementing a workflow that allows clinicians to help patients better manage the hospice decision and transfer process, minimizing associated difficulties and costs for all those involved.",
+            "linkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/improving-a-patient-s-final-days-by-leveraging-data-insights'>Medalogix</a>",
             "twitter": "@medalogix",
-            "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/improving-a-patient-s-final-days-by-leveraging-data-insights",
+            "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/improving-a-patient-s-final-days-by-leveraging-data-insights",
             "orgUrl": "http://medalogix.com/",
             "photoUrl": "http://www.hbs.edu/healthcare/images/photos/medalogix.png",
             "howToReference": "gsheets.orgs.medalogix"
@@ -968,11 +968,11 @@
             "name": "Twine Health",
             "oneline": "Twine is a cloud-based collaborative care platform that aligns patient and clinician values through the model of apprenticeship. ",
             "descriptionRaw": "%%org%% is a collaborative care app that allows patients and their doctors to co-create treatment plans for chronic disease, including access to motivational coaches and virtual support. The app’s efficacy has been proven over six years of research at the MIT Media Lab and is currently demonstrating markedly improved outcomes at one-third the cost of regular treatments.",
-            "descriptionPlain": "Twine Health (http://www.twinehealth.com/) is a collaborative care app that allows patients and their doctors to co-create treatment plans for chronic disease, including access to motivational coaches and virtual support. The app’s efficacy has been proven over six years of research at the MIT Media Lab and is currently demonstrating markedly improved outcomes at one-third the cost of regular treatments.",
-            "descriptionWithLinkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/twine-collaborative-care-platform-empowering-patients-through-apprenticeship'>Twine Health</a> is a collaborative care app that allows patients and their doctors to co-create treatment plans for chronic disease, including access to motivational coaches and virtual support. The app’s efficacy has been proven over six years of research at the MIT Media Lab and is currently demonstrating markedly improved outcomes at one-third the cost of regular treatments.",
-            "linkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/twine-collaborative-care-platform-empowering-patients-through-apprenticeship'>Twine Health</a>",
+            "descriptionPlain": "Twine Health is a collaborative care app that allows patients and their doctors to co-create treatment plans for chronic disease, including access to motivational coaches and virtual support. The app’s efficacy has been proven over six years of research at the MIT Media Lab and is currently demonstrating markedly improved outcomes at one-third the cost of regular treatments.",
+            "descriptionWithLinkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/twine-collaborative-care-platform-empowering-patients-through-apprenticeship'>Twine Health</a> is a collaborative care app that allows patients and their doctors to co-create treatment plans for chronic disease, including access to motivational coaches and virtual support. The app’s efficacy has been proven over six years of research at the MIT Media Lab and is currently demonstrating markedly improved outcomes at one-third the cost of regular treatments.",
+            "linkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/twine-collaborative-care-platform-empowering-patients-through-apprenticeship'>Twine Health</a>",
             "twitter": "@twinehealth",
-            "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/refinement/twine-collaborative-care-platform-empowering-patients-through-apprenticeship",
+            "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/twine-collaborative-care-platform-empowering-patients-through-apprenticeship",
             "orgUrl": "http://www.twinehealth.com/",
             "photoUrl": "http://www.hbs.edu/healthcare/images/photos/twine_health.png",
             "howToReference": "gsheets.orgs.twine"
@@ -1229,6 +1229,24 @@
         }
     },
     "updates": {
+        "press-2014-11-20": {
+            "id": "press-2014-11-20",
+            "category": "press",
+            "date": "2014-11-20T05:00:00.000Z",
+            "headline": "Boston Health Tech Groups are Finalists in Harvard’s Health Acceleration Challenge",
+            "url": "http://betaboston.com/news/2014/11/20/boston-health-tech-groups-are-finalists-in-harvards-health-acceleration-challenge/",
+            "source": "Boston Globe",
+            "howToReference": "{{gsheets.updates.press-2014-11-20.headline}}"
+        },
+        "press-2014-11-12": {
+            "id": "press-2014-11-12",
+            "category": "press",
+            "date": "2014-11-12T05:00:00.000Z",
+            "headline": "Health Acceleration Challenge Contestants Aim to Improve U.S. Health Care",
+            "url": "http://www.hbs.edu/news/releases/Pages/hac-applicants-eager.aspx",
+            "source": "Harvard Business School",
+            "howToReference": "{{gsheets.updates.press-2014-11-12.headline}}"
+        },
         "press-2014-08-25": {
             "id": "press-2014-08-25",
             "category": "press",
@@ -1255,7 +1273,9 @@
             "url": "http://www.forbes.com/sites/hbsworkingknowledge/2014/08/18/harvard-wants-your-proven-ideas-to-improve-health-care/",
             "source": "Forbes",
             "howToReference": "{{gsheets.updates.press-2014-08-18.headline}}"
-        },
+        }
+    },
+    "updates-archive": {
         "press-archive-2014-07-27-top-ten-health-": {
             "id": "press-archive-2014-07-27-top-ten-health-",
             "category": "press-archive",
@@ -1265,15 +1285,6 @@
             "source": "Forbes",
             "message": "Quotes from Andrew J. Sussman, MD and Christopher A. Viehbacher made it to Forbes' top quotes of 2013. ",
             "howToReference": "{{gsheets.updates.press-archive-2014-07-27-top-ten-health-.headline}}"
-        },
-        "press-archive-2013-07-15-5-imperatives-f": {
-            "id": "press-archive-2013-07-15-5-imperatives-f",
-            "category": "press-archive",
-            "date": "2013-07-15T04:00:00.000Z",
-            "headline": "5 Imperatives For Improving Health Care",
-            "url": "http://www.forbes.com/sites/hbsworkingknowledge/2013/07/15/5-imperatives-for-improving-health-care/",
-            "source": "Forbes",
-            "howToReference": "{{gsheets.updates.press-archive-2013-07-15-5-imperatives-f.headline}}"
         }
     },
     "downloads": {
