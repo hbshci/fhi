@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-11-20T14:26:33.162Z",
+            "dateFrom": "2014-11-20T16:42:22.985Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -1087,7 +1087,7 @@
         },
         "challenge-num-participants": {
             "id": "challenge-num-participants",
-            "val": 2671,
+            "val": 2748,
             "type": "number",
             "description": "The number of participants on the OpenIdeo platform for the Health Acceleration Challenge",
             "howToReference": "{{addCommas gsheets.snippets.challenge-num-participants.val}}",
