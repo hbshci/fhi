@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-11-20T11:58:05.838Z",
+            "dateFrom": "2014-11-20T12:21:53.394Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -917,21 +917,6 @@
         }
     },
     "orgs": {
-        "i_pass": {
-            "id": "i_pass",
-            "type": "hac-finalist",
-            "name": "I-Pass",
-            "oneline": "The I-PASS Handoff Process is a multifaceted approach to improve the exchange of information among health care providers. ",
-            "descriptionRaw": "%%org%% uses a multifaceted approach to improve the exchange of information among health care providers by standardizing the patient hand-off process at every change of shift. It has already yielded a 30% reduction in medical errors resulting from patient transfer.  The enterprise is led by the I-Pass Executive Council, a group of six individuals from a number of hospitals across the country, including Boston Children’s/Harvard Medical School, St. Christopher’s Hospital for Children/Drexel University College of Medicine, and the Benioff Children’s Hospital/University of California San Francisco.",
-            "descriptionPlain": "I-Pass uses a multifaceted approach to improve the exchange of information among health care providers by standardizing the patient hand-off process at every change of shift. It has already yielded a 30% reduction in medical errors resulting from patient transfer.  The enterprise is led by the I-Pass Executive Council, a group of six individuals from a number of hospitals across the country, including Boston Children’s/Harvard Medical School, St. Christopher’s Hospital for Children/Drexel University College of Medicine, and the Benioff Children’s Hospital/University of California San Francisco.",
-            "descriptionWithLinkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/the-i-pass-handoff-process-high-reliability-communication-for-better-patient-handoffs-and-safer-care'>I-Pass</a> uses a multifaceted approach to improve the exchange of information among health care providers by standardizing the patient hand-off process at every change of shift. It has already yielded a 30% reduction in medical errors resulting from patient transfer.  The enterprise is led by the I-Pass Executive Council, a group of six individuals from a number of hospitals across the country, including Boston Children’s/Harvard Medical School, St. Christopher’s Hospital for Children/Drexel University College of Medicine, and the Benioff Children’s Hospital/University of California San Francisco.",
-            "linkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/the-i-pass-handoff-process-high-reliability-communication-for-better-patient-handoffs-and-safer-care'>I-Pass</a>",
-            "twitter": "@IPASSHANDOFF",
-            "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/the-i-pass-handoff-process-high-reliability-communication-for-better-patient-handoffs-and-safer-care",
-            "orgUrl": "http://ipasshandoffstudy.com/",
-            "photoUrl": "http://www.hbs.edu/healthcare/images/photos/i_pass.jpg",
-            "howToReference": "gsheets.orgs.i_pass"
-        },
         "bloodbuy": {
             "id": "bloodbuy",
             "type": "hac-finalist",
@@ -946,6 +931,21 @@
             "orgUrl": "http://www.bloodbuy.com/",
             "photoUrl": "http://www.hbs.edu/healthcare/images/photos/bloodbuy.png",
             "howToReference": "gsheets.orgs.bloodbuy"
+        },
+        "i_pass": {
+            "id": "i_pass",
+            "type": "hac-finalist",
+            "name": "I-Pass",
+            "oneline": "The I-PASS Handoff Process is a multifaceted approach to improve the exchange of information among health care providers. ",
+            "descriptionRaw": "%%org%% uses a multifaceted approach to improve the exchange of information among health care providers by standardizing the patient hand-off process at every change of shift. It has already yielded a 30% reduction in medical errors resulting from patient transfer.  The enterprise is led by the I-Pass Executive Council, a group of six individuals from a number of hospitals across the country, including Boston Children’s/Harvard Medical School, St. Christopher’s Hospital for Children/Drexel University College of Medicine, and the Benioff Children’s Hospital/University of California San Francisco.",
+            "descriptionPlain": "I-Pass uses a multifaceted approach to improve the exchange of information among health care providers by standardizing the patient hand-off process at every change of shift. It has already yielded a 30% reduction in medical errors resulting from patient transfer.  The enterprise is led by the I-Pass Executive Council, a group of six individuals from a number of hospitals across the country, including Boston Children’s/Harvard Medical School, St. Christopher’s Hospital for Children/Drexel University College of Medicine, and the Benioff Children’s Hospital/University of California San Francisco.",
+            "descriptionWithLinkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/the-i-pass-handoff-process-high-reliability-communication-for-better-patient-handoffs-and-safer-care'>I-Pass</a> uses a multifaceted approach to improve the exchange of information among health care providers by standardizing the patient hand-off process at every change of shift. It has already yielded a 30% reduction in medical errors resulting from patient transfer.  The enterprise is led by the I-Pass Executive Council, a group of six individuals from a number of hospitals across the country, including Boston Children’s/Harvard Medical School, St. Christopher’s Hospital for Children/Drexel University College of Medicine, and the Benioff Children’s Hospital/University of California San Francisco.",
+            "linkHtml": "<a href='http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/the-i-pass-handoff-process-high-reliability-communication-for-better-patient-handoffs-and-safer-care'>I-Pass</a>",
+            "twitter": "@IPASSHANDOFF",
+            "profileUrl": "http://openforum.hbs.org/challenge/hbs-hms-health-acceleration-challenge/winners/the-i-pass-handoff-process-high-reliability-communication-for-better-patient-handoffs-and-safer-care",
+            "orgUrl": "http://ipasshandoffstudy.com/",
+            "photoUrl": "http://www.hbs.edu/healthcare/images/photos/i_pass.jpg",
+            "howToReference": "gsheets.orgs.i_pass"
         },
         "medalogix": {
             "id": "medalogix",

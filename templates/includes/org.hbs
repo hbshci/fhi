@@ -1,5 +1,25 @@
 <div class="list-group team">
 {{#each gsheets.orgs}}
-    
+    <div class="list-group-item">
+
+    <a href="{{profileUrl}}" target="_blank" onclick="ewt.trackLink({name:'{{name}}',type:'organization',link:this }); ga('send', 'event', 'organization', '{{name}}', 'Link to {{name}} - {{../../slug}} page');">
+        {{#if photoUrl}}
+                <img src="{{photoUrl}}" alt="{{name}} - {{oneline}}" >
+        {{/if}}
+        </a>
+    <a href="{{profileUrl}}" target="_blank"><strong>{{name}}</strong></a>
+       {{#if twitter}}
+	        | <a href="https://twitter.com/{{twitter}}" target="_blank">
+	          {{twitter}}
+	        </a>
+        {{/if}}
+        <br/>
+
+        
+        {{descriptionPlain}}
+ 
+
+
+    </div>
 {{/each}}
 </div>
