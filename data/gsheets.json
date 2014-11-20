@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-11-20T12:21:53.394Z",
+            "dateFrom": "2014-11-20T14:26:33.162Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -1237,6 +1237,15 @@
             "url": "http://betaboston.com/news/2014/11/20/boston-health-tech-groups-are-finalists-in-harvards-health-acceleration-challenge/",
             "source": "Boston Globe",
             "howToReference": "{{gsheets.updates.press-2014-11-20.headline}}"
+        },
+        "press-2014-11-20-2": {
+            "id": "press-2014-11-20-2",
+            "category": "press",
+            "date": "2014-11-20T05:00:00.000Z",
+            "headline": "Finalists Announced in Harvard Business School/Harvard Medical School Health Acceleration Challenge",
+            "url": "http://www.hbs.edu/news/releases/Pages/hac-finalists.aspx",
+            "source": "Harvard Business School",
+            "howToReference": "{{gsheets.updates.press-2014-11-20-2.headline}}"
         },
         "press-2014-11-12": {
             "id": "press-2014-11-12",
