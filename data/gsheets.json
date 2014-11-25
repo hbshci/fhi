@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2014-11-20T16:42:22.985Z",
+            "dateFrom": "2014-11-25T19:27:40.151Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -1229,23 +1229,59 @@
         }
     },
     "updates": {
-        "press-2014-11-20": {
-            "id": "press-2014-11-20",
+        "press-2014-11-22": {
+            "id": "press-2014-11-22",
+            "category": "press",
+            "date": "2014-11-22T05:00:00.000Z",
+            "headline": "Which healthcare startups did Harvard shortlist for finals in acceleration contest?",
+            "url": "http://medcitynews.com/2014/11/which-healthcare-startups-did-harvard-shortlist-for-finals-in-acceleration-contest-video/",
+            "source": "MedCityNews",
+            "howToReference": "{{gsheets.updates.press-2014-11-22.headline}}"
+        },
+        "press-2014-11-21": {
+            "id": "press-2014-11-21",
+            "category": "press",
+            "date": "2014-11-21T05:00:00.000Z",
+            "headline": "Harvard Health Acceleration Challenge Finalists Unveiled",
+            "url": "http://hitconsultant.net/2014/11/21/harvard-health-acceleration-challenge-finalists/",
+            "source": "HIT Consultant",
+            "howToReference": "{{gsheets.updates.press-2014-11-21.headline}}"
+        },
+        "press-2014-11-20-4": {
+            "id": "press-2014-11-20-4",
             "category": "press",
             "date": "2014-11-20T05:00:00.000Z",
             "headline": "Boston Health Tech Groups are Finalists in Harvard’s Health Acceleration Challenge",
             "url": "http://betaboston.com/news/2014/11/20/boston-health-tech-groups-are-finalists-in-harvards-health-acceleration-challenge/",
             "source": "Boston Globe",
-            "howToReference": "{{gsheets.updates.press-2014-11-20.headline}}"
+            "howToReference": "{{gsheets.updates.press-2014-11-20-4.headline}}"
         },
-        "press-2014-11-20-2": {
-            "id": "press-2014-11-20-2",
+        "press-2014-11-20-3": {
+            "id": "press-2014-11-20-3",
             "category": "press",
             "date": "2014-11-20T05:00:00.000Z",
             "headline": "Finalists Announced in Harvard Business School/Harvard Medical School Health Acceleration Challenge",
             "url": "http://www.hbs.edu/news/releases/Pages/hac-finalists.aspx",
             "source": "Harvard Business School",
+            "howToReference": "{{gsheets.updates.press-2014-11-20-3.headline}}"
+        },
+        "press-2014-11-20-2": {
+            "id": "press-2014-11-20-2",
+            "category": "press",
+            "date": "2014-11-20T05:00:00.000Z",
+            "headline": "In the Market for Blood? Here’s How to Keep from Getting Squeezed",
+            "url": "http://www.bizjournals.com/dallas/blog/2014/11/in-the-market-for-blood-here-s-how-to-keep-from.html",
+            "source": "Dallas Business Journal",
             "howToReference": "{{gsheets.updates.press-2014-11-20-2.headline}}"
+        },
+        "press-2014-11-20-1": {
+            "id": "press-2014-11-20-1",
+            "category": "press",
+            "date": "2014-11-20T05:00:00.000Z",
+            "headline": "With one prize in hand, Medalogix advances in Harvard competition",
+            "url": "http://www.bizjournals.com/nashville/blog/health-care/2014/11/with-one-prize-in-hand-medalogix-advances-in.html",
+            "source": "Nashville Business Journal",
+            "howToReference": "{{gsheets.updates.press-2014-11-20-1.headline}}"
         },
         "press-2014-11-12": {
             "id": "press-2014-11-12",
