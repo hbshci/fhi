@@ -2,7 +2,7 @@ The Forum on Health Care Innovation is a collaboration between [Harvard Business
 
 The Forum's [initial event]( {{rel 'conference'}} ) was a conference and survey that were summarized in [Five Key Imperatives]({{rel 'conference/#thought-leadership'}}).
 
-The Forum has now launched the [Health Acceleration Challenge]({{gsheets.links.challenge-main.url}}) to identify and promote demonstrated health care innovations. Find out more and [apply today]({{gsheets.links.challenge-application.url}})!
+In 2014 the Forum launched the [Health Acceleration Challenge]({{gsheets.links.challenge-main.url}}) to identify and promote demonstrated health care innovations, and selected [four finalists]({{gsheets.links.challenge-application.url}}) to share the Cox Prize. 
 
 <!-- quote from nohria -->
 > I discovered both the enormous gratitude each one of us has as individuals for health care and the equally enormous frustration any one of us has as a consumer of the health care system. Our challenge is: How can we realize the great magic, and the great benefits, that health care can afford?
