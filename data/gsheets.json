@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2015-01-16T15:14:09.040Z",
+            "dateFrom": "2015-01-16T15:50:25.324Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -1434,36 +1434,36 @@
         }
     },
     "nav": {
-        "about-health-acceleration-challenge-finalists": {
-            "id": "about-health-acceleration-challenge-finalists",
+        "about-hac-mainfeature": {
+            "id": "about-hac-mainfeature",
             "page": "about",
-            "navId": "health-acceleration-challenge-finalists",
+            "navId": "hac-mainfeature",
             "title": "Challenge Finalists",
             "longTitle": "Health Acceleration Challenge Finalists",
             "order": 1,
             "level": 2,
-            "file": "about-01-health-acceleration-challenge-finalists",
-            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-finalists.navId}}"
+            "file": "about-01-hac-mainfeature",
+            "howToReference": "{{gsheets.nav.about-hac-mainfeature.navId}}"
         },
-        "about-health-acceleration-challenge-launch-news-and-press": {
-            "id": "about-health-acceleration-challenge-launch-news-and-press",
+        "about-hac-mainfeature-news": {
+            "id": "about-hac-mainfeature-news",
             "page": "about",
-            "navId": "health-acceleration-challenge-launch-news-and-press",
+            "navId": "hac-mainfeature-news",
             "title": "News",
             "order": 2,
             "level": 2,
-            "file": "about-02-health-acceleration-challenge-launch-news-and-press",
-            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-news-and-press.navId}}"
+            "file": "about-02-hac-mainfeature-news",
+            "howToReference": "{{gsheets.nav.about-hac-mainfeature-news.navId}}"
         },
-        "about-health-acceleration-challenge-launch-downloads": {
-            "id": "about-health-acceleration-challenge-launch-downloads",
+        "about-hac-mainfeature-downloads": {
+            "id": "about-hac-mainfeature-downloads",
             "page": "about",
-            "navId": "health-acceleration-challenge-launch-downloads",
+            "navId": "hac-mainfeature-downloads",
             "title": "Downloads",
             "order": 3,
             "level": 2,
-            "file": "about-03-health-acceleration-challenge-launch-downloads",
-            "howToReference": "{{gsheets.nav.about-health-acceleration-challenge-launch-downloads.navId}}"
+            "file": "about-03-hac-mainfeature-downloads",
+            "howToReference": "{{gsheets.nav.about-hac-mainfeature-downloads.navId}}"
         },
         "about-about-the-forum-on-health-care-innovation": {
             "id": "about-about-the-forum-on-health-care-innovation",
@@ -1476,15 +1476,15 @@
             "file": "about-04-about-the-forum-on-health-care-innovation",
             "howToReference": "{{gsheets.nav.about-about-the-forum-on-health-care-innovation.navId}}"
         },
-        "about-about-the-forum-steering-committee": {
-            "id": "about-about-the-forum-steering-committee",
+        "about-about-the-forum-on-health-care-innovation-steering-committee": {
+            "id": "about-about-the-forum-on-health-care-innovation-steering-committee",
             "page": "about",
-            "navId": "about-the-forum-steering-committee",
+            "navId": "about-the-forum-on-health-care-innovation-steering-committee",
             "title": "Steering Committee",
             "order": 5,
             "level": 2,
-            "file": "about-05-about-the-forum-steering-committee",
-            "howToReference": "{{gsheets.nav.about-about-the-forum-steering-committee.navId}}"
+            "file": "about-05-about-the-forum-on-health-care-innovation-steering-committee",
+            "howToReference": "{{gsheets.nav.about-about-the-forum-on-health-care-innovation-steering-committee.navId}}"
         },
         "challenge-challenge-overview": {
             "id": "challenge-challenge-overview",

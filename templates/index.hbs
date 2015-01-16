@@ -10,7 +10,7 @@ top-lead: ""
   {{!-- Health Acceleration Challenge Launch
   ================================================== --}}
   <div class="page-header">
-    <h1 id="{{gsheets.nav.about-health-acceleration-challenge-finalists.navId}}">{{gsheets.nav.about-health-acceleration-challenge-finalists.longTitle}}</h1>
+    <h1 id="{{gsheets.nav.about-hac-mainfeature.navId}}">{{gsheets.nav.about-hac-mainfeature.longTitle}}</h1>
   </div>
   {{md 'challenge-launch-intro'}}
 
@@ -32,7 +32,7 @@ top-lead: ""
   {{!-- News and Press
   ================================================== --}}
   {{#if gsheets.updates}}
-    <h2 id="news-and-press">News</h2>
+    {{#markdown}}## News{{/markdown}}
     <ul class="list-unstyled news">
       {{#each gsheets.updates}}
         <!-- {{gsheets.updates.press-2013-07-15.headline}} -->
@@ -62,7 +62,7 @@ top-lead: ""
 
   {{!-- Steering Committee
   ================================================== --}}
-  <h2 id="steering-committee">Steering Committee</h2>
+  {{#markdown}}## Steering Committee{{/markdown}}
   <div class="list-group team">
     <div class="list-group team">
        {{partial 'person' gsheets.people.Hamermesh }}
