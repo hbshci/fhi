@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2015-02-09T14:32:59.447Z",
+            "dateFrom": "2015-02-09T14:48:12.776Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -865,9 +865,9 @@
             "nameFirstLastShort": "Helena Foulkes",
             "bioLocationName": "CVS Health profile, Helena Foulkes",
             "bioUrl": "http://www.cvshealth.com/newsroom/executive-bios/helena-b-foulkes",
-            "title": "Executive Vice President, CVS Health and President, CVS/pharmacy",
-            "company": "CVS Health and CVS/pharmacy",
-            "titleAndCompany": "Executive Vice President, CVS Health and President, CVS/pharmacy",
+            "title": "President, CVS/Pharmacy and Executive Vice President, CVS Health",
+            "company": "CVS/Pharmacy and CVS Health",
+            "titleAndCompany": "President, CVS/Pharmacy and Executive Vice President, CVS Health",
             "bioPageOurs": "http://projects.iq.harvard.edu/forum-on-healthcare-innovation/people/helena-b-foulkes",
             "photoUrl": "http://static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/helena_foulkes_111412_retouched_new_300x380.jpg",
             "photoFilename": "helena_foulkes_111412_retouched_new_300x380.jpg",
