@@ -44,7 +44,7 @@
         "data-refresh": {
             "id": "data-refresh",
             "displayName": "Data Refresh Date",
-            "dateFrom": "2015-02-09T14:48:12.776Z",
+            "dateFrom": "2015-02-24T21:07:09.997Z",
             "description": "The date of the last export from gsheets to the Forum Website.",
             "howToReference": "gsheets.dates.data-refresh"
         },
@@ -772,7 +772,7 @@
         },
         "Summers": {
             "id": "Summers",
-            "role": "Keynote",
+            "role": "Canceled Speaker",
             "firstName": "Lawrence",
             "firstNameToUseIfAlt": "Lawrence",
             "firstNameAlt": "Larry",
@@ -884,6 +884,7 @@
             "nameFinal": "Deborah Dunsire, MD",
             "nameFirstLastShort": "Deborah Dunsire",
             "bioLocationName": "Forum Pharmaceuticals profile, Deborah Dunsire",
+            "bioUrl": "http://www.forumpharma.com/content/about-us/executive-team#Deborah-Dunsire",
             "title": "President & CEO",
             "company": "Forum Pharmaceuticals",
             "titleAndCompany": "President & CEO, Forum Pharmaceuticals",
@@ -891,6 +892,24 @@
             "photoFilename": "deborah_dunsire_sq_lg",
             "photo75wExists": "y",
             "howToReference": "gsheets.people.Dunsire"
+        },
+        "Orszag": {
+            "id": "Orszag",
+            "role": "Keynote",
+            "firstName": "Peter",
+            "nameLast": "Orszag",
+            "nameLastAndMd": "Orszag",
+            "nameFinal": "Peter Orszag",
+            "nameFirstLastShort": "Peter Orszag",
+            "bioLocationName": "Council on Foreign Relations profile, Peter Orszag",
+            "bioUrl": "http://www.cfr.org/experts/children-climate-change-economic-development/peter-r-orszag/b3538#bio",
+            "title": "Chairman of the Financial Strategy and Solutions Group",
+            "company": "Citigroup",
+            "titleAndCompany": "Chairman of the Financial Strategy and Solutions Group, Citigroup",
+            "photoUrl": "http://static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/forum-on-healthcare-innovation/files/peterorszag.jpg",
+            "photoFilename": "peterorszag.jpg",
+            "photo75wExists": "y",
+            "howToReference": "gsheets.people.Orszag"
         }
     },
     "groups": {
