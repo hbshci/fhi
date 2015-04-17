@@ -7,6 +7,7 @@ This repository contains the source code for the Forum on Health Care Innovation
 To build the website: 
 
 0. Install [Node.js](http://nodejs.org/), which is available on all plaforms. Node is server software that you run from the command line. 
+0. Install [Grunt](http://gruntjs.com/getting-started), which is a task runner available for Node.js.
 0. Install [Git](http://git-scm.com/), which is available on all platforms. Git is software for managing versions of software that is in the process of being written. Github uses git to help programmers manage versions of the software they are writing.
 0. Open a command prompt or terminal. If on Windows, use [Git BASH](http://msysgit.github.io/). If on Mac, use [terminal](http://www.maclife.com/article/feature/25_terminal_tips_every_mac_user_should_know).
 0. Enter `cd ~` and then `git clone git@github.com:hbshci/fhi.git`. 
